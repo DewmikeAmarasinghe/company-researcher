@@ -76,13 +76,6 @@ URLs with context:
 {json.dumps(urls, indent=2)}
 """
     
-    # response = completion(
-    #     model="gpt-5-nano",
-    #     api_key=os.getenv("OPENAI_API_KEY"),
-    #     messages=[{"role": "user", "content": prompt}],
-    #     response_format={"type": "json_object"},
-    # )
-    
     response = completion(
         model="gemini/gemini-2.5-flash",
         api_key=os.getenv("GEMINI_API_KEY"),
@@ -100,25 +93,38 @@ URLs with context:
         "original_urls": urls,
     }
 
+def save_output(company_name: str, data: dict):
+    os.makedirs("links", exist_ok=True)
+    safe_name = "".join(c for c in company_name.lower().replace(" ", "_") if c.isalnum() or c in ["_", "-"])
+    filename = f"links/{safe_name}.json"
+    with open(filename, "w") as f:
+        json.dump(data, f, indent=2)
+    print(f"saved to {filename}")
+
 if __name__ == "__main__":
-    # output = asyncio.run(discover_company_urls(
-    #     company_name="AOD",
-    #     base_url="https://www.aod.lk/"
-    # ))
+    company_name = "hSenid Mobile Solutions"
+    base_url = "https://www.hsenidmobile.com/"
+
+    # company_name = "Vision Care Optical Services"
+    # base_url = "https://visioncare.lk/"
+
+    # company_name = "Academy of Design"
+    # base_url = "https://www.aod.lk/"
+
+    # company_name = "Elephant House"
+    # base_url = "https://www.elephanthouse.lk/"
+
+    # company_name = "Curve"
+    # base_url = "https://curve.lk/"
+
+    # company_name = "Apple"
+    # base_url = "https://www.apple.com/"
+
+    # company_name = "Tesla"
+    # base_url = "https://www.tesla.com/"
+
     output = asyncio.run(discover_company_urls(
-        company_name="hSenid Mobile Solutions",
-        base_url="https://www.hsenidmobile.com/"
+        company_name=company_name,
+        base_url=base_url
     ))
-    # output = asyncio.run(discover_company_urls(
-    #     company_name="Vision Care Optical Services (Pvt) Ltd",
-    #     base_url="https://visioncare.lk/"
-    # ))
-    # output = asyncio.run(discover_company_urls(
-    #     company_name="ceylon cold stores",
-    #     base_url="https://www.elephanthouse.lk/"
-    # ))
-    # output = asyncio.run(discover_company_urls(
-    #     company_name="Tesla, Inc",
-    #     base_url="https://www.tesla.com/"
-    # ))
-    print(json.dumps(output, indent=2))
+    save_output(company_name, output)

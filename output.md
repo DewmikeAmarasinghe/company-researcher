@@ -1,36 +1,70 @@
 [INIT].... → Crawl4AI 0.8.0 
-[FETCH]... ↓ https://www.google.com/search?q=what+are+the+pro...ly+sold+by+hsenidmobile+company+sri+lanka&udm=50  | ✓ | ⏱: 7.21s 
-[SCRAPE].. ◆ https://www.google.com/search?q=what+are+the+pro...ly+sold+by+hsenidmobile+company+sri+lanka&udm=50  | ✓ | ⏱: 0.20s 
-[COMPLETE] ● https://www.google.com/search?q=what+are+the+pro...ly+sold+by+hsenidmobile+company+sri+lanka&udm=50  | ✓ | ⏱: 7.42s 
-2191
-As of 2026, 
-hSenid Mobile Solutions provides a comprehensive suite of digital transformation platforms and services focused on telecommunications, financial services, and large enterprises.
-**Core Products**
-  * **Communication Platform as a Service (CPaaS):** A platform enabling Telcos to expose communication assets (SMS, USSD) to developers via APIs.
-  * **Service Delivery Platform (SDP):** A next-generation middleware that simplifies application development and asset monetization for Telcos.
-  * **Open API Gateway:** Facilitates secure API management, allowing banks and enterprises to connect with external partners and customers.
-  * **Telco Signaling & Messaging Suite:** Includes critical infrastructure like the **USSD Gateway** (supporting 5G), **SMSC** (Short Message Service Center), and **LBS** (Location-Based Services).
-  * **AI & Data Solutions:**
-    * **Sprout:** An AI enterprise agent/sales assistant that integrates with WhatsApp and Facebook.
-    * **Smart Chatbot:** Conversational AI with advanced speech recognition.
-    * **Specialized AI Tools:** Includes **Smart Recruitment Automation** , **Customer Service Call Analyzer** , and **AI Document Verification System**.
-  * **Fintech & Banking Platforms:** Includes the **Bank Digitalization Platform** (formerly Cube) and **Symphony** , a boutique digital mobile payment and loyalty platform.
+[INIT].... → Crawl4AI 0.8.0 
+[FETCH]... ↓ https://hsenidmobile.com/about-us                                                                    | ✓ | ⏱: 10.72s 
+[SCRAPE].. ◆ https://hsenidmobile.com/about-us                                                                    | ✓ | ⏱: 0.17s 
+[COMPLETE] ● https://hsenidmobile.com/about-us                                                                    | ✓ | ⏱: 10.90s 
+Skip to content
+#### Our Company
+hSenid Mobile Solutions has a proud history of 27 years of innovation and proven expertise. We design and build state-of-the-art, cutting-edge technology platforms which enable the digital transformation of businesses. Our solutions are used by leading Telecoms, Banks and Enterprises around the world. 
+We have gained global recognition for providing dynamic Telco grade platforms, combining Telco APIs, Analytics and Signaling for Telecommunication Companies, resulting in greater convenience with better operational efficiency. Our enterprise communication platforms enable businesses to effortlessly create, use and manage diverse SMS and other real-time communication applications and so empower the business user.
+Our advanced solutions and guaranteed service quality have enabled us to gain a healthy base of loyal customers. We strive to help our customers by opening up uncontested market spaces for rapid growth.
+## Our History 
+A part of hSenid Software International, hSenid Mobile was founded in 1997 with the aim of supplying high quality software products and services to a global subscriber base. Starting with just three employees in one room, our reach now extends to every continent. 
+We are globally renowned for the supply of secure, convenient and cost-effective mobile solutions for Telecoms, Banking and Finance Institutions, and Enterprises. With the extension of our sales and business development strategies, our systems handle nearly 50 million transactions per day, connecting over 300 million subscribers.
+## Way Of Life
+Innovation is in the DNA of the organization, which has helped us to reinvent ourselves, push boundaries and introduce ground breaking business models time and time again. We keep pursuing our mission of innovating along with our partners and creating mutually beneficial business relationships.
+## Explore Our Culture Book
+Download
+####  Customer Oriented
+Our objective is to deliver effective solutions, making optimal use of our skills and capabilities, so as to enable the success of our customers.
+####  Passionate
+We are passionate about what we do and who we work with. We take pride in representing hSenid Mobile, proposing cutting-edge ideas and providing a futuristic perspective.
+####  Learning and Growth
+As individuals, we have the desire to improve ourselves through continuous learning. We also share our knowledge with our teams to help each other develop and grow.
+####  Deliver Excellence
+Our aim at hSenid Mobile is to deliver the best quality solutions. By going the extra mile, we wish to provide our customers with outstanding service.
+####  Accountability
+Everyone at hSenid Mobile is trained to be accountable for their actions, vesting the entire company with a sincere sense of responsibility towards our clients and our deployments.
+####  Humble
+We will always remain down-to-earth by respecting our colleagues and customers, being receptive to feedback, apologizing for mistakes and recognizing the good in others.
+####  Integrity
+We live by the principles of uprightness, truthfulness and honesty, thus maintaining strong moral principles that enable us to uphold the high standards of hSenid Mobile.
+## Our Mission
+Our mission is to bring digital transformation to businesses, fulfilment to their customers, and joy to hSenidians and their families for architecting the future through innovation.
+## Our Management
+## DINESH SAPARAMADU
+CHIEF EXECUTIVE OFFICER
+## Saman Kumara
+Group Finance Director
+## Harsha Sanjeewa
+Chief Technology Officer
+## Sayanthan Balathasan
+Chief Business Development Officer
+## DINESH SAPARAMADU
+CHIEF EXECUTIVE OFFICER
+## Saman Kumara
+Group Finance Director
+## Harsha Sanjeewa
+Chief Technology Officer
+## Sayanthan Balathasan
+Chief Business Development Officer
+## Thilina Anjitha
+General Manager – Core Business
+## Roshni Hewamallika
+General Manager – CPaaS
+## Chirantha Pitigala
+General Manager – IT and Systems
+## Thilina Anjitha
+General Manager – Core Business
+## Roshni Hewamallika
+General Manager – CPaaS
+## Chirantha Pitigala
+General Manager – IT and Systems
+#### SUBSCRIBE TO OUR NEWSLETTER
+  
 
+#### Thank you!
+You have successfully joined our subscriber list. 
 
-**Services Offered**
-  * **Cloud and DevOps:** Specialized in Red Hat Solutions Consultation and provisioning, as well as **Platform Engineering as a Service (PEaaS)**.
-  * **Enterprise Application Development:** Custom development of mobile apps (Android, iOS, Flutter), web applications, and backend integration middleware like **SpiderCraft**.
-  * **Consultation & Managed Services:** Includes **CI/CD pipeline consultation** , migration services (e.g., CentOS migration), and digital transformation strategy.
-  * **Resource Outsourcing:** Providing offshore development and onsite resource outsourcing to global clients.
-
-
-AI can make mistakes, so double-check responses 
-Creating a public link...
-Thank you
-Your feedback helps Google improve. See our Privacy Policy.
-Share more feedbackReport a problemClose
-
-
-
-
- {'internal': [{'href': 'https://support.google.com/websearch/answer/181196?hl=en-LK', 'text': 'Accessibility help', 'title': '', 'base_domain': 'google.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://www.google.com/search?prmd=ivns&q=what+are+the+products+and+services+currently+sold+by+hsenidmobile+company+sri+lanka&sa=X&sca_esv=693ec14b3197a0d7&source=lnms&ved=2ahUKEwj-ubnivqiSAxUk4TgGHQvrIdgQ0pQJegQIBBAF', 'text': 'All', 'title': '', 'base_domain': 'google.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://www.google.com/search?prmd=ivns&q=what+are+the+products+and+services+currently+sold+by+hsenidmobile+company+sri+lanka&sa=X&sca_esv=693ec14b3197a0d7&source=lnms&udm=2&ved=2ahUKEwj-ubnivqiSAxUk4TgGHQvrIdgQ0pQJegQIBBAH', 'text': 'Images', 'title': '', 'base_domain': 'google.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://www.google.com/search?prmd=ivns&q=what+are+the+products+and+services+currently+sold+by+hsenidmobile+company+sri+lanka&sa=X&sca_esv=693ec14b3197a0d7&source=lnms&udm=7&ved=2ahUKEwj-ubnivqiSAxUk4TgGHQvrIdgQ0pQJegQIBBAJ', 'text': 'Videos', 'title': '', 'base_domain': 'google.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://www.google.com/search?prmd=ivns&q=what+are+the+products+and+services+currently+sold+by+hsenidmobile+company+sri+lanka&sa=X&sca_esv=693ec14b3197a0d7&source=lnms&tbm=nws&ved=2ahUKEwj-ubnivqiSAxUk4TgGHQvrIdgQ0pQJegQIBBAL', 'text': 'News', 'title': '', 'base_domain': 'google.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://maps.google.com/maps?ictx=111&ie=UTF-8&q=what+are+the+products+and+services+currently+sold+by+hsenidmobile+company+sri+lanka&udm=50&um=1&ved=1t%3A200715', 'text': 'Maps', 'title': '', 'base_domain': 'google.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://www.google.com/search?prmd=ivns&q=what+are+the+products+and+services+currently+sold+by+hsenidmobile+company+sri+lanka&sa=X&sca_esv=693ec14b3197a0d7&source=lnms&udm=36&ved=2ahUKEwj-ubnivqiSAxUk4TgGHQvrIdgQ0pQJegQIBBAS', 'text': 'Books', 'title': '', 'base_domain': 'google.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://www.google.com/finance?sa=X&ved=2ahUKEwj-ubnivqiSAxUk4TgGHQvrIdgQ0pQJegQIBBAU', 'text': 'Finance', 'title': '', 'base_domain': 'google.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://policies.google.com/privacy?hl=en', 'text': 'Privacy Policy', 'title': '', 'base_domain': 'google.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}], 'external': [{'href': 'https://hsenidmobile.com/', 'text': 'hSenid Mobile Solutions', 'title': '', 'base_domain': 'hsenidmobile.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://hsenidmobile.com/top-5-ussd-gateway-platforms-for-developers-and-operators', 'text': '', 'title': '', 'base_domain': 'hsenidmobile.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://nl.linkedin.com/company/hsenid-mobile-solutions?trk=public_profile_experience-item_profile-section-card_subtitle-click', 'text': '', 'title': '', 'base_domain': 'linkedin.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://hsenidmobile.com/about-us', 'text': '', 'title': '', 'base_domain': 'hsenidmobile.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://hsenidmobile.com/business-development-specialist', 'text': '', 'title': '', 'base_domain': 'hsenidmobile.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://www.ideahub.lk/img/mediaroom/fintech-ideahub-article.pdf', 'text': '', 'title': '', 'base_domain': 'ideahub.lk', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://www.hsenid.com/index.php/pages/hsenid-mobile-solutions', 'text': '', 'title': '', 'base_domain': 'hsenid.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://hsenidlanka.com/', 'text': '', 'title': '', 'base_domain': 'hsenidlanka.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://hsenidmobile.com/choosing-the-right-service-delivery-platform-for-your-business', 'text': '', 'title': '', 'base_domain': 'hsenidmobile.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://hsenidmobile.com/the-future-of-service-delivery-platforms-in-2024-whats-new', 'text': '', 'title': '', 'base_domain': 'hsenidmobile.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://www.srilankabusiness.com/exporters-directory/company-profiles/hsenid-mobile-solutions-pvt-ltd', 'text': '', 'title': '', 'base_domain': 'srilankabusiness.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://hsenidmobile.com/blogs/5', 'text': '', 'title': '', 'base_domain': 'hsenidmobile.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://www.britishcouncil.lk/hsenid-mobile-solutions', 'text': '', 'title': '', 'base_domain': 'britishcouncil.lk', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://hsenidmobile.com/ussd-gateway', 'text': '', 'title': '', 'base_domain': 'hsenidmobile.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://www.hsenid.com/', 'text': '', 'title': '', 'base_domain': 'hsenid.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}, {'href': 'https://www.facebook.com/hSenidMobileSolutions', 'text': '', 'title': '', 'base_domain': 'facebook.com', 'head_data': None, 'head_extraction_status': None, 'head_extraction_error': None, 'intrinsic_score': 0.0, 'contextual_score': None, 'total_score': None}]}
+markdown length: 4211
+saved to crawled/https%3A%2F%2Fhsenidmobile.com%2Fabout-us.md

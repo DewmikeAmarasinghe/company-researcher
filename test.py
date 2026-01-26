@@ -5,7 +5,7 @@ import json
 import shutil
 from urllib.parse import quote_plus
 from crawl4ai import AsyncWebCrawler, UndetectedAdapter
-from crawl4ai.async_configs import BrowserConfig, CrawlerRunConfig, CacheMode
+from crawl4ai.async_configs import BrowserConfig, CrawlerRunConfig, CacheMode, GeolocationConfig
 from crawl4ai.async_crawler_strategy import AsyncPlaywrightCrawlerStrategy
 from crawl4ai.content_filter_strategy import PruningContentFilter
 from crawl4ai.markdown_generation_strategy import DefaultMarkdownGenerator
@@ -75,10 +75,34 @@ def get_query_titles():
     ]
 
 
-async def crawl_single_query(crawler, query: str):
-    url = f"https://www.google.com/search?q={quote_plus(query)}&udm=50"
-    
+async def crawl_google_ai_mode_parallel(queries: list, query_titles: list):
+    proxy_cfg = {
+        "server": os.getenv("PROXY_SERVER_URL"),
+        "username": os.getenv("PROXY_USERNAME"),
+        "password": os.getenv("PROXY_PASSWORD")
+    }
+
+    browser_config = BrowserConfig(
+        headless=False,
+        enable_stealth=True
+    )
+
+    undetected_adapter = UndetectedAdapter()
+
+    crawler_strategy = AsyncPlaywrightCrawlerStrategy(
+        browser_config=browser_config,
+        browser_adapter=undetected_adapter
+    )
+
     run_cfg = CrawlerRunConfig(
+        proxy_config=proxy_cfg,
+        # locale="en-US", 
+        # timezone_id="America/New_York",  
+        # geolocation=GeolocationConfig(
+        #     latitude=40.7128, 
+        #     longitude=-74.0060,    
+        #     accuracy=100   
+        # ),
         delay_before_return_html=5,
         scan_full_page=True,
         exclude_internal_links=True,
@@ -104,86 +128,56 @@ async def crawl_single_query(crawler, query: str):
             'div[data-container-id="main-col"]'
         ]
     )
-    
-    result = await crawler.arun(url, config=run_cfg)
-    
-    await asyncio.sleep(DELAY_BETWEEN_QUERIES)
-    
-    return result
 
+    urls = [f"https://www.google.com/search?q={quote_plus(q)}&udm=50" for q in queries]
 
-async def crawl_google_ai_mode_sequential(queries: list, query_titles: list):
-    browser_config = BrowserConfig(
-        headless=True,
-    )
-
-    undetected_adapter = UndetectedAdapter()
-
-    crawler_strategy = AsyncPlaywrightCrawlerStrategy(
-        browser_config=browser_config,
-        browser_adapter=undetected_adapter
-    )
-
-    query_results = []
-    
     async with AsyncWebCrawler(
         crawler_strategy=crawler_strategy,
         config=browser_config
     ) as crawler:
-        for idx, (query, title) in enumerate(zip(queries, query_titles), 1):
-            print(f"Crawling query {idx}/{len(queries)}: {query}...")
-            
-            result = await crawl_single_query(crawler, query)
-            
-            external_links = []
-            if result.success and hasattr(result, 'links') and result.links:
-                links_list = result.links.get('external', [])
-                for link in links_list:
-                    if isinstance(link, dict) and 'href' in link:
-                        external_links.append(link['href'])
-                    elif isinstance(link, str):
-                        external_links.append(link)
-            
-            query_data = {
-                "query_title": title,
-                "content": result.markdown if result.success else "",
-                "links": external_links,
-                "success": result.success
-            }
-            
-            query_results.append(query_data)
-            
-            if result.success:
-                print(f"  ✓ Success - {len(result.markdown)} chars, {len(external_links)} links")
-            else:
-                print("  ✗ Failed")
+
+        results = await crawler.arun_many(urls, config=run_cfg)
+
+    query_results = []
+    for idx, (result, title) in enumerate(zip(results, query_titles), 1):
+        external_links = []
+        if result.success and hasattr(result, 'links') and result.links:
+            links_list = result.links.get('external', [])
+            for link in links_list:
+                if isinstance(link, dict) and 'href' in link:
+                    external_links.append(link['href'])
+                elif isinstance(link, str):
+                    external_links.append(link)
+        query_data = {
+            "query_title": title,
+            "content": result.markdown if result.success else "",
+            "links": external_links,
+            "success": result.success
+        }
+        query_results.append(query_data)
+        if result.success:
+            print(f"{idx}. {title}: ✓ Success - {len(result.markdown)} chars, {len(external_links)} links")
+        else:
+            print(f"{idx}. {title}: ✗ Failed")
 
     return query_results
 
 
 def generate_detailed_report(query_results: list):
     detailed_report = ""
-    
     for idx, query_data in enumerate(query_results, 1):
         detailed_report += f"## {idx}. {query_data['query_title']}\n\n"
-        
         if query_data['success'] and query_data['content']:
             content = query_data['content'].strip()
-            if content:
-                detailed_report += f"{content}\n\n"
-            else:
-                detailed_report += "*No information available*\n\n"
+            detailed_report += f"{content}\n\n" if content else "*No information available*\n\n"
         else:
             detailed_report += "*Failed to retrieve information*\n\n"
-        
         if query_data['links']:
             detailed_report += "**Sources:**\n\n"
             for link in query_data['links']:
                 detailed_report += f"- [{link}]({link})\n"
             detailed_report += "\n"
-        
         detailed_report += "---\n\n"
-    
     return detailed_report
 
 
@@ -312,40 +306,32 @@ IMPORTANT FORMATTING RULES:
 - Extract only factual information present in the report
 - Make the summary visually appealing with proper markdown formatting"""
 
-    response = completion(
-        model="gpt-5-nano",
-        api_key=os.getenv("OPENAI_API_KEY"),
-        messages=[{"role": "user", "content": prompt}],
-    )
-
     # response = completion(
-    #     model="gemini/gemini-2.5-flash",
-    #     api_key=os.getenv("GEMINI_API_KEY"),
+    #     model="gpt-5-nano",
+    #     api_key=os.getenv("OPENAI_API_KEY"),
     #     messages=[{"role": "user", "content": prompt}],
     # )
+    response = completion(
+        model="gemini/gemini-2.5-flash",
+        api_key=os.getenv("GEMINI_API_KEY"),
+        messages=[{"role": "user", "content": prompt}],
+    )
     
-    summary = response.choices[0].message.content
-    
-    return summary
+    return response.choices[0].message.content
 
 
 def add_sources_to_summary(summary: str, query_results: list):
-    summary_with_sources = summary
-    
-    summary_with_sources += "\n\n---\n\n# Research Sources\n\n"
-    
+    summary_with_sources = summary + "\n\n---\n\n# Research Sources\n\n"
     for idx, query_data in enumerate(query_results, 1):
         if query_data['links']:
             summary_with_sources += f"## {idx}. {query_data['query_title']}\n\n"
             for link in query_data['links']:
                 summary_with_sources += f"- [{link}]({link})\n"
             summary_with_sources += "\n"
-    
     return summary_with_sources
 
 
-async def research_company(company_name: str, location: str, company_url: str = ""):
-    
+async def research_company(company_name: str, location: str):
     safe_company_name = company_name.replace(' ', '_').replace(',', '').replace('(', '').replace(')', '').lower()
     company_folder = f"google_results/{safe_company_name}"
     
@@ -354,8 +340,6 @@ async def research_company(company_name: str, location: str, company_url: str = 
     os.makedirs(company_folder, exist_ok=True)
     
     print(f"Starting comprehensive research for {company_name} in {location}...")
-    if company_url:
-        print(f"Company URL: {company_url}")
     print(f"Delay between queries: {DELAY_BETWEEN_QUERIES} seconds\n")
     
     queries = generate_queries(company_name, location)
@@ -363,7 +347,7 @@ async def research_company(company_name: str, location: str, company_url: str = 
     print(f"Generated {len(queries)} research queries\n")
     
     start_time = time.time()
-    query_results = await crawl_google_ai_mode_sequential(queries, query_titles)
+    query_results = await crawl_google_ai_mode_parallel(queries, query_titles)
     end_time = time.time()
     
     successful = sum(1 for r in query_results if r['success'])
@@ -404,47 +388,37 @@ async def research_company(company_name: str, location: str, company_url: str = 
 
 async def main():
     
-    company_name = "hsenid mobile solutions"
-    location = "sri lanka"
-    company_url = "https://hsenidmobile.com"
-
+    # company_name = "hSenid Mobile Solutions (Pvt) Ltd "
+    # location = "sri lanka"
+    
     # company_name = "Vision Care Optical Services (Pvt) Ltd"
     # location = "sri lanka"
-    # company_url = "https://visioncare.lk"
-
-    # company_name = "Academy Of Design (AOD)"
+    
+    # company_name = "AOD South Asia (Pvt) Ltd"
     # location = "sri lanka"
-    # company_url = "https://www.aod.lk"
-
-    # company_name = "Mintpay"
-    # location = "sri lanka"
-    # company_url = "https://mintpay.lk"
-
+    
+    company_name = "Mintpay"
+    location = "sri lanka"
+    
     # company_name = "ShopBook"
     # location = "sri lanka"
-    # company_url = "https://shopbook.lk"
-
+    
     # company_name = "DirectPay"
     # location = "sri lanka"
-    # company_url = "https://directpay.lk"
-
+    
     # company_name = "PickMe"
     # location = "sri lanka"
-    # company_url = "https://pickme.lk"
-
+    
     # company_name = "oDoc"
     # location = "sri lanka"
-    # company_url = "https://odoc.life"
-
+    
     # company_name = "Tracified"
     # location = "sri lanka"
-    # company_url = "https://tracified.com"
-
+    
     # company_name = "Basecamp"
     # location = "usa"
-    # company_url = "https://basecamp.com"
     
-    await research_company(company_name, location, company_url)
+    await research_company(company_name, location)
 
 
 if __name__ == "__main__":
