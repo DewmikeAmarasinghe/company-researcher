@@ -75,7 +75,7 @@ def get_query_titles():
     ]
 
 
-async def crawl_google_ai_mode_parallel(queries: list, query_titles: list):
+async def crawl_single_query(query: str, title: str):
     proxy_cfg = {
         "server": os.getenv("PROXY_SERVER_URL"),
         "username": os.getenv("PROXY_USERNAME"),
@@ -122,38 +122,42 @@ async def crawl_google_ai_mode_parallel(queries: list, query_titles: list):
         ]
     )
 
-    urls = [f"https://www.google.com/search?q={quote_plus(q)}&udm=50" for q in queries]
+    url = f"https://www.google.com/search?q={quote_plus(query)}&udm=50"
 
     async with AsyncWebCrawler(
         crawler_strategy=crawler_strategy,
         config=browser_config
     ) as crawler:
+        result = await crawler.arun(url, config=run_cfg)
 
-        results = await crawler.arun_many(urls, config=run_cfg)
+    external_links = []
+    if result.success and hasattr(result, 'links') and result.links:
+        links_list = result.links.get('external', [])
+        for link in links_list:
+            if isinstance(link, dict) and 'href' in link:
+                external_links.append(link['href'])
+            elif isinstance(link, str):
+                external_links.append(link)
 
-    query_results = []
-    for idx, (result, title) in enumerate(zip(results, query_titles), 1):
-        external_links = []
-        if result.success and hasattr(result, 'links') and result.links:
-            links_list = result.links.get('external', [])
-            for link in links_list:
-                if isinstance(link, dict) and 'href' in link:
-                    external_links.append(link['href'])
-                elif isinstance(link, str):
-                    external_links.append(link)
-        query_data = {
-            "query_title": title,
-            "content": result.markdown if result.success else "",
-            "links": external_links,
-            "success": result.success
-        }
-        query_results.append(query_data)
-        if result.success:
-            print(f"{idx}. {title}: ✓ Success - {len(result.markdown)} chars, {len(external_links)} links")
-        else:
-            print(f"{idx}. {title}: ✗ Failed")
+    query_data = {
+        "query_title": title,
+        "content": result.markdown if result.success else "",
+        "links": external_links,
+        "success": result.success
+    }
 
-    return query_results
+    if result.success:
+        print(f"{title}: ✓ Success - {len(result.markdown)} chars, {len(external_links)} links")
+    else:
+        print(f"{title}: ✗ Failed")
+
+    return query_data
+
+
+async def crawl_google_ai_mode_parallel(queries: list, query_titles: list):
+    tasks = [crawl_single_query(query, title) for query, title in zip(queries, query_titles)]
+    query_results = await asyncio.gather(*tasks)
+    return list(query_results)
 
 
 def generate_detailed_report(query_results: list):
@@ -299,11 +303,6 @@ IMPORTANT FORMATTING RULES:
 - Extract only factual information present in the report
 - Make the summary visually appealing with proper markdown formatting"""
 
-    # response = completion(
-    #     model="gpt-5-nano",
-    #     api_key=os.getenv("OPENAI_API_KEY"),
-    #     messages=[{"role": "user", "content": prompt}],
-    # )
     response = completion(
         model="gemini/gemini-2.5-flash",
         api_key=os.getenv("GEMINI_API_KEY"),
@@ -380,36 +379,8 @@ async def research_company(company_name: str, location: str):
 
 
 async def main():
-    
-    # company_name = "hSenid Mobile Solutions (Pvt) Ltd "
-    # location = "sri lanka"
-    
-    # company_name = "Vision Care Optical Services (Pvt) Ltd"
-    # location = "sri lanka"
-    
-    # company_name = "AOD South Asia (Pvt) Ltd"
-    # location = "sri lanka"
-    
     company_name = "Mintpay"
     location = "sri lanka"
-    
-    # company_name = "ShopBook"
-    # location = "sri lanka"
-    
-    # company_name = "DirectPay"
-    # location = "sri lanka"
-    
-    # company_name = "PickMe"
-    # location = "sri lanka"
-    
-    # company_name = "oDoc"
-    # location = "sri lanka"
-    
-    # company_name = "Tracified"
-    # location = "sri lanka"
-    
-    # company_name = "Basecamp"
-    # location = "usa"
     
     await research_company(company_name, location)
 
