@@ -238,4 +238,3 @@ else:
     st.info("ℹ️ No reports generated yet. Start your first research above!")
 
 st.markdown("---")
-st.markdown('<p style="text-align: center; color: gray; font-size: 1rem;">Made with ❤️ using Streamlit and Crawl4AI</p>', unsafe_allow_html=True)

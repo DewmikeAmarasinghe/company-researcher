@@ -9,13 +9,13 @@ You have been provided with:
 
 Your task is to select the MOST RELEVANT and HIGH-QUALITY URLs for each category.
 
-TARGET: Select 60-100 TOTAL unique URLs across all categories.
+TARGET: Select 80-120 TOTAL unique URLs across all categories.
 
 URL SELECTION STRATEGY:
 - Assess each category's complexity independently
-- Simple categories may need 2-4 URLs
-- Medium complexity categories may need 3-5 URLs
-- Complex categories may need 4-8 URLs
+- Simple categories may need 3-5 URLs
+- Medium complexity categories may need 5-7 URLs
+- Complex categories may need 7-9 URLs
 - Use your judgment based on the category's information requirements
 
 PRIORITIZATION RULES (in order):
@@ -64,15 +64,16 @@ Google Results by Category:
 """
 
 def get_category_summary_prompt(company_name: str, category: str, content: str) -> str:
-    return f"""You are analyzing content about {company_name} for: {category}
+    return f"""Extract and present ALL relevant information about {category} for {company_name}.
 
 CRITICAL RULES:
-1. DO NOT include the company name in any headers or titles
-2. Use ONLY the category name provided: "{category}"
-3. Be as concise as possible while covering key information
-4. Aim for 150-200 words maximum
-5. Avoid repeating information that likely appears in other categories - focus on category-specific details
+1. Extract facts directly from the content below
+2. Do NOT add analysis, interpretation, or external knowledge
+3. Do NOT repeat the category name in your output
+4. Focus on concrete, specific details from the provided content
+5. Aim for 300-350 words
 6. If multiple sources say the same thing, mention it ONCE
+7. Avoid repeating information that likely appears in other categories
 
 FORMATTING REQUIREMENTS:
 - Use bullet points (markdown format with -) for all content
@@ -82,28 +83,60 @@ FORMATTING REQUIREMENTS:
 - Do NOT use prefixes like "Fact:", "Note:", "Key:", "Strategic:", etc.
 - Present information directly and naturally
 - Be specific with numbers, dates, names, concrete details
-- Keep each point concise but informative
 - Make the summary visually appealing with proper markdown formatting
 
-CONTENT PRIORITIZATION:
-1. Unique or differentiating facts first
-2. Quantitative data (numbers, percentages, dates)
-3. Recent information over historical
-4. Specific facts over general statements
-
-Return your response in this JSON format:
-{{
-  "summary": "Your markdown formatted summary here",
-  "data_quality": "sufficient"
-}}
-
-Where data_quality is one of:
-- "sufficient": enough information for comprehensive answer
-- "partial": some information but notable gaps exist
-- "insufficient": very limited or unreliable information
+CONTENT EXTRACTION:
+1. Extract all relevant facts about {category}
+2. Include quantitative data (numbers, percentages, dates)
+3. Include names, titles, organizations mentioned
+4. Include specific programs, products, or initiatives
+5. Include any unique or differentiating information
 
 Content from sources:
 {content}
 
-Provide a well-structured, concise summary (150-200 words) in JSON format following all rules above."""
+Extract comprehensive information (300-350 words):"""
+
+def get_final_report_prompt(company_name: str, detailed_summaries: dict) -> str:
+    summaries_text = ""
+    for category, summary in detailed_summaries.items():
+        summaries_text += f"\n\n### {category}\n{summary}"
+    
+    return f"""You are creating a polished company research report for {company_name}.
+
+You will receive 25 detailed category summaries (300-350 words each). Your task:
+1. Create concise, polished summaries (120-150 words) for each category
+2. Maintain all key facts and specific details
+3. Ensure consistent writing style and tone across all categories
+4. Remove redundancies between categories
+5. Assign data quality scores based on content depth and completeness
+6. Do NOT include category names in the summary text itself
+
+FORMATTING FOR EACH SUMMARY:
+- Use bullet points (markdown format with -)
+- Use **bold** for key terms, names, metrics
+- Use *italic* for emphasis
+- Present information clearly and naturally
+- DO NOT use prefixes like "Fact:", "Note:", etc.
+
+DATA QUALITY CRITERIA:
+- "sufficient": 250+ words in detailed version, multiple specific facts, comprehensive coverage
+- "partial": 150-250 words in detailed version, some facts but notable gaps
+- "insufficient": <150 words in detailed version, vague or minimal information
+
+Return ONLY a JSON object in this exact format:
+{{
+  "Founders and Leadership": {{
+    "summary": "concise polished markdown (120-150 words)",
+    "data_quality": "sufficient"
+  }},
+  "Business Model and Revenue": {{
+    "summary": "concise polished markdown (120-150 words)",
+    "data_quality": "partial"
+  }},
+  ...
+}}
+
+Detailed summaries to polish:
+{summaries_text}"""
 

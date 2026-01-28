@@ -158,7 +158,7 @@ async def main():
         company_name=company_name,
         base_url=base_url,
         location=location,
-        skip_url_discovery=False
+        skip_url_discovery=True
     )
 
 
