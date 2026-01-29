@@ -27,13 +27,14 @@ async def search_google_by_category(queries: dict) -> dict:
         config=browser_config
     ) as crawler:
         run_config = CrawlerRunConfig(
-            delay_before_return_html=7,
+            delay_before_return_html=5,
             scan_full_page=True,
-            exclude_internal_links=False,
+            exclude_internal_links=True,
             exclude_external_links=False,
             exclude_social_media_links=False,
+            excluded_tags=['header', 'footer', 'form', 'nav', 'aside', 'script', 'style'],
             keep_data_attributes=True,
-            remove_overlay_elements=True,
+            process_iframes=True,
             exclude_external_images=True,
             cache_mode=CacheMode.BYPASS,
             markdown_generator=DefaultMarkdownGenerator(
@@ -47,30 +48,34 @@ async def search_google_by_category(queries: dict) -> dict:
                     "include_sup_sub": True,
                 },
             ),
+            target_elements=[
+                'div[data-container-id="main-col"]'
+            ]
         )
 
         results_by_category = {}
 
         for category, query in queries.items():
-            url = f"https://www.google.com/search?q={quote_plus(query)}"
+            url = f"https://www.google.com/search?q={quote_plus(query)}&udm=50"
             result = await crawler.arun(url, run_config)
 
-            category_urls = []
-            if result and result.success:
-                external = result.links.get("external", [])
-                seen = set()
+            # category_urls = []
+            # if result and result.success:
+            #     external = result.links.get("external", [])
+            #     seen = set()
                 
-                for link in external:
-                    link_url = link["href"]
-                    if link_url.startswith(("http://", "https://")) and link_url not in seen and not is_social_media_url(link_url):
-                        seen.add(link_url)
-                        category_urls.append(link_url)
+            #     for link in external:
+            #         link_url = link["href"]
+            #         if link_url.startswith(("http://", "https://")) and link_url not in seen and not is_social_media_url(link_url):
+            #             seen.add(link_url)
+            #             category_urls.append(link_url)
             
-            results_by_category[category] = category_urls
-            print(f"Found {len(category_urls)} URLs for: {category}")
+            # results_by_category[category] = category_urls
+            # print(f"Found {len(category_urls)} URLs for: {category}")
             
-            if list(queries.keys()).index(category) < len(queries) - 1:
-                await asyncio.sleep(DELAY_BETWEEN_QUERIES)
+            # if list(queries.keys()).index(category) < len(queries) - 1:
+            #     await asyncio.sleep(DELAY_BETWEEN_QUERIES)
+            print(result.markdown)
 
         return results_by_category
 
@@ -83,9 +88,9 @@ async def main():
     location = "Sri Lanka"
     
     queries = {
-        "Founders and Leadership": f"{company_name} {location} about company founders CEO leadership team",
-        "Products and Services": f"{company_name} {location} products services offerings",
-        "Contact Information": f"{company_name} {location} contact location address",
+        "Founders and Leadership": f"who founded {company_name} in {location} and who is the current CEO leadership team, there company website url is https://www.aod.lk/",
+        # "Products and Services": f"{company_name} {location} products services offerings",
+        # "Contact Information": f"{company_name} {location} contact location address",
     }
 
     print(f"Searching Google for {len(queries)} categories with {DELAY_BETWEEN_QUERIES}s delay...")

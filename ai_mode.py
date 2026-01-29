@@ -79,15 +79,15 @@ async def crawl_single_query(crawler, query: str):
     url = f"https://www.google.com/search?q={quote_plus(query)}&udm=50"
     
     run_cfg = CrawlerRunConfig(
-        delay_before_return_html=5,
+        delay_before_return_html=10,
         scan_full_page=True,
-        exclude_internal_links=True,
-        exclude_external_links=False,
-        exclude_social_media_links=False,
+        # exclude_internal_links=True,
+        # exclude_external_links=False,
+        # exclude_social_media_links=False,
         excluded_tags=['header', 'footer', 'form', 'nav', 'aside', 'script', 'style'],
-        keep_data_attributes=True,
-        process_iframes=True,
-        exclude_external_images=True,
+        # keep_data_attributes=True,
+        # process_iframes=True,
+        # exclude_external_images=True,
         cache_mode=CacheMode.BYPASS,
         markdown_generator=DefaultMarkdownGenerator(
             content_filter=PruningContentFilter(
@@ -115,6 +115,7 @@ async def crawl_single_query(crawler, query: str):
 async def crawl_google_ai_mode_sequential(queries: list, query_titles: list):
     browser_config = BrowserConfig(
         headless=True,
+        enable_stealth=True
     )
 
     undetected_adapter = UndetectedAdapter()

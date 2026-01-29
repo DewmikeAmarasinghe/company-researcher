@@ -4,17 +4,17 @@ import json
 from litellm import completion
 from scrape import scrape_company_urls
 from utils import get_company_path
-from config import API_KEY, MODEL_NAME, get_enabled_categories
+from config import API_KEY, MODEL_NAME, get_enabled_categories, get_category_query
 from prompts import get_category_summary_prompt, get_final_report_prompt
 
-async def summarize_category(company_name: str, category: str, content: str) -> dict:
+async def summarize_category(company_name: str, category: str, query: str, content: str) -> dict:
     if not content.strip():
         return {
             "category": category,
             "summary": ""
         }
     
-    prompt = get_category_summary_prompt(company_name, category, content)
+    prompt = get_category_summary_prompt(company_name, category, query, content)
 
     response = completion(
         model=MODEL_NAME,
@@ -29,17 +29,32 @@ async def summarize_category(company_name: str, category: str, content: str) -> 
         "summary": summary
     }
 
-async def generate_final_report(company_name: str, detailed_summaries: dict) -> dict:
+async def generate_final_report(company_name: str, detailed_summaries: dict) -> str:
     prompt = get_final_report_prompt(company_name, detailed_summaries)
     
     response = completion(
         model=MODEL_NAME,
         api_key=API_KEY,
         messages=[{"role": "user", "content": prompt}],
-        response_format={"type": "json_object"},
     )
     
-    return json.loads(response["choices"][0]["message"]["content"])
+    return response["choices"][0]["message"]["content"]
+
+def add_sources_to_report(report_content: str, category_sources: dict) -> str:
+    report_with_sources = report_content.strip()
+    
+    report_with_sources += "\n\n---\n\n# Research Sources\n\n"
+    
+    enabled_categories = get_enabled_categories()
+    
+    for idx, category in enumerate(enabled_categories, 1):
+        if category in category_sources and category_sources[category]:
+            report_with_sources += f"## {idx}. {category}\n\n"
+            for source in category_sources[category]:
+                report_with_sources += f"- {source}\n"
+            report_with_sources += "\n"
+    
+    return report_with_sources
 
 def load_metadata(company_name: str) -> dict:
     base_path = get_company_path(company_name)
@@ -84,105 +99,48 @@ def group_by_category(metadata: dict) -> dict:
     
     return merged_content
 
-def assemble_reports(company_name: str, base_url: str, location: str, final_report_data: dict, detailed_summaries: dict, metadata: dict, category_content: dict) -> tuple:
-    quality_map = {"sufficient": "✓", "partial": "⚠️", "insufficient": "✗"}
+def create_detailed_report_for_llm(detailed_summaries: dict, category_content: dict) -> str:
+    detailed_report = ""
     
     enabled_categories = get_enabled_categories()
     
-    summary_report_md = f"""# Company Research Report: {company_name}
-
-**Base URL:** {base_url}  
-**Location:** {location}  
-**Total URLs Scraped:** {metadata['stats']['total_scraped']}  
-**Total Content:** {metadata['stats']['total_chars']:,} characters  
-
----
-
-"""
-    
-    detailed_report_md = f"""# Detailed Company Research Report: {company_name}
-
-**Base URL:** {base_url}  
-**Location:** {location}  
-**Total URLs Scraped:** {metadata['stats']['total_scraped']}  
-**Total Content:** {metadata['stats']['total_chars']:,} characters  
-
----
-
-"""
-    
-    category_number = 1
-    summaries_list = []
-    
     for category in enabled_categories:
-        if category in final_report_data:
-            category_data = final_report_data[category]
-            quality_symbol = quality_map.get(category_data["data_quality"], "⚠️")
-            
-            summary_report_md += f"## {category_number}. {category} {quality_symbol}\n\n"
-            summary_report_md += category_data["summary"]
-            summary_report_md += "\n\n"
-            
-            detailed_report_md += f"## {category_number}. {category} {quality_symbol}\n\n"
-            if category in detailed_summaries:
-                detailed_report_md += detailed_summaries[category]
-                detailed_report_md += "\n\n"
-            
-            if category in category_content and "sources" in category_content[category]:
-                sources = category_content[category]["sources"]
-                if sources:
-                    sources_text = "**Sources:**\n"
-                    for source in sources:
-                        sources_text += f"- {source}\n"
-                    sources_text += "\n"
-                    
-                    summary_report_md += sources_text
-                    detailed_report_md += sources_text
-            
-            summary_report_md += "---\n\n"
-            detailed_report_md += "---\n\n"
-            
-            summaries_list.append({
-                "category": category,
-                "summary": category_data["summary"],
-                "detailed_summary": detailed_summaries.get(category, ""),
-                "data_quality": category_data["data_quality"]
-            })
-            
-            category_number += 1
+        if category in detailed_summaries:
+            detailed_report += f"## {category}\n\n"
+            detailed_report += detailed_summaries[category]
+            detailed_report += "\n\n---\n\n"
     
-    report_data = {
-        "company_name": company_name,
-        "base_url": base_url,
-        "location": location,
-        "stats": metadata["stats"],
-        "summaries": summaries_list,
-        "summary_report_markdown": summary_report_md,
-        "detailed_report_markdown": detailed_report_md
-    }
-    
-    return report_data
+    return detailed_report
 
-def save_reports(company_name: str, report_data: dict):
+def save_reports(company_name: str, base_url: str, location: str, summary_report: str, detailed_report: str, metadata: dict):
     base_path = get_company_path(company_name)
     summaries_folder = f"{base_path}/summaries"
     os.makedirs(summaries_folder, exist_ok=True)
     
-    json_file = f"{summaries_folder}/report.json"
-    with open(json_file, "w") as f:
-        json.dump(report_data, f, indent=2)
+    header = f"""# Company Research Report: {company_name}
+
+**Base URL:** {base_url}  
+**Location:** {location}  
+**Total URLs Scraped:** {metadata['stats']['total_scraped']}  
+**Total Content:** {metadata['stats']['total_chars']:,} characters  
+
+---
+
+"""
+    
+    summary_report_full = header + summary_report
+    detailed_report_full = header + detailed_report
     
     summary_md_file = f"{summaries_folder}/summary_report.md"
     with open(summary_md_file, "w") as f:
-        f.write(report_data["summary_report_markdown"])
+        f.write(summary_report_full)
     
     detailed_md_file = f"{summaries_folder}/detailed_report.md"
     with open(detailed_md_file, "w") as f:
-        f.write(report_data["detailed_report_markdown"])
+        f.write(detailed_report_full)
     
     print(f"Summary report saved to: {summary_md_file}")
     print(f"Detailed report saved to: {detailed_md_file}")
-    print(f"Data saved to: {json_file}")
 
 async def summarize_company(company_name: str, base_url: str, location: str, skip_scraping: bool = False):
     if not skip_scraping:
@@ -212,7 +170,8 @@ async def summarize_company(company_name: str, base_url: str, location: str, ski
     
     for category in categories_with_content:
         data = category_content[category]
-        tasks.append(summarize_category(company_name, category, data["content"]))
+        query = get_category_query(category, company_name, location)
+        tasks.append(summarize_category(company_name, category, query, data["content"]))
         category_list.append(category)
     
     summaries = await asyncio.gather(*tasks)
@@ -228,46 +187,39 @@ async def summarize_company(company_name: str, base_url: str, location: str, ski
     
     detailed_summaries = {s["category"]: s["summary"] for s in summaries}
     
+    category_sources = {}
+    for category in categories_with_content:
+        if category in category_content:
+            category_sources[category] = category_content[category]["sources"]
+    
+    detailed_report_for_llm = create_detailed_report_for_llm(detailed_summaries, category_content)
+    
     print(f"\n{'='*60}")
     print("AI is generating final polished report...")
     print(f"{'='*60}\n")
     
-    final_report_data = await generate_final_report(company_name, detailed_summaries)
+    final_report_content = await generate_final_report(company_name, detailed_summaries)
     
     print(f"\n{'='*60}")
     print("Final report generation complete!")
     print(f"{'='*60}\n")
     
-    quality_map = {"sufficient": "✓", "partial": "⚠️", "insufficient": "✗"}
-    
-    for category, data in final_report_data.items():
-        quality_symbol = quality_map.get(data["data_quality"], "⚠️")
-        word_count = len(data["summary"].split())
-        print(f"✓ {category} ({word_count} words) {quality_symbol}")
-    
     print(f"\n{'='*60}")
-    print("Assembling reports")
+    print("Adding sources to reports...")
     print(f"{'='*60}\n")
     
-    report_data = assemble_reports(company_name, base_url, location, final_report_data, detailed_summaries, metadata, category_content)
-    save_reports(company_name, report_data)
+    summary_report_with_sources = add_sources_to_report(final_report_content, category_sources)
+    detailed_report_with_sources = add_sources_to_report(detailed_report_for_llm, category_sources)
     
-    sufficient = sum(1 for s in report_data["summaries"] if s["data_quality"] == "sufficient")
-    partial = sum(1 for s in report_data["summaries"] if s["data_quality"] == "partial")
-    insufficient = sum(1 for s in report_data["summaries"] if s["data_quality"] == "insufficient")
+    save_reports(company_name, base_url, location, summary_report_with_sources, detailed_report_with_sources, metadata)
     
     print(f"\n{'='*60}")
     print("Summary Generation Complete!")
     print(f"{'='*60}")
-    print(f"Total categories: {len(report_data['summaries'])}")
-    print(f"Sufficient: {sufficient} | Partial: {partial} | Insufficient: {insufficient}")
+    print(f"Total categories processed: {len(categories_with_content)}")
     print(f"{'='*60}\n")
 
 async def main():
-    # company_name = "hSenid Mobile Solutions (Pvt) Ltd"
-    # base_url = "https://hsenidmobile.com/"
-    # location = "Sri Lanka"
-    
     company_name = "AOD South Asia (Pvt) Ltd"
     base_url = "https://www.aod.lk/"
     location = "Sri Lanka"

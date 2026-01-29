@@ -3,12 +3,12 @@ import os
 API_KEY = os.getenv("OPENAI_API_KEY")
 MODEL_NAME = "openai/gpt-5-nano"
 
-DELAY_BETWEEN_QUERIES = 0
+DELAY_BETWEEN_QUERIES = 1
 
 BROWSER_HEADLESS = False
 ENABLE_STEALTH = True
 
-SCRAPE_DELAY = 7
+SCRAPE_DELAY = 5
 
 CATEGORIES = {
     "Founders and Leadership": {
@@ -80,7 +80,7 @@ CATEGORIES = {
         "enabled": True
     },
     "Challenges and Opportunities": {
-        "query": "{company} {location} challenges opportunities threats",
+        "query": "{company} {location} challenges opportunities",
         "enabled": True
     },
     "Company Culture": {
@@ -130,3 +130,10 @@ def get_search_queries(company_name: str, location: str = "") -> dict:
         name: config["query"].format(company=company_name, location=location_str)
         for name, config in CATEGORIES.items() if config["enabled"]
     }
+
+def get_category_query(category: str, company_name: str, location: str = "") -> str:
+    location_str = f" {location}" if location else ""
+    
+    if category in CATEGORIES:
+        return CATEGORIES[category]["query"].format(company=company_name, location=location_str)
+    return ""

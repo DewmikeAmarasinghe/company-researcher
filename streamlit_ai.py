@@ -41,7 +41,7 @@ if st.button("🚀 Start Research", type="primary", width="stretch"):
     if not company_name or not location:
         st.error("⚠️ Please provide both company name and location")
     else:
-        safe_company_name = company_name.replace(' ', '_').replace(',', '').replace('(', '').replace(')', '').lower()
+        safe_company_name = company_name.strip().replace(' ', '_').replace(',', '').replace('(', '').replace(')', '').lower()
         company_folder = f"google_results/{safe_company_name}"
         
         progress_bar = st.progress(0)
@@ -60,7 +60,7 @@ if st.button("🚀 Start Research", type="primary", width="stretch"):
                 shutil.rmtree(company_folder)
             os.makedirs(company_folder, exist_ok=True)
             
-            browser_config = BrowserConfig(headless=True)
+            browser_config = BrowserConfig(headless=True, enable_stealth=True)
             undetected_adapter = UndetectedAdapter()
             crawler_strategy = AsyncPlaywrightCrawlerStrategy(
                 browser_config=browser_config,

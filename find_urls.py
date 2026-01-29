@@ -46,36 +46,47 @@ async def discover_company_urls(company_name: str, base_url: str, location: str 
     for category in enabled_categories:
         selected_urls[category] = content_json.get(category, [])
     
-    all_selected = []
+    unique_selected = set()
     for urls in selected_urls.values():
-        all_selected.extend(urls)
+        unique_selected.update(urls)
     
-    url_pool = {}
-    for category in enabled_categories:
-        pool = []
-        category_google = google_results.get(category, [])
-        
-        for url in category_google:
-            if url not in all_selected:
-                pool.append(url)
-        
-        url_pool[category] = pool
+    all_google_urls = set()
+    for urls in google_results.values():
+        for url in urls:
+            if not is_social_media_url(url):
+                all_google_urls.add(url)
     
-    total_selected = sum(len(urls) for urls in selected_urls.values())
-    total_pool = sum(len(urls) for urls in url_pool.values())
+    all_available = set(website_urls) | all_google_urls
+    pool_urls = all_available - unique_selected
+    
+    website_pool = [url for url in website_urls if url in pool_urls]
+    google_pool = {}
+    for category, urls in google_results.items():
+        category_pool = [url for url in urls if url in pool_urls and not is_social_media_url(url)]
+        if category_pool:
+            google_pool[category] = category_pool
+    
+    website_domain_urls = sum(1 for url in website_urls if base_url.split('/')[2] in url)
+    google_urls_count = len(all_google_urls)
     
     return {
         "company_name": company_name,
         "base_url": base_url,
         "location": location,
         "stats": {
-            "total_selected": total_selected,
-            "total_pool": total_pool,
-            "website_urls_found": len(website_urls),
+            "total_selected": len(unique_selected),
+            "total_pool": len(pool_urls),
+            "sources": {
+                "website_urls": website_domain_urls,
+                "google_results": google_urls_count
+            },
             "categories": len(enabled_categories)
         },
         "selected_urls": selected_urls,
-        "url_pool": url_pool,
+        "url_pool": {
+            "website_urls": website_pool,
+            "google_results": google_pool
+        },
         "sources": {
             "website_urls": website_urls,
             "google_results_by_category": google_results

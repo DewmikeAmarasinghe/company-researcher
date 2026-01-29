@@ -12,24 +12,20 @@ Your task is to select the MOST RELEVANT and HIGH-QUALITY URLs for each category
 TARGET: Select 80-120 TOTAL unique URLs across all categories.
 
 URL SELECTION STRATEGY:
-- Assess each category's complexity independently
-- Simple categories may need 3-5 URLs
-- Medium complexity categories may need 5-7 URLs
-- Complex categories may need 7-9 URLs
+- Considering the url name and its hypothesized density of information, about the topic(category), choose appropriate number of websites for each category
+- Try to aim for this amount of urls:
+  - Simple categories -> 5-7 URLs
+  - Medium complexity categories -> 7-9 URLs
+  - Complex categories -> 9-11 URLs
 - Use your judgment based on the category's information requirements
+- Same website can be selected for multiple categories if it contain relevant information for each of those categories
 
 PRIORITIZATION RULES (in order):
 1. Official company website pages ALWAYS preferred over external sources
 2. Main/overview pages over specific/detailed subpages
 3. Recent content over old content
-4. Authoritative sources (company site, major news outlets) over blogs/forums
-5. Comprehensive pages that cover multiple topics over narrow single-topic pages
-
-URL REUSE STRATEGY:
-- Reuse the same URL across multiple relevant categories
-- Example: An "About Us" page should be used for Founders, History, Mission, Values
-- Example: A "Services" page should be used for Products, Services, Business Model
-- This reduces total unique URLs while maintaining category coverage
+4. Authoritative sources (company site, major news outlets) over blogs/forums by indidviduals
+5. Comprehensive pages that cover about the topic
 
 STRICT EXCLUSIONS:
 1. NO social media links
@@ -43,7 +39,6 @@ STRICT EXCLUSIONS:
 QUALITY CHECKLIST FOR EACH URL:
 - Does this URL provide unique, valuable information?
 - Is this the BEST source for this category?
-- Can I reuse an already-selected URL instead?
 - Will this URL contain substantial, relevant content?
 
 Return your response in JSON format with this exact structure:
@@ -63,80 +58,92 @@ Google Results by Category:
 {json.dumps(google_results, indent=2)}
 """
 
-def get_category_summary_prompt(company_name: str, category: str, content: str) -> str:
-    return f"""Extract and present ALL relevant information about {category} for {company_name}.
+def get_category_summary_prompt(company_name: str, category: str, query: str, content: str) -> str:
+    return f"""Based on this search query: "{query}"
+
+Extract relevant information for {company_name}.
 
 CRITICAL RULES:
-1. Extract facts directly from the content below
-2. Do NOT add analysis, interpretation, or external knowledge
-3. Do NOT repeat the category name in your output
-4. Focus on concrete, specific details from the provided content
-5. Aim for 300-350 words
-6. If multiple sources say the same thing, mention it ONCE
-7. Avoid repeating information that likely appears in other categories
+1. Extract information based on what the query is asking for from the content below
+2. Maximum 200-250 words - be as minimal as possible while maintaining quality
+3. Do NOT add analysis, interpretation
+4. Do NOT repeat the category name in your output
+5. Do NOT include contact information (addresses, emails, phone numbers) unless the query specifically asks for it
+6. Focus on concrete, specific details from the provided content
+7. If multiple sources say the same thing, mention it ONCE
 
 FORMATTING REQUIREMENTS:
-- Use bullet points (markdown format with -) for all content
+- Use bullet points (markdown format with -) for content
+- When listing multiple related items (programs, products, features), use sub-bullets:
+  - Main category or grouping
+    - Item 1
+    - Item 2
+    - Item 3
 - Use **bold** for important terms, names, key metrics, numbers, dates
 - Use *italic* for emphasis on specific insights
 - Use `code formatting` for technical terms, technologies, product names
 - Do NOT use prefixes like "Fact:", "Note:", "Key:", "Strategic:", etc.
 - Present information directly and naturally
-- Be specific with numbers, dates, names, concrete details
-- Make the summary visually appealing with proper markdown formatting
 
 CONTENT EXTRACTION:
-1. Extract all relevant facts about {category}
-2. Include quantitative data (numbers, percentages, dates)
-3. Include names, titles, organizations mentioned
+1. Extract only the most relevant facts based on the query
+2. Include quantitative data (numbers, percentages, dates) when present
+3. Include names, titles, organizations when relevant
 4. Include specific programs, products, or initiatives
-5. Include any unique or differentiating information
+5. Skip generic or redundant information
 
 Content from sources:
 {content}
 
-Extract comprehensive information (300-350 words):"""
+Extract consise, quality information (maximum 250 words):"""
 
 def get_final_report_prompt(company_name: str, detailed_summaries: dict) -> str:
     summaries_text = ""
     for category, summary in detailed_summaries.items():
-        summaries_text += f"\n\n### {category}\n{summary}"
+        summaries_text += f"\n\n## {category}\n{summary}"
     
-    return f"""You are creating a polished company research report for {company_name}.
+    return f"""You are creating a comprehensive company research report for {company_name}.
 
-You will receive 25 detailed category summaries (300-350 words each). Your task:
-1. Create concise, polished summaries (120-150 words) for each category
-2. Maintain all key facts and specific details
-3. Ensure consistent writing style and tone across all categories
-4. Remove redundancies between categories
-5. Assign data quality scores based on content depth and completeness
-6. Do NOT include category names in the summary text itself
+Below is a complete research report with detailed information across multiple categories.
 
-FORMATTING FOR EACH SUMMARY:
-- Use bullet points (markdown format with -)
-- Use **bold** for key terms, names, metrics
-- Use *italic* for emphasis
-- Present information clearly and naturally
-- DO NOT use prefixes like "Fact:", "Note:", etc.
+Your task:
+1. REORGANIZE FIRST: Review all content and move misplaced information to appropriate categories
+   - Example: Financial metrics mentioned in "Founders and Leadership" → move to "Financial Performance"
+   - Example: Partnership details in "Products and Services" → move to "Partnerships"
+   Ensure each category contains only relevant information before summarizing.
+2. Create clear, polished summaries (150-200 words) for EACH category
+3. Maintain all key facts and specific details
+4. Ensure consistent writing style and tone across all categories
+5. Remove redundancies between categories
+6. Do NOT include contact information in any summaries unless it is the Contact Information category
 
-DATA QUALITY CRITERIA:
-- "sufficient": 250+ words in detailed version, multiple specific facts, comprehensive coverage
-- "partial": 150-250 words in detailed version, some facts but notable gaps
-- "insufficient": <150 words in detailed version, vague or minimal information
+FORMATTING REQUIREMENTS:
+- Use bullet points (markdown format with -) for all content 
+- Do not use paragraphs or commas to show related items
+- When listing multiple related items (programs, products, features), use sub-bullets:
+  - Main category or grouping
+    - Item 1
+    - Item 2
+    - Item 3
+- Use **bold** for important terms, names, key metrics, numbers, dates
+- Use *italic* for emphasis on specific insights
+- Use `code formatting` for technical terms, technologies, product names
+- Do NOT use prefixes like "Fact:", "Note:", "Key:", "Strategic:", etc.
 
-Return ONLY a JSON object in this exact format:
-{{
-  "Founders and Leadership": {{
-    "summary": "concise polished markdown (120-150 words)",
-    "data_quality": "sufficient"
-  }},
-  "Business Model and Revenue": {{
-    "summary": "concise polished markdown (120-150 words)",
-    "data_quality": "partial"
-  }},
-  ...
-}}
+OUTPUT FORMAT:
+Create a complete markdown report with ALL categories.
+Use this exact structure:
 
-Detailed summaries to polish:
+## 1. Founders and Leadership
+- bullet points here
+
+## 2. Business Model and Revenue
+- bullet points here
+
+## 3. Products and Services
+- bullet points here
+
+Continue for ALL categories in the input below.
+
+Research Report:
 {summaries_text}"""
-

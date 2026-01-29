@@ -6,25 +6,24 @@ from crawl4ai.markdown_generation_strategy import DefaultMarkdownGenerator
 import asyncio
 import os
 
-async def crawl_company(company_name: str, url: str):
+async def crawl_company(url: str):
     browser_config = BrowserConfig(
         headless=False,
     )
-
 
     async with AsyncWebCrawler(config=browser_config) as crawler:
 
         run_config = CrawlerRunConfig(
             delay_before_return_html=3,
             scan_full_page=True,
-            exclude_internal_links=False,
-            exclude_external_links=False,
-            exclude_social_media_links=False,
+            # exclude_internal_links=False,
+            # exclude_external_links=False,
+            # exclude_social_media_links=False,
             excluded_tags=['header', 'footer', 'form', 'nav', 'aside', 'script', 'style'],
-            keep_data_attributes=True,
-            remove_overlay_elements=True,
+            # keep_data_attributes=True,
+            # remove_overlay_elements=True,
             # process_iframes=True,
-            exclude_external_images=True,
+            # exclude_external_images=True,
             cache_mode=CacheMode.BYPASS,
             markdown_generator=DefaultMarkdownGenerator(
                 content_filter=PruningContentFilter(
@@ -44,15 +43,13 @@ async def crawl_company(company_name: str, url: str):
         return results
 
 async def main():
-    company = "hsenidmobile"
     urls = [
-        "https://hsenidmobile.com/about-us",
-        "https://hsenidmobile.com/",
-        "https://hsenidmobile.com/contact",
-        "https://hsenidmobile.com/talk-to-an-expert",
-    ]
-    # company = "Mintpay (Pvt) Ltd."
-    # urls = [
+        # "https://hsenidmobile.com/about-us",
+        # "https://www.odoc.life/"
+        # "https://hsenidmobile.com/about-us"
+    #     "https://hsenidmobile.com/",
+    #     "https://hsenidmobile.com/contact",
+    #     "https://hsenidmobile.com/talk-to-an-expert",
     #     "https://mintpay.lk/",
     #     "https://mintpay.lk/business",
     #     "https://mintpay.lk/press",
@@ -60,19 +57,17 @@ async def main():
     #     "https://mintpay.lk/policy",
     #     "https://mintpay.lk/support",
     #     "https://merchant.mintpay.lk/"
-    # ]
-    # company = "AOD South Asia (Pvt) Ltd"
-    # urls = [
     #     "https://www.aod.lk/pages/about-us",
     #     "https://www.aod.lk/pages/aod-northumbria-a-powerful-partnership-for-design",
     #     "https://www.aod.lk/pages/industry-testimonials",
     #     "https://www.aod.lk/pages/location",
     #     "https://www.aod.lk/blogs/news",
-    #     "https://www.facebook.com/AODSrilanka",
-    #     "https://www.instagram.com/aod_design",
+        # "https://www.facebook.com/AODSrilanka",
+        # "https://www.instagram.com/aod_design",
     #     "https://www.linkedin.com/school/aod/posts?feedview=all"
-    # ]
-    result = await crawl_company(company, urls[0])
+    ]
+
+    result = await crawl_company(urls[0])
     print(result.markdown)
 
 
