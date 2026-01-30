@@ -1,0 +1,1575 @@
+{
+  "company_name": "Aod South Asia Pvt Ltd",
+  "base_url": "https://www.aod.lk/",
+  "location": "Sri Lanka",
+  "stats": {
+    "total_scraped": 125,
+    "total_failed": 0,
+    "total_chars": 489377
+  },
+  "scraped_urls": [
+    {
+      "url": "https://rocketreach.co/aod-management_b5e1d85ff42e7428",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/rocketreach.co__aod-management_b5e1d85ff42e7428.md",
+      "categories": [
+        "Company Size"
+      ],
+      "length": 283
+    },
+    {
+      "url": "https://rocketreach.co/aod-profile_b5e1d85ff42e7428",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/rocketreach.co__aod-profile_b5e1d85ff42e7428.md",
+      "categories": [
+        "Financial Performance"
+      ],
+      "length": 283
+    },
+    {
+      "url": "https://science.cmb.ac.lk/icmas2021/wp-content/uploads/2021/12/Conference-Proceedings-ICMAS-2021.pdf",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/science.cmb.ac.lk__icmas2021__wp-content__uploads__2021__12__Conference-Proceedings-ICMAS-2021.pdf.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 1
+    },
+    {
+      "url": "http://www.sundaytimes.lk/190908/education/new-ceo-on-a-mission-to-establish-aod-as-south-asias-leader-in-design-education-367205.html",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.sundaytimes.lk__190908__education__new-ceo-on-a-mission-to-establish-aod-as-south-asias-leader-in-design-education-367205.html.md",
+      "categories": [
+        "Company History"
+      ],
+      "length": 15651
+    },
+    {
+      "url": "https://rainbowpages.lk/other/unclassified/aod-colombo-pvt-ltd",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/rainbowpages.lk__other__unclassified__aod-colombo-pvt-ltd.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 770
+    },
+    {
+      "url": "https://edu.dailymirror.lk/articles/news/1910/AOD-Lights-Up-Colombo-with-Creativity-Hosting-Sri-Lanka-Design-Festival-2025",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/edu.dailymirror.lk__articles__news__1910__AOD-Lights-Up-Colombo-with-Creativity-Hosting-Sri-Lanka-Design-Festival-2025.md",
+      "categories": [
+        "Recent News and Updates"
+      ],
+      "length": 11905
+    },
+    {
+      "url": "https://www.aod.lk/",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk.md",
+      "categories": [
+        "Competitive Landscape",
+        "Pricing Information",
+        "Contact Information"
+      ],
+      "length": 2946
+    },
+    {
+      "url": "https://odi.org/en/press/new-report-offers-roadmap-for-sri-lankas-economic-revival",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/odi.org__en__press__new-report-offers-roadmap-for-sri-lankas-economic-revival.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 8255
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/aod-inspires-young-minds-to-explore-their-creativity-and-passion-for-design?srsltid=AfmBOopUtWlUA5vs2SnU2r6piT1ZHGDs_UDQP2zRQmpRFxVq92MOZW-M",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__aod-inspires-young-minds-to-explore-their-creativity-and-passion-for-design.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 3756
+    },
+    {
+      "url": "https://www.aod.lk/?srsltid=AfmBOooFvKa_htPWERh-cR3BPDZ6zYlTAH26hMTNKzl30neglq62_WZv",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk.md",
+      "categories": [
+        "Customer Reviews"
+      ],
+      "length": 2946
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/aod-bags-another-win-at-graduate-fashion-week-reestablishing-its-position-on-international-fashion-platforms",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__aod-bags-another-win-at-graduate-fashion-week-reestablishing-its-position-on-international-fashion-platforms.md",
+      "categories": [
+        "Achievements and Recognition",
+        "Awards and Certifications",
+        "Financial Performance",
+        "Case Studies"
+      ],
+      "length": 4904
+    },
+    {
+      "url": "https://www.aod.lk/?srsltid=AfmBOor4_uHbnCmuXeKQPd-LHsMve7lQt2gtHEcPNqe0WxX38t_npCeI",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 2946
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/aod-joins-hands-with-orit-apparels-lanka-to-launch-aspiring-young-designer-nishaka-hettiarachchi-into-global-spotlight",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__aod-joins-hands-with-orit-apparels-lanka-to-launch-aspiring-young-designer-nishaka-hettiarachchi-into-global-spotlight.md",
+      "categories": [
+        "Competitive Landscape",
+        "Partnerships",
+        "Awards and Certifications"
+      ],
+      "length": 6223
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news.md",
+      "categories": [
+        "Recent News and Updates"
+      ],
+      "length": 3393
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/aod-design-experience-day",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__aod-design-experience-day.md",
+      "categories": [
+        "Customer Base"
+      ],
+      "length": 6115
+    },
+    {
+      "url": "https://www.aod.lk/?srsltid=AfmBOoo2yRcyBmYI7sQjp35kkcNHPV_FJOI7ck8kOTKWFaro9XSpMV6u",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 2946
+    },
+    {
+      "url": "https://www.aod.lk/?srsltid=AfmBOopyd4O5IHREzViv5WAZgpuDk1Shk6cs4_INNCL5ieP41OiUK9nm",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 2946
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/aod-alumni-sahil-gunesekera-and-alaanah-sallay-merge-multidisciplinary-talent-to-win-big-at-state-literary-awards-2023",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__aod-alumni-sahil-gunesekera-and-alaanah-sallay-merge-multidisciplinary-talent-to-win-big-at-state-literary-awards-2023.md",
+      "categories": [
+        "Financial Performance"
+      ],
+      "length": 6144
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/aod-graduate-nawoda-bandara-wins-top-prize-at-graduate-fashion-week-international-in-dubai",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__aod-graduate-nawoda-bandara-wins-top-prize-at-graduate-fashion-week-international-in-dubai.md",
+      "categories": [
+        "Awards and Certifications"
+      ],
+      "length": 7507
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/academy-of-design-s-illustrious-fashion-design-alumni-inspire-creative-hopefuls-at-design-lokaya-open-house",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__academy-of-design-s-illustrious-fashion-design-alumni-inspire-creative-hopefuls-at-design-lokaya-open-house.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 6589
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/aod-leads-innovation-island-for-sri-lanka",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__aod-leads-innovation-island-for-sri-lanka.md",
+      "categories": [
+        "Company History",
+        "Competitive Landscape",
+        "Achievements and Recognition",
+        "Mission and Values",
+        "Partnerships",
+        "Future Plans"
+      ],
+      "length": 8683
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/aod-launches-graduate-school-of-design-in-partnership-with-de-montfort-university-uk",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__aod-launches-graduate-school-of-design-in-partnership-with-de-montfort-university-uk.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 7537
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/aod-presents-extraordinary-minds-a-one-of-a-kind-open-house-at-its-new-home-colombo-innovation-tower",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__aod-presents-extraordinary-minds-a-one-of-a-kind-open-house-at-its-new-home-colombo-innovation-tower.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 7951
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/aod-s-reveal-marks-a-new-chapter-for-design-in-sri-lanka",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__aod-s-reveal-marks-a-new-chapter-for-design-in-sri-lanka.md",
+      "categories": [
+        "Competitive Landscape",
+        "Case Studies"
+      ],
+      "length": 6420
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/aod-unlocks-opportunities-for-international-design-careers-through-long-standing-industry-and-academic-collaborations",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__aod-unlocks-opportunities-for-international-design-careers-through-long-standing-industry-and-academic-collaborations.md",
+      "categories": [
+        "Market Position",
+        "Achievements and Recognition",
+        "Company Size",
+        "Awards and Certifications"
+      ],
+      "length": 6701
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/aod-unveils-the-future",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__aod-unveils-the-future.md",
+      "categories": [
+        "Future Plans",
+        "Case Studies"
+      ],
+      "length": 9012
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/discovering-success-by-following-your-dreams?srsltid=AfmBOoo9HKp2Qcs0eCM5JCCLpflXAdtl_X3DfZp_pNtNPUaxcDfIAR8N",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__discovering-success-by-following-your-dreams.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 3664
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/powering-sri-lanka-s-creative-future",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__powering-sri-lanka-s-creative-future.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 4502
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/aod-unveils-the-future?srsltid=AfmBOoof_k5bQ0qNwptel4pXkZVLjJNO8cVJ9A76xqzY41kM_P02Jetn",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__aod-unveils-the-future.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 9012
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/aod-unveils-the-future?srsltid=AfmBOorMvKE-gs223uBcEdkxz9U98RFemYzL2J29MH2YrLqLcyktyzec",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__aod-unveils-the-future.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 9012
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/making-a-modern-style-statement-with-fashion?srsltid=AfmBOooxRzrsHl3SMT_KPd_qzI23x_eQo3pf3PFwGfSMuIfvVr0MWKj1",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__making-a-modern-style-statement-with-fashion.md",
+      "categories": [
+        "Customer Reviews"
+      ],
+      "length": 4415
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/learn-listen-recognize-opportunities-marketing-element-fashion-design?srsltid=AfmBOorU0qd4GGHkfG7h_RiyJbpdHYc5ExP1fT5-qgiuTHclUXVrg_9d",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__learn-listen-recognize-opportunities-marketing-element-fashion-design.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 4992
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/powering-sri-lanka-s-creative-future?srsltid=AfmBOoqCmJiH4ESZHaVcUrVsVzr5nM7lEXY_eW3mh5hHh1ZwrwEHtqd7",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__powering-sri-lanka-s-creative-future.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 4502
+    },
+    {
+      "url": "https://www.aod.lk/collections/tickets",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__collections__tickets.md",
+      "categories": [
+        "Products and Services",
+        "Pricing Information"
+      ],
+      "length": 1224
+    },
+    {
+      "url": "https://www.aod.lk/collections?srsltid=AfmBOopvwX3S7-x7KQ6gUBUM9MUZA-4_up3qpxdi4cIw-EDVkMbMldHY",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__collections.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 446
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/the-future-of-jobs-and-how-aod-is-preparing-its-future-graduates?srsltid=AfmBOoo9clegClya7Dv6bP-PJeYovbaLbNembvKnnjDgdQ5LBtx10-AZ",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__the-future-of-jobs-and-how-aod-is-preparing-its-future-graduates.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 7555
+    },
+    {
+      "url": "https://www.aod.lk/collections/tickets?srsltid=AfmBOoqTMF712mSpHMUMu7QFOO-vBDAdWevcFG4M0LDwDxPJ5_Q_DuWh",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__collections__tickets.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 1224
+    },
+    {
+      "url": "https://www.aod.lk/collections/all",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__collections__all.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 1404
+    },
+    {
+      "url": "https://www.aod.lk/pages/2025-aod-summer-camp-2025",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__2025-aod-summer-camp-2025.md",
+      "categories": [
+        "Recent News and Updates"
+      ],
+      "length": 1300
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news?srsltid=AfmBOopyz2mhgQvS3yma-oWDaF1imjncvCtYrvx3b3wPfrF8LCcIFb8z",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 3393
+    },
+    {
+      "url": "https://www.aod.lk/pages/about-aod-gs",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__about-aod-gs.md",
+      "categories": [
+        "Founders and Leadership",
+        "Market Position",
+        "Organizational Structure",
+        "Customer Base",
+        "Mission and Values",
+        "Future Plans",
+        "Financial Performance",
+        "Customer Reviews",
+        "Pricing Information",
+        "Contact Information"
+      ],
+      "length": 5274
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/sri-lankas-design-trailblazer-and-founder-of-aod-linda-speldewinde-featured-on-elle-denmark-asias-new-sustainable-influencer",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__sri-lankas-design-trailblazer-and-founder-of-aod-linda-speldewinde-featured-on-elle-denmark-asias-new-sustainable-influencer.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company History",
+        "Case Studies"
+      ],
+      "length": 12950
+    },
+    {
+      "url": "https://www.aod.lk/pages/about-aod-gs?srsltid=AfmBOooYJFLTfFcKgh35FWxSV0gJRZoSrD1xEwdfcSwHE305G_pKZ5jn",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__about-aod-gs.md",
+      "categories": [
+        "Financial Performance"
+      ],
+      "length": 5274
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/the-new-local-campaign-by-aod-building-future-game-changers-of-tomorrow",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__the-new-local-campaign-by-aod-building-future-game-changers-of-tomorrow.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 6343
+    },
+    {
+      "url": "https://www.aod.lk/pages/about-aod-gs?srsltid=AfmBOoon6n0eDNeoYm8iaNk1QDXZULcV_AQrP0JUPDonXRl2VgrwaFp4",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__about-aod-gs.md",
+      "categories": [
+        "Market Position"
+      ],
+      "length": 5274
+    },
+    {
+      "url": "https://www.aod.lk/pages/about-aod-gs?srsltid=AfmBOop0GgrNcYxXSA8rxX-2MGI6HSNBSB5yhLaKV4f6vDHs22SWLx7_",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__about-aod-gs.md",
+      "categories": [
+        "Customer Reviews"
+      ],
+      "length": 5274
+    },
+    {
+      "url": "https://www.aod.lk/pages/about-us",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__about-us.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company History",
+        "Organizational Structure",
+        "Achievements and Recognition",
+        "Customer Base",
+        "Mission and Values",
+        "Company Size",
+        "Awards and Certifications"
+      ],
+      "length": 2238
+    },
+    {
+      "url": "https://www.aod.lk/pages/admissions",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__admissions.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Pricing Information"
+      ],
+      "length": 1973
+    },
+    {
+      "url": "https://www.aod.lk/pages/admission-information?srsltid=AfmBOorGqSnd5DPTjz8IcFtY71VBlVjed40UON-NOXvKaBlDvvc4VMv3",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__admission-information.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 2866
+    },
+    {
+      "url": "https://www.aod.lk/pages/aod-careers",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__aod-careers.md",
+      "categories": [
+        "Organizational Structure",
+        "Technology Stack",
+        "Company Size"
+      ],
+      "length": 625
+    },
+    {
+      "url": "https://www.aod.lk/pages/admission-information",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__admission-information.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services",
+        "Market Position",
+        "Organizational Structure",
+        "Customer Base",
+        "Mission and Values",
+        "Awards and Certifications",
+        "Customer Reviews",
+        "Pricing Information",
+        "Contact Information"
+      ],
+      "length": 2866
+    },
+    {
+      "url": "https://www.aod.lk/pages/about-aod-gs?srsltid=AfmBOoqScVXuly3NOU5L93cHod60eIAnjzoNWqbp8WFUnTZGb2hw1YsR",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__about-aod-gs.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 5274
+    },
+    {
+      "url": "https://www.aod.lk/blogs/news/south-asian-apparel-leadership-forum-2017-unpacks-brilliant-business-intel-to-unlock-a-powerful-future-for-sri-lanka-apparel",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__blogs__news__south-asian-apparel-leadership-forum-2017-unpacks-brilliant-business-intel-to-unlock-a-powerful-future-for-sri-lanka-apparel.md",
+      "categories": [
+        "Financial Performance"
+      ],
+      "length": 20359
+    },
+    {
+      "url": "https://www.aod.lk/pages/admissions?srsltid=AfmBOoqC64-npMoMUg-MT5rK7iDUm2aBFevjBwPCllwOGzZhJaH3_Vb-",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__admissions.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 1973
+    },
+    {
+      "url": "https://www.aod.lk/pages/aod-de-montfort-university-uk",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__aod-de-montfort-university-uk.md",
+      "categories": [
+        "Founders and Leadership",
+        "Partnerships"
+      ],
+      "length": 1376
+    },
+    {
+      "url": "https://www.aod.lk/pages/aod-copenhagen-school-of-design-and-technology-kea-copenhagen-denmark",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__aod-copenhagen-school-of-design-and-technology-kea-copenhagen-denmark.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 1053
+    },
+    {
+      "url": "https://www.aod.lk/pages/aod-cce?srsltid=AfmBOoqqdGR1-GgQrZAnXRjoUkyTSpPZAK1mUHHXBGj7K9E3lXhU1uyd",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__aod-cce.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 2582
+    },
+    {
+      "url": "https://www.aod.lk/pages/aod-careers?srsltid=AfmBOoq5T4QRd2zpff3UAgmaXBfp2JtzLzTTwCIIyikiWX3d7dcuCHf7",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__aod-careers.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 625
+    },
+    {
+      "url": "https://www.aod.lk/pages/aod-osnabruck-university",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__aod-osnabruck-university.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 971
+    },
+    {
+      "url": "https://www.aod.lk/pages/aod-northumbria-a-powerful-partnership-for-design",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__aod-northumbria-a-powerful-partnership-for-design.md",
+      "categories": [
+        "Founders and Leadership",
+        "Partnerships"
+      ],
+      "length": 2279
+    },
+    {
+      "url": "https://www.aod.lk/pages/aod-northumbria-a-powerful-partnership-for-design-1",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__aod-northumbria-a-powerful-partnership-for-design-1.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 2507
+    },
+    {
+      "url": "https://www.aod.lk/pages/aodvirtual-learning",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__aodvirtual-learning.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services",
+        "Technology Stack"
+      ],
+      "length": 1223
+    },
+    {
+      "url": "https://www.aod.lk/pages/aod-presents-design-careers-week-2025",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__aod-presents-design-careers-week-2025.md",
+      "categories": [
+        "Recent News and Updates"
+      ],
+      "length": 1081
+    },
+    {
+      "url": "https://www.aod.lk/pages/building-and-facilities",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__building-and-facilities.md",
+      "categories": [
+        "Technology Stack"
+      ],
+      "length": 321
+    },
+    {
+      "url": "https://www.aod.lk/pages/career-resources",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__career-resources.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 1613
+    },
+    {
+      "url": "https://www.aod.lk/pages/campus",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__campus.md",
+      "categories": [
+        "Products and Services",
+        "Customer Base",
+        "Company Size"
+      ],
+      "length": 3005
+    },
+    {
+      "url": "https://www.aod.lk/pages/ba-hons-fashion-textile-design",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__ba-hons-fashion-textile-design.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services"
+      ],
+      "length": 3269
+    },
+    {
+      "url": "https://www.aod.lk/pages/browse-our-programs",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__browse-our-programs.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services"
+      ],
+      "length": 728
+    },
+    {
+      "url": "https://www.aod.lk/pages/browse-our-programs?srsltid=AfmBOoqmCG_bbfjwdby6fl6ACAt9TKZXM5m_NMMWC0k2Ripz0Mx7Fn4E",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__browse-our-programs.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 728
+    },
+    {
+      "url": "https://www.aod.lk/pages/contact",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__contact.md",
+      "categories": [
+        "Organizational Structure",
+        "Technology Stack",
+        "Company Size",
+        "Contact Information"
+      ],
+      "length": 619
+    },
+    {
+      "url": "https://www.aod.lk/pages/aod-faculty-1",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__aod-faculty-1.md",
+      "categories": [
+        "Organizational Structure"
+      ],
+      "length": 15005
+    },
+    {
+      "url": "https://www.aod.lk/pages/current-ma-programs",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__current-ma-programs.md",
+      "categories": [
+        "Technology Stack"
+      ],
+      "length": 369
+    },
+    {
+      "url": "https://www.aod.lk/pages/contact?srsltid=AfmBOoqsjifwYBs2bP3VQTm4dVB2-Epia0MwqYqQOF2_utRn_ViZmpjQ",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__contact.md",
+      "categories": [
+        "Customer Reviews"
+      ],
+      "length": 619
+    },
+    {
+      "url": "https://www.aod.lk/pages/contact?srsltid=AfmBOopva55z7lqGfTh43i8GicmOuZhQi9b7F7qt9yBFUCS4jc0tzTF4",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__contact.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 619
+    },
+    {
+      "url": "https://www.aod.lk/pages/aodxsldf2025",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__aodxsldf2025.md",
+      "categories": [
+        "Recent News and Updates"
+      ],
+      "length": 4317
+    },
+    {
+      "url": "https://www.aod.lk/pages/ba-hons-motion-graphics-and-animation-design",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__ba-hons-motion-graphics-and-animation-design.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services"
+      ],
+      "length": 3292
+    },
+    {
+      "url": "https://www.aod.lk/pages/design-around-colombo",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__design-around-colombo.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 1145
+    },
+    {
+      "url": "https://www.aod.lk/pages/aodxsldf2025?srsltid=AfmBOooWlEJYGDuvXCAM6a2oN73rkjtHj_DkVXH8zwSaGibgOFT7mYC9",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__aodxsldf2025.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 4317
+    },
+    {
+      "url": "https://www.aod.lk/pages/design-careers-week-2025",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__design-careers-week-2025.md",
+      "categories": [
+        "Recent News and Updates"
+      ],
+      "length": 687
+    },
+    {
+      "url": "https://www.aod.lk/pages/explore",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__explore.md",
+      "categories": [
+        "Organizational Structure",
+        "Company Size"
+      ],
+      "length": 6170
+    },
+    {
+      "url": "https://www.aod.lk/pages/enrollment-lead-management-executive",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__enrollment-lead-management-executive.md",
+      "categories": [
+        "Organizational Structure"
+      ],
+      "length": 321
+    },
+    {
+      "url": "https://www.aod.lk/pages/design-foundation",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__design-foundation.md",
+      "categories": [
+        "Mission and Values"
+      ],
+      "length": 3116
+    },
+    {
+      "url": "https://www.aod.lk/pages/design-foundation?srsltid=AfmBOorls3LPtKYDoC_mxJAioLzYDIOxuGtHF-l3pMnA7uMjeHP1ShNQ",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__design-foundation.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 3116
+    },
+    {
+      "url": "https://www.aod.lk/pages/fashion-market",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__fashion-market.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Competitive Landscape",
+        "Market Position",
+        "Customer Base",
+        "Mission and Values"
+      ],
+      "length": 1502
+    },
+    {
+      "url": "https://www.aod.lk/pages/explore?srsltid=AfmBOopVQJG-sj0QVWUj19MVMgnx_bwJy_6b_x2kelLBxMqQ5A1eEUo2",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__explore.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 6170
+    },
+    {
+      "url": "https://www.aod.lk/pages/fashion-market?srsltid=AfmBOorRCHbGRYK0mE9rh13sk72ZCcQ1n7FOmuYFQevGFT2YygV2iquS",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__fashion-market.md",
+      "categories": [
+        "Customer Reviews"
+      ],
+      "length": 1502
+    },
+    {
+      "url": "https://www.aod.lk/pages/full-time-programs?srsltid=AfmBOoq6UX-fw3uTlRcuXuUKfhZAtiA8GCXw7DiDh2wYuxjwGEp5aeAW",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__full-time-programs.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 559
+    },
+    {
+      "url": "https://www.aod.lk/pages/life-at-aod?srsltid=AfmBOoqwynEfhJD4gKvs_1YapWVrgbQ-SDDYr9FhvJLDs0dwPFY_UqD4",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__life-at-aod.md",
+      "categories": [
+        "Customer Reviews"
+      ],
+      "length": 298
+    },
+    {
+      "url": "https://www.aod.lk/pages/full-time-programs",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__full-time-programs.md",
+      "categories": [
+        "Business Model and Revenue"
+      ],
+      "length": 559
+    },
+    {
+      "url": "https://www.aod.lk/pages/location",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__location.md",
+      "categories": [
+        "Company History",
+        "Competitive Landscape",
+        "Market Position",
+        "Customer Base",
+        "Mission and Values",
+        "Technology Stack",
+        "Company Size",
+        "Awards and Certifications",
+        "Customer Reviews"
+      ],
+      "length": 1216
+    },
+    {
+      "url": "https://www.aod.lk/pages/industry-testimonials?srsltid=AfmBOopQUL0WzViF5EKd3XGsydJsoFMEmG_3zD3ftPDC8bwcrstffeEW",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__industry-testimonials.md",
+      "categories": [
+        "Customer Reviews"
+      ],
+      "length": 2135
+    },
+    {
+      "url": "https://www.aod.lk/pages/industry-testimonials?srsltid=AfmBOoqc4aSuWknA6Mx0CQnE0rAuNyXTb6HqUXHDkvlvJo26cENx7NdU",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__industry-testimonials.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 2135
+    },
+    {
+      "url": "https://www.aod.lk/pages/location?srsltid=AfmBOoqTumxfXcLnzb1TvZM9LfQO4OAXPBmLgEsO_ecIawD-Z2DvP6Tu",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__location.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 1216
+    },
+    {
+      "url": "https://www.aod.lk/pages/industry-testimonials",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__industry-testimonials.md",
+      "categories": [
+        "Competitive Landscape",
+        "Competitive Landscape",
+        "Market Position",
+        "Achievements and Recognition",
+        "Customer Base",
+        "Customer Reviews",
+        "Case Studies"
+      ],
+      "length": 2135
+    },
+    {
+      "url": "https://www.aod.lk/pages/news-and-press?srsltid=AfmBOooesl_seshbWMQD3tTFD5PQYaE7fXyj8AhOjMtCbAT2RGGNbmqA",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__news-and-press.md",
+      "categories": [
+        "Financial Performance"
+      ],
+      "length": 297
+    },
+    {
+      "url": "https://www.aod.lk/pages/news-and-press",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__news-and-press.md",
+      "categories": [
+        "Recent News and Updates",
+        "Financial Performance"
+      ],
+      "length": 297
+    },
+    {
+      "url": "https://www.aod.lk/pages/masters-programs",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__masters-programs.md",
+      "categories": [
+        "Business Model and Revenue"
+      ],
+      "length": 480
+    },
+    {
+      "url": "https://www.aod.lk/pages/ma-program",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__ma-program.md",
+      "categories": [
+        "Organizational Structure",
+        "Future Plans"
+      ],
+      "length": 1562
+    },
+    {
+      "url": "https://www.aod.lk/pages/programs",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__programs.md",
+      "categories": [
+        "Products and Services",
+        "Organizational Structure",
+        "Technology Stack"
+      ],
+      "length": 402
+    },
+    {
+      "url": "https://www.aod.lk/pages/request-information?srsltid=AfmBOoqMOCl-lejnFt2z0nRQ9WeOUOjb3hCdBvpLX4SUtudDIym9JDLN",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__request-information.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 777
+    },
+    {
+      "url": "https://www.glassdoor.co.in/Overview/Working-at-Academy-of-Design-Colombo-Pvt-Ltd-EI_IE1673419.11,44.htm",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.glassdoor.co.in__Overview__Working-at-Academy-of-Design-Colombo-Pvt-Ltd-EI_IE1673419.11,44.htm.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 2088
+    },
+    {
+      "url": "https://www.glassdoor.com/Reviews/AOD-International-Design-Campus-Reviews-E1673419.htm",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.glassdoor.com__Reviews__AOD-International-Design-Campus-Reviews-E1673419.htm.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 2769
+    },
+    {
+      "url": "https://www.aod.lk/pages/students-experience",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__students-experience.md",
+      "categories": [
+        "Market Position",
+        "Achievements and Recognition",
+        "Customer Base",
+        "Customer Reviews",
+        "Case Studies"
+      ],
+      "length": 7520
+    },
+    {
+      "url": "https://www.aod.lk/pages/students-experience?srsltid=AfmBOopQnR6dqjh4fWgI7LxIxdfJElVjRZm5Ph7YqWrp-xkQWU4Kq0MX",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__students-experience.md",
+      "categories": [
+        "Customer Reviews"
+      ],
+      "length": 7520
+    },
+    {
+      "url": "https://www.aod.lk/pages/students-experience?srsltid=AfmBOor-0WlQiJAXVs8IPFOP58e2ze1oCEFzADtQT3y3E2NNFOPdZeRX",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__students-experience.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 7520
+    },
+    {
+      "url": "https://www.glassdoor.com/Reviews/AODocs-Reviews-E1368811.htm",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.glassdoor.com__Reviews__AODocs-Reviews-E1368811.htm.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 2744
+    },
+    {
+      "url": "https://www.aod.lk/products/international-delegate-pass-package-plus",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__products__international-delegate-pass-package-plus.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 1685
+    },
+    {
+      "url": "https://www.aod.lk/products/international-delegate-pass-package-plus?srsltid=AfmBOopSUFaw5Zbfe2Ttb5RX3C0XDvtfSCBxQHndpih8nvDJ5HrNZSLO",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__products__international-delegate-pass-package-plus.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 1685
+    },
+    {
+      "url": "https://www.aod.lk/pages/tell-me-more-about-aod",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__tell-me-more-about-aod.md",
+      "categories": [
+        "Company History",
+        "Achievements and Recognition",
+        "Mission and Values",
+        "Company Size",
+        "Awards and Certifications"
+      ],
+      "length": 2708
+    },
+    {
+      "url": "https://www.aod.lk/pages/summer-camp",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__summer-camp.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 3789
+    },
+    {
+      "url": "https://www.ips.lk/wp-content/uploads/2017/07/Why-People-Choose.pdf",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.ips.lk__wp-content__uploads__2017__07__Why-People-Choose.pdf.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://www.researchgate.net/publication/220704279_Aspect-Oriented_Design_AOD_Technique_for_Developing_Distributed_Object-Oriented_Systems_over_the_Internet",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.researchgate.net__publication__220704279_Aspect-Oriented_Design_AOD_Technique_for_Developing_Distributed_Object-Oriented_Systems_over_the_Internet.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 274
+    },
+    {
+      "url": "https://www.aod.lk/pages/sustainable-fashion-supply-chain-management-programme",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.aod.lk__pages__sustainable-fashion-supply-chain-management-programme.md",
+      "categories": [
+        "Organizational Structure",
+        "Mission and Values"
+      ],
+      "length": 7201
+    },
+    {
+      "url": "https://www.indeed.com/cmp/Aod/reviews?ftopic=culture",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.indeed.com__cmp__Aod__reviews.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 2822
+    },
+    {
+      "url": "https://www.satl.biz/",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.satl.biz.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 1103
+    },
+    {
+      "url": "https://www.indeed.com/cmp/Aod/reviews?ftopic=mgmt",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.indeed.com__cmp__Aod__reviews.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 3222
+    },
+    {
+      "url": "https://www.sundaytimes.lk/101003/Education/ed09.html",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.sundaytimes.lk__101003__Education__ed09.html.md",
+      "categories": [
+        "Company Size"
+      ],
+      "length": 4216
+    },
+    {
+      "url": "https://www.sundaytimes.lk/231119/education/how-to-impress-at-your-personal-appraisal-538663.html",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.sundaytimes.lk__231119__education__how-to-impress-at-your-personal-appraisal-538663.html.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 10111
+    },
+    {
+      "url": "https://www.srilankadesignfestival.lk/post/aod-and-cinnamon-life-unite-for-what-s-your-colombo",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.srilankadesignfestival.lk__post__aod-and-cinnamon-life-unite-for-what-s-your-colombo.md",
+      "categories": [
+        "Company History",
+        "Partnerships"
+      ],
+      "length": 6468
+    },
+    {
+      "url": "https://www.sundaytimes.lk/190908/education/new-ceo-on-a-mission-to-establish-aod-as-south-asias-leader-in-design-education-367205.html",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.sundaytimes.lk__190908__education__new-ceo-on-a-mission-to-establish-aod-as-south-asias-leader-in-design-education-367205.html.md",
+      "categories": [
+        "Founders and Leadership"
+      ],
+      "length": 15651
+    },
+    {
+      "url": "https://www.just-style.com/news/srilanka-apparel-export-2024",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.just-style.com__news__srilanka-apparel-export-2024.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 10164
+    },
+    {
+      "url": "https://www.indeed.com/cmp/Aod/reviews",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.indeed.com__cmp__Aod__reviews.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 5665
+    },
+    {
+      "url": "https://www.srilankadesignfestival.lk",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.srilankadesignfestival.lk.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 2143
+    },
+    {
+      "url": "https://www.indeed.com/cmp/Aod/reviews?fcountry=ALL",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.indeed.com__cmp__Aod__reviews.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 8502
+    },
+    {
+      "url": "https://www.studyway.lk/aod",
+      "filepath": "results/aod_south_asia_pvt_ltd/crawled/www.studyway.lk__aod.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 3470
+    }
+  ],
+  "url_to_categories": {
+    "https://www.aod.lk/pages/about-us": [
+      "Founders and Leadership",
+      "Company History",
+      "Organizational Structure",
+      "Achievements and Recognition",
+      "Customer Base",
+      "Mission and Values",
+      "Company Size",
+      "Awards and Certifications"
+    ],
+    "https://www.aod.lk/blogs/news/sri-lankas-design-trailblazer-and-founder-of-aod-linda-speldewinde-featured-on-elle-denmark-asias-new-sustainable-influencer": [
+      "Founders and Leadership",
+      "Company History",
+      "Case Studies"
+    ],
+    "https://www.sundaytimes.lk/190908/education/new-ceo-on-a-mission-to-establish-aod-as-south-asias-leader-in-design-education-367205.html": [
+      "Founders and Leadership"
+    ],
+    "https://www.aod.lk/pages/about-aod-gs": [
+      "Founders and Leadership",
+      "Market Position",
+      "Organizational Structure",
+      "Customer Base",
+      "Mission and Values",
+      "Future Plans",
+      "Financial Performance",
+      "Customer Reviews",
+      "Pricing Information",
+      "Contact Information"
+    ],
+    "https://www.aod.lk/pages/aod-northumbria-a-powerful-partnership-for-design": [
+      "Founders and Leadership",
+      "Partnerships"
+    ],
+    "https://www.aod.lk/pages/aod-de-montfort-university-uk": [
+      "Founders and Leadership",
+      "Partnerships"
+    ],
+    "https://www.aod.lk/pages/admission-information": [
+      "Business Model and Revenue",
+      "Products and Services",
+      "Market Position",
+      "Organizational Structure",
+      "Customer Base",
+      "Mission and Values",
+      "Awards and Certifications",
+      "Customer Reviews",
+      "Pricing Information",
+      "Contact Information"
+    ],
+    "https://www.aod.lk/pages/admissions": [
+      "Business Model and Revenue",
+      "Pricing Information"
+    ],
+    "https://www.aod.lk/pages/fashion-market": [
+      "Business Model and Revenue",
+      "Competitive Landscape",
+      "Market Position",
+      "Customer Base",
+      "Mission and Values"
+    ],
+    "https://www.aod.lk/pages/full-time-programs": [
+      "Business Model and Revenue"
+    ],
+    "https://www.aod.lk/pages/masters-programs": [
+      "Business Model and Revenue"
+    ],
+    "https://www.aod.lk/pages/browse-our-programs": [
+      "Business Model and Revenue",
+      "Products and Services"
+    ],
+    "https://www.aod.lk/pages/ba-hons-fashion-textile-design": [
+      "Business Model and Revenue",
+      "Products and Services"
+    ],
+    "https://www.aod.lk/pages/ba-hons-motion-graphics-and-animation-design": [
+      "Business Model and Revenue",
+      "Products and Services"
+    ],
+    "https://www.aod.lk/pages/aodvirtual-learning": [
+      "Business Model and Revenue",
+      "Products and Services",
+      "Technology Stack"
+    ],
+    "https://www.aod.lk/pages/programs": [
+      "Products and Services",
+      "Organizational Structure",
+      "Technology Stack"
+    ],
+    "https://www.aod.lk/collections/all": [
+      "Products and Services"
+    ],
+    "https://www.aod.lk/collections/tickets": [
+      "Products and Services",
+      "Pricing Information"
+    ],
+    "https://www.aod.lk/pages/campus": [
+      "Products and Services",
+      "Customer Base",
+      "Company Size"
+    ],
+    "https://www.aod.lk/blogs/news/aod-leads-innovation-island-for-sri-lanka": [
+      "Company History",
+      "Competitive Landscape",
+      "Achievements and Recognition",
+      "Mission and Values",
+      "Partnerships",
+      "Future Plans"
+    ],
+    "https://www.srilankadesignfestival.lk/post/aod-and-cinnamon-life-unite-for-what-s-your-colombo": [
+      "Company History",
+      "Partnerships"
+    ],
+    "https://www.aod.lk/pages/location": [
+      "Company History",
+      "Competitive Landscape",
+      "Market Position",
+      "Customer Base",
+      "Mission and Values",
+      "Technology Stack",
+      "Company Size",
+      "Awards and Certifications",
+      "Customer Reviews"
+    ],
+    "https://www.aod.lk/pages/tell-me-more-about-aod": [
+      "Company History",
+      "Achievements and Recognition",
+      "Mission and Values",
+      "Company Size",
+      "Awards and Certifications"
+    ],
+    "http://www.sundaytimes.lk/190908/education/new-ceo-on-a-mission-to-establish-aod-as-south-asias-leader-in-design-education-367205.html": [
+      "Company History"
+    ],
+    "https://www.aod.lk/": [
+      "Competitive Landscape",
+      "Pricing Information",
+      "Contact Information"
+    ],
+    "https://www.aod.lk/pages/industry-testimonials": [
+      "Competitive Landscape",
+      "Competitive Landscape",
+      "Market Position",
+      "Achievements and Recognition",
+      "Customer Base",
+      "Customer Reviews",
+      "Case Studies"
+    ],
+    "https://www.aod.lk/blogs/news/aod-joins-hands-with-orit-apparels-lanka-to-launch-aspiring-young-designer-nishaka-hettiarachchi-into-global-spotlight": [
+      "Competitive Landscape",
+      "Partnerships",
+      "Awards and Certifications"
+    ],
+    "https://www.aod.lk/blogs/news/aod-s-reveal-marks-a-new-chapter-for-design-in-sri-lanka": [
+      "Competitive Landscape",
+      "Case Studies"
+    ],
+    "https://www.srilankadesignfestival.lk": [
+      "Competitive Landscape"
+    ],
+    "https://www.aod.lk/blogs/news/aod-unlocks-opportunities-for-international-design-careers-through-long-standing-industry-and-academic-collaborations": [
+      "Market Position",
+      "Achievements and Recognition",
+      "Company Size",
+      "Awards and Certifications"
+    ],
+    "https://www.aod.lk/pages/students-experience": [
+      "Market Position",
+      "Achievements and Recognition",
+      "Customer Base",
+      "Customer Reviews",
+      "Case Studies"
+    ],
+    "https://www.aod.lk/pages/about-aod-gs?srsltid=AfmBOoon6n0eDNeoYm8iaNk1QDXZULcV_AQrP0JUPDonXRl2VgrwaFp4": [
+      "Market Position"
+    ],
+    "https://www.aod.lk/pages/news-and-press": [
+      "Recent News and Updates",
+      "Financial Performance"
+    ],
+    "https://www.aod.lk/blogs/news": [
+      "Recent News and Updates"
+    ],
+    "https://www.aod.lk/pages/aodxsldf2025": [
+      "Recent News and Updates"
+    ],
+    "https://www.aod.lk/pages/2025-aod-summer-camp-2025": [
+      "Recent News and Updates"
+    ],
+    "https://edu.dailymirror.lk/articles/news/1910/AOD-Lights-Up-Colombo-with-Creativity-Hosting-Sri-Lanka-Design-Festival-2025": [
+      "Recent News and Updates"
+    ],
+    "https://www.aod.lk/pages/aod-presents-design-careers-week-2025": [
+      "Recent News and Updates"
+    ],
+    "https://www.aod.lk/pages/design-careers-week-2025": [
+      "Recent News and Updates"
+    ],
+    "https://www.aod.lk/pages/aod-faculty-1": [
+      "Organizational Structure"
+    ],
+    "https://www.aod.lk/pages/aod-careers": [
+      "Organizational Structure",
+      "Technology Stack",
+      "Company Size"
+    ],
+    "https://www.aod.lk/pages/explore": [
+      "Organizational Structure",
+      "Company Size"
+    ],
+    "https://www.aod.lk/pages/contact": [
+      "Organizational Structure",
+      "Technology Stack",
+      "Company Size",
+      "Contact Information"
+    ],
+    "https://www.aod.lk/pages/enrollment-lead-management-executive": [
+      "Organizational Structure"
+    ],
+    "https://www.aod.lk/pages/sustainable-fashion-supply-chain-management-programme": [
+      "Organizational Structure",
+      "Mission and Values"
+    ],
+    "https://www.aod.lk/pages/ma-program": [
+      "Organizational Structure",
+      "Future Plans"
+    ],
+    "https://www.aod.lk/blogs/news/aod-bags-another-win-at-graduate-fashion-week-reestablishing-its-position-on-international-fashion-platforms": [
+      "Achievements and Recognition",
+      "Awards and Certifications",
+      "Financial Performance",
+      "Case Studies"
+    ],
+    "https://www.aod.lk/blogs/news/aod-design-experience-day": [
+      "Customer Base"
+    ],
+    "https://www.aod.lk/pages/design-foundation": [
+      "Mission and Values"
+    ],
+    "https://www.aod.lk/pages/building-and-facilities": [
+      "Technology Stack"
+    ],
+    "https://www.aod.lk/pages/current-ma-programs": [
+      "Technology Stack"
+    ],
+    "https://www.aod.lk/pages/aod-osnabruck-university": [
+      "Partnerships"
+    ],
+    "https://www.aod.lk/pages/aod-copenhagen-school-of-design-and-technology-kea-copenhagen-denmark": [
+      "Partnerships"
+    ],
+    "https://www.aod.lk/pages/aod-northumbria-a-powerful-partnership-for-design-1": [
+      "Partnerships"
+    ],
+    "https://www.aod.lk/blogs/news/aod-launches-graduate-school-of-design-in-partnership-with-de-montfort-university-uk": [
+      "Partnerships"
+    ],
+    "https://rocketreach.co/aod-management_b5e1d85ff42e7428": [
+      "Company Size"
+    ],
+    "https://www.sundaytimes.lk/101003/Education/ed09.html": [
+      "Company Size"
+    ],
+    "https://www.aod.lk/blogs/news/aod-unveils-the-future": [
+      "Future Plans",
+      "Case Studies"
+    ],
+    "https://www.aod.lk/blogs/news/powering-sri-lanka-s-creative-future": [
+      "Future Plans"
+    ],
+    "https://www.aod.lk/blogs/news/the-new-local-campaign-by-aod-building-future-game-changers-of-tomorrow": [
+      "Future Plans"
+    ],
+    "https://www.aod.lk/blogs/news/powering-sri-lanka-s-creative-future?srsltid=AfmBOoqCmJiH4ESZHaVcUrVsVzr5nM7lEXY_eW3mh5hHh1ZwrwEHtqd7": [
+      "Future Plans"
+    ],
+    "https://www.just-style.com/news/srilanka-apparel-export-2024": [
+      "Future Plans"
+    ],
+    "https://odi.org/en/press/new-report-offers-roadmap-for-sri-lankas-economic-revival": [
+      "Future Plans"
+    ],
+    "https://www.aod.lk/blogs/news/aod-graduate-nawoda-bandara-wins-top-prize-at-graduate-fashion-week-international-in-dubai": [
+      "Awards and Certifications"
+    ],
+    "https://rocketreach.co/aod-profile_b5e1d85ff42e7428": [
+      "Financial Performance"
+    ],
+    "https://www.aod.lk/blogs/news/south-asian-apparel-leadership-forum-2017-unpacks-brilliant-business-intel-to-unlock-a-powerful-future-for-sri-lanka-apparel": [
+      "Financial Performance"
+    ],
+    "https://www.aod.lk/blogs/news/aod-alumni-sahil-gunesekera-and-alaanah-sallay-merge-multidisciplinary-talent-to-win-big-at-state-literary-awards-2023": [
+      "Financial Performance"
+    ],
+    "https://www.aod.lk/pages/about-aod-gs?srsltid=AfmBOooYJFLTfFcKgh35FWxSV0gJRZoSrD1xEwdfcSwHE305G_pKZ5jn": [
+      "Financial Performance"
+    ],
+    "https://www.aod.lk/pages/news-and-press?srsltid=AfmBOooesl_seshbWMQD3tTFD5PQYaE7fXyj8AhOjMtCbAT2RGGNbmqA": [
+      "Financial Performance"
+    ],
+    "https://www.aod.lk/?srsltid=AfmBOor4_uHbnCmuXeKQPd-LHsMve7lQt2gtHEcPNqe0WxX38t_npCeI": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.aod.lk/blogs/news/learn-listen-recognize-opportunities-marketing-element-fashion-design?srsltid=AfmBOorU0qd4GGHkfG7h_RiyJbpdHYc5ExP1fT5-qgiuTHclUXVrg_9d": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.aod.lk/blogs/news?srsltid=AfmBOopyz2mhgQvS3yma-oWDaF1imjncvCtYrvx3b3wPfrF8LCcIFb8z": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.aod.lk/blogs/news/aod-inspires-young-minds-to-explore-their-creativity-and-passion-for-design?srsltid=AfmBOopUtWlUA5vs2SnU2r6piT1ZHGDs_UDQP2zRQmpRFxVq92MOZW-M": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.aod.lk/pages/about-aod-gs?srsltid=AfmBOoqScVXuly3NOU5L93cHod60eIAnjzoNWqbp8WFUnTZGb2hw1YsR": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.aod.lk/pages/aodxsldf2025?srsltid=AfmBOooWlEJYGDuvXCAM6a2oN73rkjtHj_DkVXH8zwSaGibgOFT7mYC9": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.aod.lk/blogs/news/aod-unveils-the-future?srsltid=AfmBOorMvKE-gs223uBcEdkxz9U98RFemYzL2J29MH2YrLqLcyktyzec": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.aod.lk/blogs/news/the-future-of-jobs-and-how-aod-is-preparing-its-future-graduates?srsltid=AfmBOoo9clegClya7Dv6bP-PJeYovbaLbNembvKnnjDgdQ5LBtx10-AZ": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.aod.lk/pages/aod-cce?srsltid=AfmBOoqqdGR1-GgQrZAnXRjoUkyTSpPZAK1mUHHXBGj7K9E3lXhU1uyd": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.glassdoor.co.in/Overview/Working-at-Academy-of-Design-Colombo-Pvt-Ltd-EI_IE1673419.11,44.htm": [
+      "Company Culture"
+    ],
+    "https://www.indeed.com/cmp/Aod/reviews": [
+      "Company Culture"
+    ],
+    "https://www.glassdoor.com/Reviews/AOD-International-Design-Campus-Reviews-E1673419.htm": [
+      "Company Culture"
+    ],
+    "https://www.glassdoor.com/Reviews/AODocs-Reviews-E1368811.htm": [
+      "Company Culture"
+    ],
+    "https://www.indeed.com/cmp/Aod/reviews?fcountry=ALL": [
+      "Company Culture"
+    ],
+    "https://www.aod.lk/pages/aod-careers?srsltid=AfmBOoq5T4QRd2zpff3UAgmaXBfp2JtzLzTTwCIIyikiWX3d7dcuCHf7": [
+      "Company Culture"
+    ],
+    "https://www.indeed.com/cmp/Aod/reviews?ftopic=mgmt": [
+      "Company Culture"
+    ],
+    "https://science.cmb.ac.lk/icmas2021/wp-content/uploads/2021/12/Conference-Proceedings-ICMAS-2021.pdf": [
+      "Company Culture"
+    ],
+    "https://www.sundaytimes.lk/231119/education/how-to-impress-at-your-personal-appraisal-538663.html": [
+      "Company Culture"
+    ],
+    "https://www.indeed.com/cmp/Aod/reviews?ftopic=culture": [
+      "Company Culture"
+    ],
+    "https://www.ips.lk/wp-content/uploads/2017/07/Why-People-Choose.pdf": [
+      "Company Culture"
+    ],
+    "https://www.aod.lk/pages/industry-testimonials?srsltid=AfmBOopQUL0WzViF5EKd3XGsydJsoFMEmG_3zD3ftPDC8bwcrstffeEW": [
+      "Customer Reviews"
+    ],
+    "https://www.aod.lk/?srsltid=AfmBOooFvKa_htPWERh-cR3BPDZ6zYlTAH26hMTNKzl30neglq62_WZv": [
+      "Customer Reviews"
+    ],
+    "https://www.aod.lk/pages/students-experience?srsltid=AfmBOopQnR6dqjh4fWgI7LxIxdfJElVjRZm5Ph7YqWrp-xkQWU4Kq0MX": [
+      "Customer Reviews"
+    ],
+    "https://www.aod.lk/blogs/news/making-a-modern-style-statement-with-fashion?srsltid=AfmBOooxRzrsHl3SMT_KPd_qzI23x_eQo3pf3PFwGfSMuIfvVr0MWKj1": [
+      "Customer Reviews"
+    ],
+    "https://www.aod.lk/pages/about-aod-gs?srsltid=AfmBOop0GgrNcYxXSA8rxX-2MGI6HSNBSB5yhLaKV4f6vDHs22SWLx7_": [
+      "Customer Reviews"
+    ],
+    "https://www.aod.lk/pages/life-at-aod?srsltid=AfmBOoqwynEfhJD4gKvs_1YapWVrgbQ-SDDYr9FhvJLDs0dwPFY_UqD4": [
+      "Customer Reviews"
+    ],
+    "https://www.aod.lk/pages/contact?srsltid=AfmBOoqsjifwYBs2bP3VQTm4dVB2-Epia0MwqYqQOF2_utRn_ViZmpjQ": [
+      "Customer Reviews"
+    ],
+    "https://www.aod.lk/pages/fashion-market?srsltid=AfmBOorRCHbGRYK0mE9rh13sk72ZCcQ1n7FOmuYFQevGFT2YygV2iquS": [
+      "Customer Reviews"
+    ],
+    "https://www.aod.lk/pages/industry-testimonials?srsltid=AfmBOoqc4aSuWknA6Mx0CQnE0rAuNyXTb6HqUXHDkvlvJo26cENx7NdU": [
+      "Case Studies"
+    ],
+    "https://www.aod.lk/blogs/news/academy-of-design-s-illustrious-fashion-design-alumni-inspire-creative-hopefuls-at-design-lokaya-open-house": [
+      "Case Studies"
+    ],
+    "https://www.aod.lk/pages/summer-camp": [
+      "Case Studies"
+    ],
+    "https://www.aod.lk/pages/career-resources": [
+      "Case Studies"
+    ],
+    "https://www.aod.lk/blogs/news/aod-presents-extraordinary-minds-a-one-of-a-kind-open-house-at-its-new-home-colombo-innovation-tower": [
+      "Case Studies"
+    ],
+    "https://www.aod.lk/pages/design-around-colombo": [
+      "Case Studies"
+    ],
+    "https://www.aod.lk/pages/students-experience?srsltid=AfmBOor-0WlQiJAXVs8IPFOP58e2ze1oCEFzADtQT3y3E2NNFOPdZeRX": [
+      "Case Studies"
+    ],
+    "https://www.aod.lk/blogs/news/aod-unveils-the-future?srsltid=AfmBOoof_k5bQ0qNwptel4pXkZVLjJNO8cVJ9A76xqzY41kM_P02Jetn": [
+      "Case Studies"
+    ],
+    "https://www.aod.lk/blogs/news/discovering-success-by-following-your-dreams?srsltid=AfmBOoo9HKp2Qcs0eCM5JCCLpflXAdtl_X3DfZp_pNtNPUaxcDfIAR8N": [
+      "Case Studies"
+    ],
+    "https://www.aod.lk/collections/tickets?srsltid=AfmBOoqTMF712mSpHMUMu7QFOO-vBDAdWevcFG4M0LDwDxPJ5_Q_DuWh": [
+      "Pricing Information"
+    ],
+    "https://www.aod.lk/products/international-delegate-pass-package-plus": [
+      "Pricing Information"
+    ],
+    "https://www.aod.lk/?srsltid=AfmBOopyd4O5IHREzViv5WAZgpuDk1Shk6cs4_INNCL5ieP41OiUK9nm": [
+      "Pricing Information"
+    ],
+    "https://www.aod.lk/products/international-delegate-pass-package-plus?srsltid=AfmBOopSUFaw5Zbfe2Ttb5RX3C0XDvtfSCBxQHndpih8nvDJ5HrNZSLO": [
+      "Pricing Information"
+    ],
+    "https://www.aod.lk/pages/admissions?srsltid=AfmBOoqC64-npMoMUg-MT5rK7iDUm2aBFevjBwPCllwOGzZhJaH3_Vb-": [
+      "Pricing Information"
+    ],
+    "https://www.aod.lk/pages/full-time-programs?srsltid=AfmBOoq6UX-fw3uTlRcuXuUKfhZAtiA8GCXw7DiDh2wYuxjwGEp5aeAW": [
+      "Pricing Information"
+    ],
+    "https://www.aod.lk/pages/browse-our-programs?srsltid=AfmBOoqmCG_bbfjwdby6fl6ACAt9TKZXM5m_NMMWC0k2Ripz0Mx7Fn4E": [
+      "Pricing Information"
+    ],
+    "https://www.studyway.lk/aod": [
+      "Pricing Information"
+    ],
+    "https://www.researchgate.net/publication/220704279_Aspect-Oriented_Design_AOD_Technique_for_Developing_Distributed_Object-Oriented_Systems_over_the_Internet": [
+      "Pricing Information"
+    ],
+    "https://www.aod.lk/collections?srsltid=AfmBOopvwX3S7-x7KQ6gUBUM9MUZA-4_up3qpxdi4cIw-EDVkMbMldHY": [
+      "Pricing Information"
+    ],
+    "https://www.aod.lk/pages/admission-information?srsltid=AfmBOorGqSnd5DPTjz8IcFtY71VBlVjed40UON-NOXvKaBlDvvc4VMv3": [
+      "Pricing Information"
+    ],
+    "https://www.aod.lk/pages/design-foundation?srsltid=AfmBOorls3LPtKYDoC_mxJAioLzYDIOxuGtHF-l3pMnA7uMjeHP1ShNQ": [
+      "Pricing Information"
+    ],
+    "https://www.aod.lk/pages/contact?srsltid=AfmBOopva55z7lqGfTh43i8GicmOuZhQi9b7F7qt9yBFUCS4jc0tzTF4": [
+      "Contact Information"
+    ],
+    "https://www.aod.lk/?srsltid=AfmBOoo2yRcyBmYI7sQjp35kkcNHPV_FJOI7ck8kOTKWFaro9XSpMV6u": [
+      "Contact Information"
+    ],
+    "https://www.aod.lk/pages/request-information?srsltid=AfmBOoqMOCl-lejnFt2z0nRQ9WeOUOjb3hCdBvpLX4SUtudDIym9JDLN": [
+      "Contact Information"
+    ],
+    "https://www.aod.lk/pages/location?srsltid=AfmBOoqTumxfXcLnzb1TvZM9LfQO4OAXPBmLgEsO_ecIawD-Z2DvP6Tu": [
+      "Contact Information"
+    ],
+    "https://rainbowpages.lk/other/unclassified/aod-colombo-pvt-ltd": [
+      "Contact Information"
+    ],
+    "https://www.aod.lk/pages/explore?srsltid=AfmBOopVQJG-sj0QVWUj19MVMgnx_bwJy_6b_x2kelLBxMqQ5A1eEUo2": [
+      "Contact Information"
+    ],
+    "https://www.satl.biz/": [
+      "Contact Information"
+    ]
+  }
+}

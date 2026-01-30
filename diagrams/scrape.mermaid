@@ -1,0 +1,40 @@
+flowchart TD
+    Start([Start: Company Research]) --> Input[/Input: Company Name, Base URL, Location/]
+    
+    Input --> Crawl[Crawl Base Website]
+    Crawl --> Google[Sequential Google Searches]
+    
+    Google --> Q1[Query: Founders & Leadership]
+    Q1 --> Q2[Query: Business Model]
+    Q2 --> Qn[Query: ... More Categories]
+    
+    Qn --> AISelect[AI Selects Best URLs per Category]
+    AISelect --> SaveLinks[Save links.json]
+    
+    SaveLinks --> ParallelScrape{Parallel Web Scraping}
+    
+    ParallelScrape --> |Thread 1| Scrape1[Scrape URL 1]
+    ParallelScrape --> |Thread 2| Scrape2[Scrape URL 2]
+    ParallelScrape --> |Thread 3| Scrape3[Scrape URL 3]
+    ParallelScrape --> |Thread N| ScrapeN[Scrape URL N]
+    
+    Scrape1 & Scrape2 & Scrape3 & ScrapeN --> SaveCrawled[Save Markdown Files + metadata.json]
+    
+    SaveCrawled --> Group[Group Content by Category]
+    
+    Group --> ParallelSummarize{Parallel AI Summarization}
+    
+    ParallelSummarize --> |Task 1| Sum1[Summarize Category 1]
+    ParallelSummarize --> |Task 2| Sum2[Summarize Category 2]
+    ParallelSummarize --> |Task 3| Sum3[Summarize Category 3]
+    ParallelSummarize --> |Task N| SumN[Summarize Category N]
+    
+    Sum1 & Sum2 & Sum3 & SumN --> Collect[Collect All Summaries]
+    
+    Collect --> FinalReport[AI Generates Final Polished Report]
+    
+    FinalReport --> AddSources[Add Sources to Reports]
+    
+    AddSources --> SaveReports[Save summary_report.md & detailed_report.md]
+    
+    SaveReports --> End([End: Reports Generated])

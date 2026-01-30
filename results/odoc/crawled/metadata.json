@@ -1,0 +1,1113 @@
+{
+  "company_name": "oDoc",
+  "base_url": "https://odoc.life/",
+  "location": "Sri Lanka",
+  "stats": {
+    "total_scraped": 82,
+    "total_failed": 11,
+    "total_chars": 731738
+  },
+  "scraped_urls": [
+    {
+      "url": "https://apps.apple.com/lk/app/odoc-video-consultations/id1263423673",
+      "filepath": "results/odoc/crawled/apps.apple.com__lk__app__odoc-video-consultations__id1263423673.md",
+      "categories": [
+        "Customer Reviews"
+      ],
+      "length": 18656
+    },
+    {
+      "url": "https://tracxn.com/d/explore/healthtech-startups-in-sri-lanka/__VvLb4VH7mW8weUf_sD8fa80pxSLPQrBFNSJ8ysZlXZY/companies",
+      "filepath": "results/odoc/crawled/tracxn.com__d__explore__healthtech-startups-in-sri-lanka____VvLb4VH7mW8weUf_sD8fa80pxSLPQrBFNSJ8ysZlXZY__companies.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 3963
+    },
+    {
+      "url": "https://tracxn.com/d/explore/telemedicine-startups-in-sri-lanka/__3DE0rwAh0zzgfNFgD2zBu3ZKmgGRk3PaohD5ykStgV8/companies",
+      "filepath": "results/odoc/crawled/tracxn.com__d__explore__telemedicine-startups-in-sri-lanka____3DE0rwAh0zzgfNFgD2zBu3ZKmgGRk3PaohD5ykStgV8__companies.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 3462
+    },
+    {
+      "url": "https://tracxn.com/d/companies/odoc/__VCRNYT25y628X_-opChsf0kNTQgFY9Q4AC97rTresmg",
+      "filepath": "results/odoc/crawled/tracxn.com__d__companies__odoc____VCRNYT25y628X_-opChsf0kNTQgFY9Q4AC97rTresmg.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 8376
+    },
+    {
+      "url": "https://healthtechalpha.com/venture/odoc/comparison",
+      "filepath": "results/odoc/crawled/healthtechalpha.com__venture__odoc__comparison.md",
+      "categories": [
+        "Business Model and Revenue"
+      ],
+      "length": 3595
+    },
+    {
+      "url": "https://oncedaily.co/odoc-a-telemedicine-disruptor-in-sri-lanka",
+      "filepath": "results/odoc/crawled/oncedaily.co__odoc-a-telemedicine-disruptor-in-sri-lanka.md",
+      "categories": [
+        "Technology Stack"
+      ],
+      "length": 3077
+    },
+    {
+      "url": "https://economynext.com/brand_voice/odoc-better-healthcare-for-all-is-now-a-reality",
+      "filepath": "results/odoc/crawled/economynext.com__brand_voice__odoc-better-healthcare-for-all-is-now-a-reality.md",
+      "categories": [
+        "Competitive Landscape",
+        "Customer Base"
+      ],
+      "length": 11352
+    },
+    {
+      "url": "https://apps.apple.com/lk/app/odoc-video-consultations/id1263423673?platform=iphone&see-all=reviews",
+      "filepath": "results/odoc/crawled/apps.apple.com__lk__app__odoc-video-consultations__id1263423673.md",
+      "categories": [
+        "Customer Reviews"
+      ],
+      "length": 6725
+    },
+    {
+      "url": "https://economynext.com/brand_voice/odoc-building-a-health-insurance-super-app",
+      "filepath": "results/odoc/crawled/economynext.com__brand_voice__odoc-building-a-health-insurance-super-app.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Mission and Values",
+        "Financial Performance"
+      ],
+      "length": 9064
+    },
+    {
+      "url": "https://medicine.kln.ac.lk/depts/publichealth/index.php?learning-centres/moh",
+      "filepath": "results/odoc/crawled/medicine.kln.ac.lk__depts__publichealth__index.php.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 3276
+    },
+    {
+      "url": "https://echelon.lk/odoc-better-healthcare-for-all-is-now-a-reality",
+      "filepath": "results/odoc/crawled/echelon.lk__odoc-better-healthcare-for-all-is-now-a-reality.md",
+      "categories": [
+        "Company History",
+        "Achievements and Recognition",
+        "Mission and Values",
+        "Future Plans",
+        "Awards and Certifications",
+        "Case Studies"
+      ],
+      "length": 8878
+    },
+    {
+      "url": "http://bizenglish.adaderana.lk/odoc-expands-to-10th-factory-signs-1st-indian-client-for-employee-telemedicine-coverage",
+      "filepath": "results/odoc/crawled/bizenglish.adaderana.lk__odoc-expands-to-10th-factory-signs-1st-indian-client-for-employee-telemedicine-coverage.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 26952
+    },
+    {
+      "url": "https://www.bdo.lk/en-gb/insights/insight/bdo-sri-lanka%E2%80%99s-pursuit-of-sustainability-through-technology",
+      "filepath": "results/odoc/crawled/www.bdo.lk__en-gb__insights__insight__bdo-sri-lanka%E2%80%99s-pursuit-of-sustainability-through-technology.md",
+      "categories": [
+        "Social Responsibility"
+      ],
+      "length": 3197
+    },
+    {
+      "url": "https://archive.roar.media/english/life/in-the-know/how-sri-lankas-healthcare-industry-is-experimenting-with-technological-solutions",
+      "filepath": "results/odoc/crawled/archive.roar.media__english__life__in-the-know__how-sri-lankas-healthcare-industry-is-experimenting-with-technological-solutions.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 12070
+    },
+    {
+      "url": "https://odoc.life/about-us",
+      "filepath": "results/odoc/crawled/odoc.life__about-us.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 2428
+    },
+    {
+      "url": "https://odoc.life/",
+      "filepath": "results/odoc/crawled/odoc.life.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 5516
+    },
+    {
+      "url": "https://pitchbook.com/profiles/company/265068-91",
+      "filepath": "results/odoc/crawled/pitchbook.com__profiles__company__265068-91.md",
+      "categories": [
+        "Financial Performance"
+      ],
+      "length": 9829
+    },
+    {
+      "url": "https://www.context.news/socioeconomic-inclusion/sri-lankan-health-crisis-could-worsen-as-doctors-seek-work-abroad",
+      "filepath": "results/odoc/crawled/www.context.news__socioeconomic-inclusion__sri-lankan-health-crisis-could-worsen-as-doctors-seek-work-abroad.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 12258
+    },
+    {
+      "url": "https://island.lk/odoc-makes-record-progress-in-1h-of-2021",
+      "filepath": "results/odoc/crawled/island.lk__odoc-makes-record-progress-in-1h-of-2021.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 11652
+    },
+    {
+      "url": "https://data.who.int/countries/144",
+      "filepath": "results/odoc/crawled/data.who.int__countries__144.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 33907
+    },
+    {
+      "url": "https://www.ft.lk/healthcare/Healthtech-startup-oDoc-raises-1-m-in-pre-series-A-funding",
+      "filepath": "results/odoc/crawled/www.ft.lk__healthcare__Healthtech-startup-oDoc-raises-1-m-in-pre-series-A-funding.md",
+      "categories": [
+        "Company History"
+      ],
+      "length": 59
+    },
+    {
+      "url": "https://www.dailynews.lk/2024/06/10/business/566196/union-assurance-and-odoc-inks-deal-to-enhance-healthcare-services",
+      "filepath": "results/odoc/crawled/www.dailynews.lk__2024__06__10__business__566196__union-assurance-and-odoc-inks-deal-to-enhance-healthcare-services.md",
+      "categories": [
+        "Recent News and Updates"
+      ],
+      "length": 5216
+    },
+    {
+      "url": "https://www.echelon.lk/odoc-better-healthcare-for-all-is-now-a-reality",
+      "filepath": "results/odoc/crawled/www.echelon.lk__odoc-better-healthcare-for-all-is-now-a-reality.md",
+      "categories": [
+        "Technology Stack",
+        "Challenges and Opportunities"
+      ],
+      "length": 8889
+    },
+    {
+      "url": "https://www.g2.com/products/odoc/competitors/alternatives",
+      "filepath": "results/odoc/crawled/www.g2.com__products__odoc__competitors__alternatives.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://www.dailymirror.lk/print/business/Union-Assurance-and-oDoc-partner-to-enhance-healthcare-access/215-284021",
+      "filepath": "results/odoc/crawled/www.dailymirror.lk__print__business__Union-Assurance-and-oDoc-partner-to-enhance-healthcare-access__215-284021.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 38
+    },
+    {
+      "url": "https://www.glassdoor.co.in/Reviews/oDoc-Private-Limited-Reviews-EI_IE2534847.0,20.htm",
+      "filepath": "results/odoc/crawled/www.glassdoor.co.in__Reviews__oDoc-Private-Limited-Reviews-EI_IE2534847.0,20.htm.md",
+      "categories": [
+        "Company Culture",
+        "Social Responsibility"
+      ],
+      "length": 2208
+    },
+    {
+      "url": "https://www.dailymirror.lk/print/healthcare/oDoc-wins-Commonwealth-Digital-Health-Award/304-139545",
+      "filepath": "results/odoc/crawled/www.dailymirror.lk__print__healthcare__oDoc-wins-Commonwealth-Digital-Health-Award__304-139545.md",
+      "categories": [
+        "Achievements and Recognition",
+        "Awards and Certifications"
+      ],
+      "length": 40
+    },
+    {
+      "url": "https://www.ft.lk/Front-Page/Healthtech-startup-oDoc-raises-1-m-in-pre-series-A-funding/44-713746",
+      "filepath": "results/odoc/crawled/www.ft.lk__Front-Page__Healthtech-startup-oDoc-raises-1-m-in-pre-series-A-funding__44-713746.md",
+      "categories": [
+        "Founders and Leadership"
+      ],
+      "length": 97
+    },
+    {
+      "url": "https://www.healthtechalpha.com/venture/odoc/comparison",
+      "filepath": "results/odoc/crawled/www.healthtechalpha.com__venture__odoc__comparison.md",
+      "categories": [
+        "Market Position",
+        "Financial Performance"
+      ],
+      "length": 3635
+    },
+    {
+      "url": "https://www.ft.lk/Healthcare/The-future-of-employee-healthcare-is-online/45-689421",
+      "filepath": "results/odoc/crawled/www.ft.lk__Healthcare__The-future-of-employee-healthcare-is-online__45-689421.md",
+      "categories": [
+        "Market Position"
+      ],
+      "length": 97
+    },
+    {
+      "url": "https://www.ft.lk/financial-services/Allianz-Lanka-partners-with-oDoc-to-create-value-for-customers/42-732543",
+      "filepath": "results/odoc/crawled/www.ft.lk__financial-services__Allianz-Lanka-partners-with-oDoc-to-create-value-for-customers__42-732543.md",
+      "categories": [
+        "Market Position",
+        "Customer Base",
+        "Financial Performance"
+      ],
+      "length": 91
+    },
+    {
+      "url": "https://www.neda.gov.lk/research-development",
+      "filepath": "results/odoc/crawled/www.neda.gov.lk__research-development.md",
+      "categories": [
+        "Innovation and R&D"
+      ],
+      "length": 123
+    },
+    {
+      "url": "https://www.ft.lk/healthcare/Healthtech-startup-oDoc-raises-1-m-in-pre-series-A-funding/45-713746",
+      "filepath": "results/odoc/crawled/www.ft.lk__healthcare__Healthtech-startup-oDoc-raises-1-m-in-pre-series-A-funding__45-713746.md",
+      "categories": [
+        "Founders and Leadership",
+        "Financial Performance"
+      ],
+      "length": 97
+    },
+    {
+      "url": "https://www.ft.lk/financial-services/oDoc-offers-a-cutting-edge-technological-solution-to-insurance-companies-for-claims-processing-and-policyholder-management/42-732167?trk=public_post_main-feed-card_reshare_feed-article-content",
+      "filepath": "results/odoc/crawled/www.ft.lk__financial-services__oDoc-offers-a-cutting-edge-technological-solution-to-insurance-companies-for-claims-processing-and-policyholder-management__42-732167.md",
+      "categories": [
+        "Customer Base",
+        "Financial Performance"
+      ],
+      "length": 91
+    },
+    {
+      "url": "https://www.ft.lk/Healthcare/oDoc-wins-Commonwealth-Digital-Health-Award/45-642546",
+      "filepath": "results/odoc/crawled/www.ft.lk__Healthcare__oDoc-wins-Commonwealth-Digital-Health-Award__45-642546.md",
+      "categories": [
+        "Achievements and Recognition",
+        "Awards and Certifications",
+        "Case Studies"
+      ],
+      "length": 96
+    },
+    {
+      "url": "https://www.ft.lk/financial-services/SEC-unveils-12-Pillars-One-Vision-roadmap-to-advance-Sri-Lanka-s-capital-market/42-782476",
+      "filepath": "results/odoc/crawled/www.ft.lk__financial-services__SEC-unveils-12-Pillars-One-Vision-roadmap-to-advance-Sri-Lanka-s-capital-market__42-782476.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 94
+    },
+    {
+      "url": "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/blog/meet-our-portfolio-start-ups-odoc-sri-lanka",
+      "filepath": "results/odoc/crawled/www.gsma.com__solutions-and-impact__connectivity-for-good__mobile-for-development__blog__meet-our-portfolio-start-ups-odoc-sri-lanka.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Competitive Landscape",
+        "Market Position",
+        "Organizational Structure",
+        "Customer Base",
+        "Mission and Values",
+        "Technology Stack",
+        "Future Plans",
+        "Innovation and R&D",
+        "Case Studies"
+      ],
+      "length": 6152
+    },
+    {
+      "url": "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/blog/thriving-in-crisis-how-odoc-adapted-during-covid-19",
+      "filepath": "results/odoc/crawled/www.gsma.com__solutions-and-impact__connectivity-for-good__mobile-for-development__blog__thriving-in-crisis-how-odoc-adapted-during-covid-19.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 11132
+    },
+    {
+      "url": "https://www.ft.lk/healthcare/Union-Assurance-partners-with-oDoc-to-offer-policyholders-free-access-to-healthcare/45-708417",
+      "filepath": "results/odoc/crawled/www.ft.lk__healthcare__Union-Assurance-partners-with-oDoc-to-offer-policyholders-free-access-to-healthcare__45-708417.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 96
+    },
+    {
+      "url": "https://www.ft.lk/healthcare/Hutch-oDoc-partnership-revolutionises-Sri-Lankan-telemedicine/45-707145",
+      "filepath": "results/odoc/crawled/www.ft.lk__healthcare__Hutch-oDoc-partnership-revolutionises-Sri-Lankan-telemedicine__45-707145.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 94
+    },
+    {
+      "url": "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/blog/scaling-digital-services-in-the-pandemic",
+      "filepath": "results/odoc/crawled/www.gsma.com__solutions-and-impact__connectivity-for-good__mobile-for-development__blog__scaling-digital-services-in-the-pandemic.md",
+      "categories": [
+        "Business Model and Revenue"
+      ],
+      "length": 14703
+    },
+    {
+      "url": "https://www.indeed.com/cmp/odoc/reviews",
+      "filepath": "results/odoc/crawled/www.indeed.com__cmp__odoc__reviews.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 5879
+    },
+    {
+      "url": "https://www.nirdc.gov.lk/",
+      "filepath": "results/odoc/crawled/www.nirdc.gov.lk.md",
+      "categories": [
+        "Innovation and R&D"
+      ],
+      "length": 42806
+    },
+    {
+      "url": "https://www.hemas.com/sustainability.html",
+      "filepath": "results/odoc/crawled/www.hemas.com__sustainability.html.md",
+      "categories": [
+        "Social Responsibility"
+      ],
+      "length": 111037
+    },
+    {
+      "url": "https://www.news.lk/current-affairs/a-strategic-initiative-to-establish-a-commercial-approach-to-research-and-development-launched",
+      "filepath": "results/odoc/crawled/www.news.lk__current-affairs__a-strategic-initiative-to-establish-a-commercial-approach-to-research-and-development-launched.md",
+      "categories": [
+        "Innovation and R&D"
+      ],
+      "length": 6854
+    },
+    {
+      "url": "https://www.island.lk/odoc-makes-record-progress-in-1h-of-2021",
+      "filepath": "results/odoc/crawled/www.island.lk__odoc-makes-record-progress-in-1h-of-2021.md",
+      "categories": [
+        "Achievements and Recognition",
+        "Awards and Certifications"
+      ],
+      "length": 11489
+    },
+    {
+      "url": "https://www.odoc.life/",
+      "filepath": "results/odoc/crawled/www.odoc.life.md",
+      "categories": [
+        "Products and Services",
+        "Organizational Structure",
+        "Customer Reviews"
+      ],
+      "length": 5516
+    },
+    {
+      "url": "https://www.odoc.life/blog/allianz-lanka-partners-with-odoc-to-create-value-for-customers",
+      "filepath": "results/odoc/crawled/www.odoc.life__blog__allianz-lanka-partners-with-odoc-to-create-value-for-customers.md",
+      "categories": [
+        "Customer Base",
+        "Partnerships"
+      ],
+      "length": 630
+    },
+    {
+      "url": "https://www.odoc.life/about-us",
+      "filepath": "results/odoc/crawled/www.odoc.life__about-us.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company History",
+        "Organizational Structure",
+        "Customer Base",
+        "Mission and Values",
+        "Technology Stack",
+        "Company Size",
+        "Social Responsibility"
+      ],
+      "length": 2428
+    },
+    {
+      "url": "https://www.kff.org/health-costs/americans-challenges-with-health-care-costs",
+      "filepath": "results/odoc/crawled/www.kff.org__health-costs__americans-challenges-with-health-care-costs.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 15248
+    },
+    {
+      "url": "https://www.odoc.life/blog/great-expectations-how-a-sri-lankan-start-up-plans-to-conquer-india",
+      "filepath": "results/odoc/crawled/www.odoc.life__blog__great-expectations-how-a-sri-lankan-start-up-plans-to-conquer-india.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Future Plans",
+        "Innovation and R&D",
+        "Case Studies"
+      ],
+      "length": 10162
+    },
+    {
+      "url": "https://www.odoc.life/blog/category/news-media",
+      "filepath": "results/odoc/crawled/www.odoc.life__blog__category__news-media.md",
+      "categories": [
+        "Company History",
+        "Recent News and Updates",
+        "Case Studies"
+      ],
+      "length": 3802
+    },
+    {
+      "url": "https://www.odoc.life/blog/healthtech-startup-odoc-raises-1-m-in-pre-series-a-funding",
+      "filepath": "results/odoc/crawled/www.odoc.life__blog__healthtech-startup-odoc-raises-1-m-in-pre-series-a-funding.md",
+      "categories": [
+        "Founders and Leadership",
+        "Business Model and Revenue",
+        "Recent News and Updates",
+        "Organizational Structure",
+        "Achievements and Recognition",
+        "Technology Stack",
+        "Company Size",
+        "Future Plans",
+        "Financial Performance",
+        "Challenges and Opportunities",
+        "Innovation and R&D",
+        "Case Studies"
+      ],
+      "length": 3651
+    },
+    {
+      "url": "https://www.odoc.life/blog/hutch-odoc-partnership-revolutionizes-sri-lankan-telemedicine",
+      "filepath": "results/odoc/crawled/www.odoc.life__blog__hutch-odoc-partnership-revolutionizes-sri-lankan-telemedicine.md",
+      "categories": [
+        "Customer Base",
+        "Partnerships",
+        "Social Responsibility"
+      ],
+      "length": 4658
+    },
+    {
+      "url": "https://www.odoc.life/blog/category/news-media/page/5",
+      "filepath": "results/odoc/crawled/www.odoc.life__blog__category__news-media__page__5.md",
+      "categories": [
+        "Recent News and Updates"
+      ],
+      "length": 16147
+    },
+    {
+      "url": "https://www.odoc.life/blog/category/uncategorized/page/3",
+      "filepath": "results/odoc/crawled/www.odoc.life__blog__category__uncategorized__page__3.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 24635
+    },
+    {
+      "url": "https://www.odoc.life/blog/category/news-media/page/4",
+      "filepath": "results/odoc/crawled/www.odoc.life__blog__category__news-media__page__4.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 26091
+    },
+    {
+      "url": "https://www.odoc.life/blog/odoc-launches-tpa-services-for-insurance-companies",
+      "filepath": "results/odoc/crawled/www.odoc.life__blog__odoc-launches-tpa-services-for-insurance-companies.md",
+      "categories": [
+        "Organizational Structure"
+      ],
+      "length": 1348
+    },
+    {
+      "url": "https://www.odoc.life/blog/partnership-between-hsenid-and-odoc-to-enhance-employee-well-being-in-sri-lanka",
+      "filepath": "results/odoc/crawled/www.odoc.life__blog__partnership-between-hsenid-and-odoc-to-enhance-employee-well-being-in-sri-lanka.md",
+      "categories": [
+        "Mission and Values",
+        "Partnerships"
+      ],
+      "length": 3499
+    },
+    {
+      "url": "https://www.odoc.life/blog/odoc-provides-online-healthcare-services-to-organisations",
+      "filepath": "results/odoc/crawled/www.odoc.life__blog__odoc-provides-online-healthcare-services-to-organisations.md",
+      "categories": [
+        "Customer Base",
+        "Partnerships",
+        "Case Studies"
+      ],
+      "length": 2326
+    },
+    {
+      "url": "https://www.odoc.life/blog/odoc-named-one-of-indias-top-50-disruptive-startups",
+      "filepath": "results/odoc/crawled/www.odoc.life__blog__odoc-named-one-of-indias-top-50-disruptive-startups.md",
+      "categories": [
+        "Achievements and Recognition",
+        "Awards and Certifications"
+      ],
+      "length": 2817
+    },
+    {
+      "url": "https://www.odoc.life/blog/ooredoo-maldives-partners-with-sri-lankas-odoc-telemedicine-platform",
+      "filepath": "results/odoc/crawled/www.odoc.life__blog__ooredoo-maldives-partners-with-sri-lankas-odoc-telemedicine-platform.md",
+      "categories": [
+        "Technology Stack",
+        "Partnerships"
+      ],
+      "length": 2630
+    },
+    {
+      "url": "https://www.odoc.life/feedback-si",
+      "filepath": "results/odoc/crawled/www.odoc.life__feedback-si.md",
+      "categories": [
+        "Customer Reviews",
+        "Contact Information"
+      ],
+      "length": 250
+    },
+    {
+      "url": "https://www.odoc.life/careers",
+      "filepath": "results/odoc/crawled/www.odoc.life__careers.md",
+      "categories": [
+        "Mission and Values",
+        "Company Culture",
+        "Innovation and R&D"
+      ],
+      "length": 1563
+    },
+    {
+      "url": "https://www.odoc.life/corporate-profiles",
+      "filepath": "results/odoc/crawled/www.odoc.life__corporate-profiles.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company History",
+        "Market Position",
+        "Organizational Structure",
+        "Technology Stack",
+        "Company Size",
+        "Innovation and R&D",
+        "Contact Information"
+      ],
+      "length": 3301
+    },
+    {
+      "url": "https://www.odoc.life/blog/you-can-score-a-1m-seed-round-even-in-sri-lanka-these-founders-show-how",
+      "filepath": "results/odoc/crawled/www.odoc.life__blog__you-can-score-a-1m-seed-round-even-in-sri-lanka-these-founders-show-how.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company Size",
+        "Case Studies"
+      ],
+      "length": 9377
+    },
+    {
+      "url": "https://www.samenacouncil.org/samena_daily_news?news=67838",
+      "filepath": "results/odoc/crawled/www.samenacouncil.org__samena_daily_news.md",
+      "categories": [
+        "Recent News and Updates"
+      ],
+      "length": 4827
+    },
+    {
+      "url": "https://www.sundaytimes.lk/191222/business-times/odoc-start-up-bags-international-award-383285.html",
+      "filepath": "results/odoc/crawled/www.sundaytimes.lk__191222__business-times__odoc-start-up-bags-international-award-383285.html.md",
+      "categories": [
+        "Company History",
+        "Achievements and Recognition",
+        "Awards and Certifications",
+        "Case Studies"
+      ],
+      "length": 5889
+    },
+    {
+      "url": "https://www.sundaytimes.lk/240114/news/sri-lanka-short-of-630-medical-specialists-this-year-545284.html",
+      "filepath": "results/odoc/crawled/www.sundaytimes.lk__240114__news__sri-lanka-short-of-630-medical-specialists-this-year-545284.html.md",
+      "categories": [
+        "Market Position",
+        "Company Size"
+      ],
+      "length": 5877
+    },
+    {
+      "url": "https://www.techinasia.com/odoc-raises-biggest-seed-funding-sri-lanka",
+      "filepath": "results/odoc/crawled/www.techinasia.com__odoc-raises-biggest-seed-funding-sri-lanka.md",
+      "categories": [
+        "Financial Performance"
+      ],
+      "length": 12439
+    },
+    {
+      "url": "https://www.odoc.life/legal",
+      "filepath": "results/odoc/crawled/www.odoc.life__legal.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 42088
+    },
+    {
+      "url": "https://www.sundaytimes.lk/online/business/oDoc-launches-Third-Party-Administration-services-for-insurance-companies/10-1133850",
+      "filepath": "results/odoc/crawled/www.sundaytimes.lk__online__business__oDoc-launches-Third-Party-Administration-services-for-insurance-companies__10-1133850.md",
+      "categories": [
+        "Company History"
+      ],
+      "length": 4463
+    },
+    {
+      "url": "https://www.statista.com/outlook/hmo/medical-technology/medical-devices/sri-lanka?srsltid=AfmBOopdGGA5mmlJGJi02hVuKP-PfnfuZpeQkEDhvrq522Vnzvrf920g",
+      "filepath": "results/odoc/crawled/www.statista.com__outlook__hmo__medical-technology__medical-devices__sri-lanka.md",
+      "categories": [
+        "Market Position"
+      ],
+      "length": 30287
+    },
+    {
+      "url": "https://www.zoominfo.com/p/Heshan-Fernando/2659228358",
+      "filepath": "results/odoc/crawled/www.zoominfo.com__p__Heshan-Fernando__2659228358.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 288
+    },
+    {
+      "url": "https://www.zoominfo.com/p/odoc-ltd/449372701",
+      "filepath": "results/odoc/crawled/www.zoominfo.com__p__odoc-ltd__449372701.md",
+      "categories": [
+        "Company Size"
+      ],
+      "length": 288
+    },
+    {
+      "url": "https://www.odoc.life/product/odoc-health-club-membership-per-year-usd",
+      "filepath": "results/odoc/crawled/www.odoc.life__product__odoc-health-club-membership-per-year-usd.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 807
+    },
+    {
+      "url": "https://www.yourstory.com/companies/odoc",
+      "filepath": "results/odoc/crawled/www.yourstory.com__companies__odoc.md",
+      "categories": [
+        "Founders and Leadership"
+      ],
+      "length": 5664
+    },
+    {
+      "url": "https://www.worldbank.org/en/results/2018/09/14/elevating-sri-lankas-public-health-next-level",
+      "filepath": "results/odoc/crawled/www.worldbank.org__en__results__2018__09__14__elevating-sri-lankas-public-health-next-level.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 9622
+    },
+    {
+      "url": "https://yourstory.com/companies/odoc",
+      "filepath": "results/odoc/crawled/yourstory.com__companies__odoc.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Financial Performance"
+      ],
+      "length": 5664
+    },
+    {
+      "url": "https://www.undp.org/srilanka/donate/partners",
+      "filepath": "results/odoc/crawled/www.undp.org__srilanka__donate__partners.md",
+      "categories": [
+        "Business Model and Revenue"
+      ],
+      "length": 13473
+    },
+    {
+      "url": "https://www.odoc.life/ta/blog/great-expectations-how-a-sri-lankan-start-up-plans-to-conquer-india",
+      "filepath": "results/odoc/crawled/www.odoc.life__ta__blog__great-expectations-how-a-sri-lankan-start-up-plans-to-conquer-india.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 10212
+    },
+    {
+      "url": "https://www.odoc.life/ta/blog/how-digital-companies-are-reducing-the-strain-on-our-health-sector",
+      "filepath": "results/odoc/crawled/www.odoc.life__ta__blog__how-digital-companies-are-reducing-the-strain-on-our-health-sector.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Future Plans"
+      ],
+      "length": 10424
+    }
+  ],
+  "url_to_categories": {
+    "https://www.odoc.life/about-us": [
+      "Founders and Leadership",
+      "Company History",
+      "Organizational Structure",
+      "Customer Base",
+      "Mission and Values",
+      "Technology Stack",
+      "Company Size",
+      "Social Responsibility"
+    ],
+    "https://www.odoc.life/corporate-profiles": [
+      "Founders and Leadership",
+      "Company History",
+      "Market Position",
+      "Organizational Structure",
+      "Technology Stack",
+      "Company Size",
+      "Innovation and R&D",
+      "Contact Information"
+    ],
+    "https://www.odoc.life/blog/you-can-score-a-1m-seed-round-even-in-sri-lanka-these-founders-show-how": [
+      "Founders and Leadership",
+      "Company Size",
+      "Case Studies"
+    ],
+    "https://www.odoc.life/blog/healthtech-startup-odoc-raises-1-m-in-pre-series-a-funding": [
+      "Founders and Leadership",
+      "Business Model and Revenue",
+      "Recent News and Updates",
+      "Organizational Structure",
+      "Achievements and Recognition",
+      "Technology Stack",
+      "Company Size",
+      "Future Plans",
+      "Financial Performance",
+      "Challenges and Opportunities",
+      "Innovation and R&D",
+      "Case Studies"
+    ],
+    "https://www.ft.lk/healthcare/Healthtech-startup-oDoc-raises-1-m-in-pre-series-A-funding/45-713746": [
+      "Founders and Leadership",
+      "Financial Performance"
+    ],
+    "https://www.ft.lk/Front-Page/Healthtech-startup-oDoc-raises-1-m-in-pre-series-A-funding/44-713746": [
+      "Founders and Leadership"
+    ],
+    "https://www.yourstory.com/companies/odoc": [
+      "Founders and Leadership"
+    ],
+    "https://www.odoc.life/blog/great-expectations-how-a-sri-lankan-start-up-plans-to-conquer-india": [
+      "Business Model and Revenue",
+      "Future Plans",
+      "Innovation and R&D",
+      "Case Studies"
+    ],
+    "https://www.odoc.life/ta/blog/how-digital-companies-are-reducing-the-strain-on-our-health-sector": [
+      "Business Model and Revenue",
+      "Future Plans"
+    ],
+    "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/blog/meet-our-portfolio-start-ups-odoc-sri-lanka": [
+      "Business Model and Revenue",
+      "Competitive Landscape",
+      "Market Position",
+      "Organizational Structure",
+      "Customer Base",
+      "Mission and Values",
+      "Technology Stack",
+      "Future Plans",
+      "Innovation and R&D",
+      "Case Studies"
+    ],
+    "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/blog/scaling-digital-services-in-the-pandemic": [
+      "Business Model and Revenue"
+    ],
+    "https://www.undp.org/srilanka/donate/partners": [
+      "Business Model and Revenue"
+    ],
+    "https://economynext.com/brand_voice/odoc-building-a-health-insurance-super-app": [
+      "Business Model and Revenue",
+      "Mission and Values",
+      "Financial Performance"
+    ],
+    "https://healthtechalpha.com/venture/odoc/comparison": [
+      "Business Model and Revenue"
+    ],
+    "https://yourstory.com/companies/odoc": [
+      "Business Model and Revenue",
+      "Financial Performance"
+    ],
+    "https://www.odoc.life/": [
+      "Products and Services",
+      "Organizational Structure",
+      "Customer Reviews"
+    ],
+    "https://www.odoc.life/services": [
+      "Products and Services"
+    ],
+    "https://www.odoc.life/subscriptions": [
+      "Products and Services",
+      "Pricing Information"
+    ],
+    "https://www.odoc.life/product/odoc-premier-per-year-usd": [
+      "Products and Services",
+      "Pricing Information"
+    ],
+    "https://www.odoc.life/si/product/odoc-pro-per-month-usd": [
+      "Products and Services",
+      "Pricing Information"
+    ],
+    "https://www.odoc.life/product/primary-health-check": [
+      "Products and Services",
+      "Pricing Information"
+    ],
+    "https://www.odoc.life/si/product-category/packages": [
+      "Products and Services",
+      "Pricing Information"
+    ],
+    "https://www.odoc.life/blog/category/news-media": [
+      "Company History",
+      "Recent News and Updates",
+      "Case Studies"
+    ],
+    "https://www.sundaytimes.lk/191222/business-times/odoc-start-up-bags-international-award-383285.html": [
+      "Company History",
+      "Achievements and Recognition",
+      "Awards and Certifications",
+      "Case Studies"
+    ],
+    "https://www.sundaytimes.lk/online/business/oDoc-launches-Third-Party-Administration-services-for-insurance-companies/10-1133850": [
+      "Company History"
+    ],
+    "https://echelon.lk/odoc-better-healthcare-for-all-is-now-a-reality": [
+      "Company History",
+      "Achievements and Recognition",
+      "Mission and Values",
+      "Future Plans",
+      "Awards and Certifications",
+      "Case Studies"
+    ],
+    "https://www.ft.lk/healthcare/Healthtech-startup-oDoc-raises-1-m-in-pre-series-A-funding": [
+      "Company History"
+    ],
+    "https://tracxn.com/d/companies/odoc/__VCRNYT25y628X_-opChsf0kNTQgFY9Q4AC97rTresmg": [
+      "Competitive Landscape"
+    ],
+    "https://tracxn.com/d/explore/telemedicine-startups-in-sri-lanka/__3DE0rwAh0zzgfNFgD2zBu3ZKmgGRk3PaohD5ykStgV8/companies": [
+      "Competitive Landscape"
+    ],
+    "https://www.odoc.life/blog/category/uncategorized/page/3": [
+      "Competitive Landscape"
+    ],
+    "https://economynext.com/brand_voice/odoc-better-healthcare-for-all-is-now-a-reality": [
+      "Competitive Landscape",
+      "Customer Base"
+    ],
+    "https://tracxn.com/d/explore/healthtech-startups-in-sri-lanka/__VvLb4VH7mW8weUf_sD8fa80pxSLPQrBFNSJ8ysZlXZY/companies": [
+      "Competitive Landscape"
+    ],
+    "https://www.odoc.life/ta/blog/great-expectations-how-a-sri-lankan-start-up-plans-to-conquer-india": [
+      "Competitive Landscape"
+    ],
+    "https://www.odoc.life/si/blog/category/news-media/page/5": [
+      "Competitive Landscape"
+    ],
+    "https://www.g2.com/products/odoc/competitors/alternatives": [
+      "Competitive Landscape"
+    ],
+    "https://www.odoc.life/si/blog/how-digital-companies-are-reducing-the-strain-on-our-health-sector": [
+      "Market Position"
+    ],
+    "https://www.healthtechalpha.com/venture/odoc/comparison": [
+      "Market Position",
+      "Financial Performance"
+    ],
+    "https://www.ft.lk/financial-services/Allianz-Lanka-partners-with-oDoc-to-create-value-for-customers/42-732543": [
+      "Market Position",
+      "Customer Base",
+      "Financial Performance"
+    ],
+    "https://www.ft.lk/Healthcare/The-future-of-employee-healthcare-is-online/45-689421": [
+      "Market Position"
+    ],
+    "https://www.sundaytimes.lk/240114/news/sri-lanka-short-of-630-medical-specialists-this-year-545284.html": [
+      "Market Position",
+      "Company Size"
+    ],
+    "https://www.statista.com/outlook/hmo/medical-technology/medical-devices/sri-lanka?srsltid=AfmBOopdGGA5mmlJGJi02hVuKP-PfnfuZpeQkEDhvrq522Vnzvrf920g": [
+      "Market Position"
+    ],
+    "https://www.dailynews.lk/2024/06/10/business/566196/union-assurance-and-odoc-inks-deal-to-enhance-healthcare-services": [
+      "Recent News and Updates"
+    ],
+    "https://www.samenacouncil.org/samena_daily_news?news=67838": [
+      "Recent News and Updates"
+    ],
+    "https://www.odoc.life/ta/blog/category/news-media/page/3": [
+      "Recent News and Updates"
+    ],
+    "https://www.odoc.life/si/blog/category/news-media/page/4": [
+      "Recent News and Updates",
+      "Company Culture"
+    ],
+    "https://www.odoc.life/blog/category/news-media/page/5": [
+      "Recent News and Updates"
+    ],
+    "https://www.odoc.life/blog/odoc-launches-tpa-services-for-insurance-companies": [
+      "Organizational Structure"
+    ],
+    "https://www.ft.lk/Healthcare/oDoc-wins-Commonwealth-Digital-Health-Award/45-642546": [
+      "Achievements and Recognition",
+      "Awards and Certifications",
+      "Case Studies"
+    ],
+    "https://www.dailymirror.lk/print/healthcare/oDoc-wins-Commonwealth-Digital-Health-Award/304-139545": [
+      "Achievements and Recognition",
+      "Awards and Certifications"
+    ],
+    "https://www.odoc.life/blog/odoc-named-one-of-indias-top-50-disruptive-startups": [
+      "Achievements and Recognition",
+      "Awards and Certifications"
+    ],
+    "https://www.island.lk/odoc-makes-record-progress-in-1h-of-2021": [
+      "Achievements and Recognition",
+      "Awards and Certifications"
+    ],
+    "https://www.odoc.life/blog/allianz-lanka-partners-with-odoc-to-create-value-for-customers": [
+      "Customer Base",
+      "Partnerships"
+    ],
+    "https://www.odoc.life/blog/hutch-odoc-partnership-revolutionizes-sri-lankan-telemedicine": [
+      "Customer Base",
+      "Partnerships",
+      "Social Responsibility"
+    ],
+    "https://www.odoc.life/blog/odoc-provides-online-healthcare-services-to-organisations": [
+      "Customer Base",
+      "Partnerships",
+      "Case Studies"
+    ],
+    "https://www.ft.lk/financial-services/oDoc-offers-a-cutting-edge-technological-solution-to-insurance-companies-for-claims-processing-and-policyholder-management/42-732167?trk=public_post_main-feed-card_reshare_feed-article-content": [
+      "Customer Base",
+      "Financial Performance"
+    ],
+    "https://www.odoc.life/careers": [
+      "Mission and Values",
+      "Company Culture",
+      "Innovation and R&D"
+    ],
+    "https://www.odoc.life/blog/partnership-between-hsenid-and-odoc-to-enhance-employee-well-being-in-sri-lanka": [
+      "Mission and Values",
+      "Partnerships"
+    ],
+    "https://www.odoc.life/blog/ooredoo-maldives-partners-with-sri-lankas-odoc-telemedicine-platform": [
+      "Technology Stack",
+      "Partnerships"
+    ],
+    "https://oncedaily.co/odoc-a-telemedicine-disruptor-in-sri-lanka": [
+      "Technology Stack"
+    ],
+    "https://www.echelon.lk/odoc-better-healthcare-for-all-is-now-a-reality": [
+      "Technology Stack",
+      "Challenges and Opportunities"
+    ],
+    "https://www.ft.lk/healthcare/Hutch-oDoc-partnership-revolutionises-Sri-Lankan-telemedicine/45-707145": [
+      "Partnerships"
+    ],
+    "https://www.ft.lk/healthcare/Union-Assurance-partners-with-oDoc-to-offer-policyholders-free-access-to-healthcare/45-708417": [
+      "Partnerships"
+    ],
+    "https://www.dailymirror.lk/print/business/Union-Assurance-and-oDoc-partner-to-enhance-healthcare-access/215-284021": [
+      "Partnerships"
+    ],
+    "https://www.zoominfo.com/p/odoc-ltd/449372701": [
+      "Company Size"
+    ],
+    "http://bizenglish.adaderana.lk/odoc-expands-to-10th-factory-signs-1st-indian-client-for-employee-telemedicine-coverage": [
+      "Future Plans"
+    ],
+    "https://island.lk/odoc-makes-record-progress-in-1h-of-2021": [
+      "Future Plans"
+    ],
+    "https://www.ft.lk/financial-services/SEC-unveils-12-Pillars-One-Vision-roadmap-to-advance-Sri-Lanka-s-capital-market/42-782476": [
+      "Future Plans"
+    ],
+    "https://pitchbook.com/profiles/company/265068-91": [
+      "Financial Performance"
+    ],
+    "https://www.techinasia.com/odoc-raises-biggest-seed-funding-sri-lanka": [
+      "Financial Performance"
+    ],
+    "https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-for-development/blog/thriving-in-crisis-how-odoc-adapted-during-covid-19": [
+      "Challenges and Opportunities"
+    ],
+    "https://archive.roar.media/english/life/in-the-know/how-sri-lankas-healthcare-industry-is-experimenting-with-technological-solutions": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.context.news/socioeconomic-inclusion/sri-lankan-health-crisis-could-worsen-as-doctors-seek-work-abroad": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.kff.org/health-costs/americans-challenges-with-health-care-costs": [
+      "Challenges and Opportunities"
+    ],
+    "https://data.who.int/countries/144": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.worldbank.org/en/results/2018/09/14/elevating-sri-lankas-public-health-next-level": [
+      "Challenges and Opportunities"
+    ],
+    "https://medicine.kln.ac.lk/depts/publichealth/index.php?learning-centres/moh": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.odoc.life/blog/category/news-media/page/4": [
+      "Company Culture"
+    ],
+    "https://www.odoc.life/si/blog/category/uncategorized/page/3": [
+      "Company Culture"
+    ],
+    "https://www.glassdoor.co.in/Reviews/oDoc-Private-Limited-Reviews-EI_IE2534847.0,20.htm": [
+      "Company Culture",
+      "Social Responsibility"
+    ],
+    "https://www.indeed.com/cmp/odoc/reviews": [
+      "Company Culture"
+    ],
+    "https://apps.apple.com/lk/app/odoc-video-consultations/id1263423673": [
+      "Customer Reviews"
+    ],
+    "https://apps.apple.com/lk/app/odoc-video-consultations/id1263423673?platform=iphone&see-all=reviews": [
+      "Customer Reviews"
+    ],
+    "https://www.odoc.life/feedback-si": [
+      "Customer Reviews",
+      "Contact Information"
+    ],
+    "https://www.nirdc.gov.lk/": [
+      "Innovation and R&D"
+    ],
+    "https://www.news.lk/current-affairs/a-strategic-initiative-to-establish-a-commercial-approach-to-research-and-development-launched": [
+      "Innovation and R&D"
+    ],
+    "https://www.neda.gov.lk/research-development": [
+      "Innovation and R&D"
+    ],
+    "https://www.bdo.lk/en-gb/insights/insight/bdo-sri-lanka%E2%80%99s-pursuit-of-sustainability-through-technology": [
+      "Social Responsibility"
+    ],
+    "https://www.hemas.com/sustainability.html": [
+      "Social Responsibility"
+    ],
+    "https://www.odoc.life/product/odoc-health-club-membership-per-year-usd": [
+      "Pricing Information"
+    ],
+    "https://odoc.life/about-us": [
+      "Contact Information"
+    ],
+    "https://www.odoc.life/legal": [
+      "Contact Information"
+    ],
+    "https://odoc.life/": [
+      "Contact Information"
+    ],
+    "https://www.zoominfo.com/p/Heshan-Fernando/2659228358": [
+      "Contact Information"
+    ]
+  }
+}

@@ -11,12 +11,12 @@ from crawl4ai.content_filter_strategy import PruningContentFilter
 from crawl4ai.markdown_generation_strategy import DefaultMarkdownGenerator
 from google_search import search_google_by_category
 from utils import is_social_media_url, ensure_company_directories
-from config import (
-    API_KEY, MODEL_NAME, BROWSER_HEADLESS, ENABLE_STEALTH, 
-    SCRAPE_DELAY, get_enabled_categories, get_search_queries, get_category_query
-)
+from config import API_KEY, MODEL_NAME, BROWSER_HEADLESS, ENABLE_STEALTH, SCRAPE_DELAY, CATEGORIES
 from prompts import get_url_selection_prompt, get_category_summary_prompt, get_final_report_prompt
 from urllib.parse import urlparse
+
+STATUS_DELAY = 2
+COLUMN_RATIO = [2, 6, 2]
 
 st.set_page_config(
     page_title="Company Research Tool",
@@ -24,6 +24,17 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="collapsed"
 )
+
+if "show_browser" not in st.session_state:
+    st.session_state.show_browser = not BROWSER_HEADLESS
+
+if "categories_enabled" not in st.session_state:
+    st.session_state.categories_enabled = {
+        name: config["enabled"] for name, config in CATEGORIES.items()
+    }
+
+if "config_collapsed" not in st.session_state:
+    st.session_state.config_collapsed = False
 
 st.markdown('<h1 style="font-size: 3rem;">🔍 Company Research Tool</h1>', unsafe_allow_html=True)
 
@@ -42,16 +53,85 @@ with col3:
 
 st.markdown("---")
 
+with st.status("⚙️ Research Configuration", expanded=not st.session_state.config_collapsed) as config_status:
+    st.checkbox("Show Browser", key="show_browser")
+    
+    st.markdown("**Select Research Categories:**")
+    
+    category_names = list(CATEGORIES.keys())
+    cols = st.columns(3)
+    
+    for idx, category_name in enumerate(category_names):
+        col_idx = idx % 3
+        with cols[col_idx]:
+            current_value = st.session_state.categories_enabled.get(category_name, True)
+            st.session_state.categories_enabled[category_name] = st.checkbox(
+                category_name,
+                value=current_value,
+                key=f"cat_{category_name}"
+            )
+
+def get_enabled_categories_from_session():
+    return [name for name, enabled in st.session_state.categories_enabled.items() if enabled]
+
+def get_search_queries_from_session(company_name: str, location: str = ""):
+    location_str = f" {location}" if location else ""
+    enabled_categories = get_enabled_categories_from_session()
+    
+    return {
+        name: CATEGORIES[name]["query"].format(company=company_name, location=location_str)
+        for name in enabled_categories
+    }
+
+def get_category_query_from_session(category: str, company_name: str, location: str = ""):
+    location_str = f" {location}" if location else ""
+    
+    if category in CATEGORIES:
+        return CATEGORIES[category]["query"].format(company=company_name, location=location_str)
+    return ""
+
+def create_ui_detailed_report(detailed_summaries: dict, category_sources: dict, enabled_categories: list) -> str:
+    ui_report = ""
+    
+    for idx, category in enumerate(enabled_categories, 1):
+        if category in detailed_summaries:
+            ui_report += f"## {idx}. {category}\n\n"
+            ui_report += detailed_summaries[category]
+            ui_report += "\n\n"
+            
+            if category in category_sources and category_sources[category]:
+                ui_report += "**Sources:**\n\n"
+                for source in category_sources[category]:
+                    ui_report += f"- {source}\n"
+                ui_report += "\n"
+            
+            ui_report += "---\n\n"
+    
+    return ui_report
+
+def add_sources_to_report(report_content: str, category_sources: dict, enabled_categories: list) -> str:
+    report_with_sources = report_content.strip()
+    
+    report_with_sources += "\n\n---\n\n# Research Sources\n\n"
+    
+    for idx, category in enumerate(enabled_categories, 1):
+        if category in category_sources and category_sources[category]:
+            report_with_sources += f"## {idx}. {category}\n\n"
+            for source in category_sources[category]:
+                report_with_sources += f"- {source}\n"
+            report_with_sources += "\n"
+    
+    return report_with_sources
+
 async def run_full_research(company_name: str, base_url: str, location: str):
-    """Run the complete research pipeline with real-time UI updates"""
+    show_browser = st.session_state.show_browser
     
     progress_placeholder = st.empty()
     
     with progress_placeholder.container():
-        # ==================== STEP 1: Crawl Base URL ====================
         with st.status("🌐 Crawling base URL...", expanded=True) as status_crawl:
-            async with AsyncWebCrawler(config=BrowserConfig()) as crawler:
-                result = await crawler.arun(url=base_url, config=CrawlerRunConfig())
+            async with AsyncWebCrawler(config=BrowserConfig(headless=not show_browser)) as crawler:
+                result = await crawler.arun(url=base_url, config=CrawlerRunConfig(scan_full_page=True))
             
             website_urls = []
             for category, items in result.links.items():
@@ -61,22 +141,20 @@ async def run_full_research(company_name: str, base_url: str, location: str):
                         website_urls.append(url)
             
             status_crawl.write(f"Found {len(website_urls)} URLs from website")
-            time.sleep(3)
+            time.sleep(STATUS_DELAY)
             status_crawl.update(label="✅ Base URL crawled", state="complete", expanded=False)
         
-        # ==================== STEP 2: Google Search ====================
         with st.status("🔍 Searching Google (25 queries)...", expanded=True) as status_search:
-            search_queries = get_search_queries(company_name, location)
+            search_queries = get_search_queries_from_session(company_name, location)
             status_search.write(f"Running {len(search_queries)} search queries...")
             
-            google_results = await search_google_by_category(search_queries)
+            google_results = await search_google_by_category(search_queries, not show_browser)
             
             total_google_urls = sum(len(urls) for urls in google_results.values())
             status_search.write(f"Found {total_google_urls} URLs from Google")
-            time.sleep(3)
+            time.sleep(STATUS_DELAY)
             status_search.update(label="✅ Google search complete", state="complete", expanded=False)
         
-        # ==================== STEP 3: AI URL Selection ====================
         with st.status("🤖 AI is selecting relevant URLs...", expanded=True) as status_select:
             prompt = get_url_selection_prompt(company_name, base_url, website_urls, google_results)
             
@@ -89,7 +167,7 @@ async def run_full_research(company_name: str, base_url: str, location: str):
             
             content_json = json.loads(response["choices"][0]["message"]["content"])
             
-            enabled_categories = get_enabled_categories()
+            enabled_categories = get_enabled_categories_from_session()
             selected_urls = {}
             for category in enabled_categories:
                 selected_urls[category] = content_json.get(category, [])
@@ -98,7 +176,6 @@ async def run_full_research(company_name: str, base_url: str, location: str):
             for urls in selected_urls.values():
                 unique_selected.update(urls)
             
-            # Save the URL data
             base_path = ensure_company_directories(company_name)
             all_google_urls = set()
             for urls in google_results.values():
@@ -148,10 +225,9 @@ async def run_full_research(company_name: str, base_url: str, location: str):
                 json.dump(url_data, f, indent=2)
             
             status_select.write(f"Selected {len(unique_selected)} relevant URLs")
-            time.sleep(3)
+            time.sleep(STATUS_DELAY)
             status_select.update(label="✅ URLs selected", state="complete", expanded=False)
         
-        # ==================== STEP 4: Scrape URLs ====================
         with st.status("🌐 Scraping selected URLs...", expanded=True) as status_scrape:
             all_urls_to_scrape = set()
             url_to_categories = {}
@@ -166,7 +242,7 @@ async def run_full_research(company_name: str, base_url: str, location: str):
             status_scrape.write(f"Scraping {len(all_urls_to_scrape)} unique URLs...")
             
             browser_config = BrowserConfig(
-                headless=BROWSER_HEADLESS,
+                headless=not show_browser,
                 enable_stealth=ENABLE_STEALTH
             )
             
@@ -213,7 +289,7 @@ async def run_full_research(company_name: str, base_url: str, location: str):
                 scraped_data = []
                 total_chars = 0
                 
-                for idx, result in enumerate(results):
+                for result in results:
                     if result and result.success:
                         md = result.markdown
                         url = result.url
@@ -236,8 +312,6 @@ async def run_full_research(company_name: str, base_url: str, location: str):
                             "categories": categories,
                             "length": char_count
                         })
-                        
-                        status_scrape.write(f"✓ Scraped {idx+1}/{len(all_urls_to_scrape)}: {url[:50]}...")
                 
                 metadata_file = f"{crawled_folder}/metadata.json"
                 with open(metadata_file, "w") as f:
@@ -254,23 +328,22 @@ async def run_full_research(company_name: str, base_url: str, location: str):
                         "url_to_categories": url_to_categories
                     }, f, indent=2)
                 
-                status_scrape.write(f"Scraped {len(scraped_data)}/{len(all_urls_to_scrape)} URLs successfully")
-                time.sleep(3)
+                status_scrape.write(f"Scraped {len(scraped_data)}/{len(all_urls_to_scrape)} URLs")
+                time.sleep(STATUS_DELAY)
                 status_scrape.update(label="✅ Scraping complete", state="complete", expanded=False)
         
-        # ==================== STEP 5: Generate Detailed Summaries ====================
-        with st.status("📝 Generating detailed summaries...", expanded=True) as status_detailed:
-            # Load metadata and group by category
+        with st.status("🤖 Generating summaries...", expanded=True) as status_summarize:
+            metadata_file = f"{base_path}/crawled/metadata.json"
             with open(metadata_file, "r") as f:
                 metadata = json.load(f)
             
             category_content = {}
-            url_to_categories_map = metadata["url_to_categories"]
+            url_to_categories = metadata["url_to_categories"]
             
             for item in metadata["scraped_urls"]:
                 filepath = item["filepath"]
                 url = item["url"]
-                categories = url_to_categories_map.get(url, [])
+                categories = url_to_categories.get(url, [])
                 
                 if not os.path.exists(filepath):
                     continue
@@ -294,62 +367,43 @@ async def run_full_research(company_name: str, base_url: str, location: str):
                     "sources": [item["url"] for item in items]
                 }
             
-            # Generate detailed summaries for each category
-            enabled_categories = get_enabled_categories()
-            categories_with_content = [cat for cat in enabled_categories if cat in merged_content]
+            enabled_categories = get_enabled_categories_from_session()
+            categories_with_content = [cat for cat in enabled_categories if cat in category_content]
             
-            status_detailed.write(f"Generating summaries for {len(categories_with_content)} categories...")
+            status_summarize.write(f"Processing {len(categories_with_content)} categories...")
             
             tasks = []
             category_list = []
             
             for category in categories_with_content:
                 data = merged_content[category]
-                query = get_category_query(category, company_name, location)
+                query = get_category_query_from_session(category, company_name, location)
                 
-                async def summarize_category(company_name: str, category: str, query: str, content: str) -> dict:
-                    if not content.strip():
-                        return {
-                            "category": category,
-                            "summary": ""
-                        }
-                    
-                    prompt = get_category_summary_prompt(company_name, category, query, content)
-                    
+                prompt = get_category_summary_prompt(company_name, category, query, data["content"])
+                
+                async def summarize_category(prompt_text, cat_name):
                     response = completion(
                         model=MODEL_NAME,
                         api_key=API_KEY,
-                        messages=[{"role": "user", "content": prompt}],
+                        messages=[{"role": "user", "content": prompt_text}],
                     )
-                    
                     summary = response["choices"][0]["message"]["content"]
-                    
-                    return {
-                        "category": category,
-                        "summary": summary
-                    }
+                    return {"category": cat_name, "summary": summary}
                 
-                tasks.append(summarize_category(company_name, category, query, data["content"]))
+                tasks.append(summarize_category(prompt, category))
                 category_list.append(category)
             
             summaries = await asyncio.gather(*tasks)
-            
-            for idx, summary in enumerate(summaries):
-                category = category_list[idx]
-                word_count = len(summary["summary"].split())
-                status_detailed.write(f"✓ {category} ({word_count} words)")
-            
             detailed_summaries = {s["category"]: s["summary"] for s in summaries}
             
-            time.sleep(3)
-            status_detailed.update(label="✅ Detailed summaries generated", state="complete", expanded=False)
+            status_summarize.write(f"Generated {len(summaries)} category summaries")
+            time.sleep(STATUS_DELAY)
+            status_summarize.update(label="✅ Summaries complete", state="complete", expanded=False)
         
-        # ==================== STEP 6: Generate Final Report ====================
-        with st.status("📊 Generating final polished report...", expanded=True) as status_final:
-            category_sources = {}
-            for category in categories_with_content:
-                if category in merged_content:
-                    category_sources[category] = merged_content[category]["sources"]
+        with st.status("📝 Creating final report...", expanded=True) as status_final:
+            summaries_text = ""
+            for category, summary in detailed_summaries.items():
+                summaries_text += f"\n\n## {category}\n{summary}"
             
             prompt = get_final_report_prompt(company_name, detailed_summaries)
             
@@ -361,36 +415,13 @@ async def run_full_research(company_name: str, base_url: str, location: str):
             
             final_report_content = response["choices"][0]["message"]["content"]
             
-            # Add sources to report
-            final_report_with_sources = final_report_content.strip()
-            final_report_with_sources += "\n\n---\n\n# Research Sources\n\n"
+            category_sources = {}
+            for category in categories_with_content:
+                if category in merged_content:
+                    category_sources[category] = merged_content[category]["sources"]
             
-            for idx, category in enumerate(enabled_categories, 1):
-                if category in category_sources and category_sources[category]:
-                    final_report_with_sources += f"## {idx}. {category}\n\n"
-                    for source in category_sources[category]:
-                        final_report_with_sources += f"- {source}\n"
-                    final_report_with_sources += "\n"
-            
-            # Create detailed report with sources
-            detailed_report_content = ""
-            for category in enabled_categories:
-                if category in detailed_summaries:
-                    detailed_report_content += f"## {category}\n\n"
-                    detailed_report_content += detailed_summaries[category]
-                    detailed_report_content += "\n\n---\n\n"
-            
-            detailed_report_with_sources = detailed_report_content.strip()
-            detailed_report_with_sources += "\n\n---\n\n# Research Sources\n\n"
-            
-            for idx, category in enumerate(enabled_categories, 1):
-                if category in category_sources and category_sources[category]:
-                    detailed_report_with_sources += f"## {idx}. {category}\n\n"
-                    for source in category_sources[category]:
-                        detailed_report_with_sources += f"- {source}\n"
-                    detailed_report_with_sources += "\n"
-            
-            # Assemble reports
+            final_report_with_sources = add_sources_to_report(final_report_content, category_sources, enabled_categories)
+            detailed_report_with_sources = create_ui_detailed_report(detailed_summaries, category_sources, enabled_categories)
             
             summary_report_md = f"""# Company Research Report: {company_name}
 
@@ -434,7 +465,6 @@ async def run_full_research(company_name: str, base_url: str, location: str):
                 "detailed_report_markdown": detailed_report_md
             }
             
-            # Save reports
             summaries_folder = f"{base_path}/summaries"
             os.makedirs(summaries_folder, exist_ok=True)
             
@@ -451,10 +481,9 @@ async def run_full_research(company_name: str, base_url: str, location: str):
                 f.write(report_data["detailed_report_markdown"])
             
             status_final.write(f"Report saved: {len(summaries_list)} categories")
-            time.sleep(3)
+            time.sleep(STATUS_DELAY)
             status_final.update(label="✅ Final report generated", state="complete", expanded=False)
     
-    # Clear the progress section completely
     progress_placeholder.empty()
     
     return report_data
@@ -463,10 +492,14 @@ if st.button("🚀 Start Research", type="primary", use_container_width=True):
     if not company_name or not base_url or not location:
         st.error("⚠️ Please provide company name, base URL, and location")
     else:
-        # Run the research
+        st.session_state.config_collapsed = True
+        time.sleep(STATUS_DELAY)
+        st.rerun()
+
+if st.session_state.config_collapsed:
+    if company_name and base_url and location:
         report_data = asyncio.run(run_full_research(company_name, base_url, location))
         
-        # Show success message
         st.success("🎉 Research Completed Successfully!")
         
         safe_name = "".join(c for c in company_name.lower().replace(" ", "_") if c.isalnum() or c in ["_", "-"])
@@ -487,7 +520,7 @@ if st.button("🚀 Start Research", type="primary", use_container_width=True):
             tab1, tab2 = st.tabs(["📊 Executive Summary", "📄 Detailed Report"])
             
             with tab1:
-                col1, col2, col3 = st.columns([2, 6, 2])
+                col1, col2, col3 = st.columns(COLUMN_RATIO)
                 with col2:
                     st.markdown(summary_content)
                     st.download_button(
@@ -499,7 +532,7 @@ if st.button("🚀 Start Research", type="primary", use_container_width=True):
                     )
             
             with tab2:
-                col1, col2, col3 = st.columns([2, 6, 2])
+                col1, col2, col3 = st.columns(COLUMN_RATIO)
                 with col2:
                     st.markdown(detailed_content)
                     st.download_button(
@@ -509,6 +542,8 @@ if st.button("🚀 Start Research", type="primary", use_container_width=True):
                         mime="text/markdown",
                         use_container_width=True
                     )
+        
+        st.session_state.config_collapsed = False
 
 st.markdown("---")
 st.markdown("### 📚 Recent Reports")
@@ -540,7 +575,7 @@ if os.path.exists("results"):
                             content = f.read()
                         
                         st.markdown("---")
-                        col1, col2, col3 = st.columns([2, 6, 2])
+                        col1, col2, col3 = st.columns(COLUMN_RATIO)
                         with col2:
                             st.markdown(content)
                         
@@ -553,7 +588,7 @@ if os.path.exists("results"):
                             content = f.read()
                         
                         st.markdown("---")
-                        col1, col2, col3 = st.columns([2, 6, 2])
+                        col1, col2, col3 = st.columns(COLUMN_RATIO)
                         with col2:
                             st.markdown(content)
                         

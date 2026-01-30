@@ -10,11 +10,3 @@ wheels/
 .venv
 
 .env
-crawl4ai/
-google_ai/
-links/
-search/
-results/
-google_results/
-crawled/
-grok_results/

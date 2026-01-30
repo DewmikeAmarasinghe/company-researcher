@@ -5,10 +5,10 @@ MODEL_NAME = "openai/gpt-5-nano"
 
 DELAY_BETWEEN_QUERIES = 1
 
-BROWSER_HEADLESS = False
+BROWSER_HEADLESS = True
 ENABLE_STEALTH = True
 
-SCRAPE_DELAY = 5
+SCRAPE_DELAY = 4
 
 CATEGORIES = {
     "Founders and Leadership": {

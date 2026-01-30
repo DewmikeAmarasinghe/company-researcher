@@ -7,11 +7,11 @@ from urllib.parse import quote_plus
 import asyncio
 import json
 from utils import is_social_media_url
-from config import DELAY_BETWEEN_QUERIES, BROWSER_HEADLESS, ENABLE_STEALTH
+from config import DELAY_BETWEEN_QUERIES, BROWSER_HEADLESS, ENABLE_STEALTH, SCRAPE_DELAY
 
-async def search_google_by_category(queries: dict) -> dict:
+async def search_google_by_category(queries: dict, headless: bool = BROWSER_HEADLESS) -> dict:
     browser_config = BrowserConfig(
-        headless=BROWSER_HEADLESS,
+        headless=headless,
         enable_stealth=ENABLE_STEALTH
     )
 
@@ -27,14 +27,15 @@ async def search_google_by_category(queries: dict) -> dict:
         config=browser_config
     ) as crawler:
         run_config = CrawlerRunConfig(
-            delay_before_return_html=7,
+            delay_before_return_html=SCRAPE_DELAY,
             scan_full_page=True,
-            exclude_internal_links=False,
-            exclude_external_links=False,
-            exclude_social_media_links=False,
-            keep_data_attributes=True,
-            remove_overlay_elements=True,
-            exclude_external_images=True,
+            # exclude_internal_links=False,
+            # exclude_external_links=False,
+            # exclude_social_media_links=False,
+            excluded_tags=['header', 'footer', 'form', 'nav', 'aside', 'script', 'style'],
+            # keep_data_attributes=True,
+            # remove_overlay_elements=True,
+            # exclude_external_images=True,
             cache_mode=CacheMode.BYPASS,
             markdown_generator=DefaultMarkdownGenerator(
                 content_filter=PruningContentFilter(
@@ -76,11 +77,11 @@ async def search_google_by_category(queries: dict) -> dict:
 
 
 async def main():
-    # company_name = "hSenid Mobile Solutions (Pvt) Ltd"
-    # location = "Sri Lanka"
-
-    company_name = "AOD South Asia (Pvt) Ltd"
+    company_name = "hSenid Mobile Solutions (Pvt) Ltd"
     location = "Sri Lanka"
+
+    # company_name = "AOD South Asia (Pvt) Ltd"
+    # location = "Sri Lanka"
     
     queries = {
         "Founders and Leadership": f"{company_name} {location} about company founders CEO leadership team",

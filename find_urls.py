@@ -105,8 +105,12 @@ def save_output(company_name: str, data: dict):
 
 
 async def main():
-    company_name = "AOD South Asia (Pvt) Ltd"
-    base_url = "https://www.aod.lk/"
+    # company_name = "AOD South Asia (Pvt) Ltd"
+    # base_url = "https://www.aod.lk/"
+    # location = "Sri Lanka"
+    
+    company_name = "hSenid Mobile Solutions (Pvt) Ltd"
+    base_url = "https://www.hsenidmobile.com/"
     location = "Sri Lanka"
 
     output = await discover_company_urls(

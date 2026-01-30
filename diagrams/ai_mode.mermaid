@@ -1,0 +1,29 @@
+flowchart TD
+    Start([Start: AI-Powered Research]) --> Input[/Input: Company Name, Location/]
+    
+    Input --> GenQueries[Generate 25 Research Queries]
+    
+    GenQueries --> Sequential[Sequential Google AI Search Mode]
+    
+    Sequential --> Q1[Query 1: Founders & Leadership<br/>⏱️ Delay 1s]
+    Q1 --> Q2[Query 2: Business Model<br/>⏱️ Delay 1s]
+    Q2 --> Dots1[...]
+    Dots1 --> Q25[Query 25: Contact Information<br/>⏱️ Delay 1s]
+    
+    Q25 --> CollectData[Collect All Query Results]
+    
+    CollectData --> SaveJSON[Save detailed_report.json]
+    
+    SaveJSON --> GenDetailed[Generate Detailed Markdown Report]
+    
+    GenDetailed --> SaveDetailed[Save detailed_report.md<br/>with all 25 sections + sources]
+    
+    SaveDetailed --> PrepareContent[Prepare Full Report Content]
+    
+    PrepareContent --> AISummary[AI Generates Executive Summary<br/>GPT-5-Nano]
+    
+    AISummary --> AddSources[Add Sources to Summary]
+    
+    AddSources --> SaveSummary[Save summary.md]
+    
+    SaveSummary --> End([End: Reports Generated])

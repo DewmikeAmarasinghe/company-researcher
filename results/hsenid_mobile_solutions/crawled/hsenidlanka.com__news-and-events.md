@@ -1,0 +1,9 @@
+Skip to content
+# **News and Events**
+hSenid Software Lanka Expands with New Branch in Kandy City Center [Kandy, Sri Lanka, April 27th, 2023] -hSenid Software Lanka, a subsidiary of a leading software development company in Sri Lanka, hSenid Group, is excited to announce the opening of its new branch office in…
+hSenid Software Lanka participated in a career fair organized by the Department of Computer Engineering, University of Peradeniya on 23rd January 2023. The event provided an opportunity for the undergraduates to meet with the team from hSenid Lanka and learn about potential job opportunities within…
+“The hSenid values badges awarding session” was held on November 9th, 2022 to appreciate the commitment and dedication of our colleagues. Congratulations on your well-deserved success and your future career! You are well about to find out how we do things here at hSenid Software…
+## Follow us on social media
+Submit Your CV Here 
+× 
+Japanese

@@ -1,0 +1,1261 @@
+{
+  "company_name": "DirectPay (Pvt) Ltd ",
+  "base_url": "https://www.directpay.lk/",
+  "location": "Sri Lanka",
+  "stats": {
+    "total_scraped": 85,
+    "total_failed": 0,
+    "total_chars": 463705
+  },
+  "scraped_urls": [
+    {
+      "url": "https://cdn.cse.lk/pdf/company-articles/COMB-N0000-ComBankpartnersDirectPaytosupportdigitalpaymentsolutions.pdf",
+      "filepath": "results/directpay_pvt_ltd_/crawled/cdn.cse.lk__pdf__company-articles__COMB-N0000-ComBankpartnersDirectPaytosupportdigitalpaymentsolutions.pdf.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 1
+    },
+    {
+      "url": "http://www.sundaytimes.lk/181028/business-times/sl-fintech-start-ups-win-gold-and-merit-awards-at-apicta-317189.html",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.sundaytimes.lk__181028__business-times__sl-fintech-start-ups-win-gold-and-merit-awards-at-apicta-317189.html.md",
+      "categories": [
+        "Achievements and Recognition",
+        "Awards and Certifications"
+      ],
+      "length": 6235
+    },
+    {
+      "url": "https://arteculate.asia/directpay-crosses-lkr-3-billion-transactions",
+      "filepath": "results/directpay_pvt_ltd_/crawled/arteculate.asia__directpay-crosses-lkr-3-billion-transactions.md",
+      "categories": [
+        "Company History",
+        "Competitive Landscape",
+        "Market Position",
+        "Recent News and Updates",
+        "Customer Base",
+        "Partnerships",
+        "Challenges and Opportunities",
+        "Case Studies",
+        "Pricing Information"
+      ],
+      "length": 347
+    },
+    {
+      "url": "https://arteculate.asia/directpay-nbqsa-2021",
+      "filepath": "results/directpay_pvt_ltd_/crawled/arteculate.asia__directpay-nbqsa-2021.md",
+      "categories": [
+        "Awards and Certifications",
+        "Financial Performance"
+      ],
+      "length": 347
+    },
+    {
+      "url": "https://cbizz.lk/profile/directpay",
+      "filepath": "results/directpay_pvt_ltd_/crawled/cbizz.lk__profile__directpay.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 1387
+    },
+    {
+      "url": "https://commercialbankleap.globallinker.com/network/computer-peripherals-it/sme/directpay-private-limited-367665",
+      "filepath": "results/directpay_pvt_ltd_/crawled/commercialbankleap.globallinker.com__network__computer-peripherals-it__sme__directpay-private-limited-367665.md",
+      "categories": [
+        "Company Size",
+        "Contact Information"
+      ],
+      "length": 8296
+    },
+    {
+      "url": "https://bizenglish.adaderana.lk/directpay-celebrates-its-5-year-anniversary-achieving-13-5-billion-rupees-in-transactions",
+      "filepath": "results/directpay_pvt_ltd_/crawled/bizenglish.adaderana.lk__directpay-celebrates-its-5-year-anniversary-achieving-13-5-billion-rupees-in-transactions.md",
+      "categories": [
+        "Future Plans",
+        "Financial Performance",
+        "Case Studies"
+      ],
+      "length": 26486
+    },
+    {
+      "url": "http://bizenglish.adaderana.lk/directpay-celebrates-its-5-year-anniversary-achieving-13-5-billion-rupees-in-transactions",
+      "filepath": "results/directpay_pvt_ltd_/crawled/bizenglish.adaderana.lk__directpay-celebrates-its-5-year-anniversary-achieving-13-5-billion-rupees-in-transactions.md",
+      "categories": [
+        "Customer Base"
+      ],
+      "length": 26382
+    },
+    {
+      "url": "https://dailynews.lk/2024/10/29/business/662550/directpay-achieves-1000x-growth-in-just-60-months",
+      "filepath": "results/directpay_pvt_ltd_/crawled/dailynews.lk__2024__10__29__business__662550__directpay-achieves-1000x-growth-in-just-60-months.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 3740
+    },
+    {
+      "url": "https://dailynews.lk/2024/08/14/business/607732/directpay-surpasses-rs-30-bn-mark-in-transaction-processing",
+      "filepath": "results/directpay_pvt_ltd_/crawled/dailynews.lk__2024__08__14__business__607732__directpay-surpasses-rs-30-bn-mark-in-transaction-processing.md",
+      "categories": [
+        "Recent News and Updates",
+        "Achievements and Recognition",
+        "Financial Performance"
+      ],
+      "length": 4411
+    },
+    {
+      "url": "https://ceo.lk/a-prosperous-climb-to-the-pinnacle-of-his-course-chief-executive-officer-of-paymedia-pvt-ltd-and-directpay-pvt-ltd-kanishka-weeramunda",
+      "filepath": "results/directpay_pvt_ltd_/crawled/ceo.lk__a-prosperous-climb-to-the-pinnacle-of-his-course-chief-executive-officer-of-paymedia-pvt-ltd-and-directpay-pvt-ltd-kanishka-weeramunda.md",
+      "categories": [
+        "Challenges and Opportunities",
+        "Case Studies"
+      ],
+      "length": 14293
+    },
+    {
+      "url": "http://island.lk/startup-directpay-achieves-phenomenal-growth-in-just-60-months",
+      "filepath": "results/directpay_pvt_ltd_/crawled/island.lk__startup-directpay-achieves-phenomenal-growth-in-just-60-months.md",
+      "categories": [
+        "Future Plans",
+        "Case Studies"
+      ],
+      "length": 11240
+    },
+    {
+      "url": "http://island.lk/combank-partners-directpay-to-support-digital-payment-solutions-for-businesses",
+      "filepath": "results/directpay_pvt_ltd_/crawled/island.lk__combank-partners-directpay-to-support-digital-payment-solutions-for-businesses.md",
+      "categories": [
+        "Customer Base"
+      ],
+      "length": 13052
+    },
+    {
+      "url": "https://ijabf.sljol.info/articles/168/files/68ae775110cc0.pdf",
+      "filepath": "results/directpay_pvt_ltd_/crawled/ijabf.sljol.info__articles__168__files__68ae775110cc0.pdf.md",
+      "categories": [
+        "Social Responsibility"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://echelon.lk/why-directpay-is-sri-lankas-fastest-growing-fintech",
+      "filepath": "results/directpay_pvt_ltd_/crawled/echelon.lk__why-directpay-is-sri-lankas-fastest-growing-fintech.md",
+      "categories": [
+        "Founders and Leadership",
+        "Competitive Landscape",
+        "Market Position",
+        "Achievements and Recognition",
+        "Customer Base",
+        "Mission and Values",
+        "Future Plans",
+        "Awards and Certifications",
+        "Financial Performance",
+        "Challenges and Opportunities",
+        "Innovation and R&D"
+      ],
+      "length": 11383
+    },
+    {
+      "url": "https://lankatalks.com/post/directpay-recognized-for-its-pci-dss-compliance-has-surpassed-rs--30-billion-mark-in-transaction-processing",
+      "filepath": "results/directpay_pvt_ltd_/crawled/lankatalks.com__post__directpay-recognized-for-its-pci-dss-compliance-has-surpassed-rs--30-billion-mark-in-transaction-processing.md",
+      "categories": [
+        "Recent News and Updates",
+        "Achievements and Recognition",
+        "Awards and Certifications",
+        "Social Responsibility"
+      ],
+      "length": 5668
+    },
+    {
+      "url": "https://pitchbook.com/profiles/company/551664-82",
+      "filepath": "results/directpay_pvt_ltd_/crawled/pitchbook.com__profiles__company__551664-82.md",
+      "categories": [
+        "Company Size"
+      ],
+      "length": 3234
+    },
+    {
+      "url": "https://shop.directpay.online/category/hotel",
+      "filepath": "results/directpay_pvt_ltd_/crawled/shop.directpay.online__category__hotel.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 59411
+    },
+    {
+      "url": "https://dp-web.directpay.lk/our-management-team",
+      "filepath": "results/directpay_pvt_ltd_/crawled/dp-web.directpay.lk__our-management-team.md",
+      "categories": [
+        "Founders and Leadership",
+        "Organizational Structure"
+      ],
+      "length": 306
+    },
+    {
+      "url": "https://sljm.pim.sjp.ac.lk/admin/uploads/178_1681805745.pdf",
+      "filepath": "results/directpay_pvt_ltd_/crawled/sljm.pim.sjp.ac.lk__admin__uploads__178_1681805745.pdf.md",
+      "categories": [
+        "Social Responsibility"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://ensun.io/search/payment-processing/sri-lanka",
+      "filepath": "results/directpay_pvt_ltd_/crawled/ensun.io__search__payment-processing__sri-lanka.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 71
+    },
+    {
+      "url": "https://economynext.com/brand_voice/why-directpay-is-the-fastest-growing-fintech-in-sri-lanka",
+      "filepath": "results/directpay_pvt_ltd_/crawled/economynext.com__brand_voice__why-directpay-is-the-fastest-growing-fintech-in-sri-lanka.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company History",
+        "Market Position",
+        "Mission and Values",
+        "Financial Performance"
+      ],
+      "length": 13784
+    },
+    {
+      "url": "https://dp-web.directpay.lk/kanishka-weeramunda",
+      "filepath": "results/directpay_pvt_ltd_/crawled/dp-web.directpay.lk__kanishka-weeramunda.md",
+      "categories": [
+        "Founders and Leadership"
+      ],
+      "length": 894
+    },
+    {
+      "url": "https://dp-web.directpay.lk/contact-us",
+      "filepath": "results/directpay_pvt_ltd_/crawled/dp-web.directpay.lk__contact-us.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 427
+    },
+    {
+      "url": "https://razorpay.com/pricing",
+      "filepath": "results/directpay_pvt_ltd_/crawled/razorpay.com__pricing.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 6382
+    },
+    {
+      "url": "https://dp-web.directpay.lk/news",
+      "filepath": "results/directpay_pvt_ltd_/crawled/dp-web.directpay.lk__news.md",
+      "categories": [
+        "Recent News and Updates"
+      ],
+      "length": 687
+    },
+    {
+      "url": "https://dp-web.directpay.lk/about-us",
+      "filepath": "results/directpay_pvt_ltd_/crawled/dp-web.directpay.lk__about-us.md",
+      "categories": [
+        "Organizational Structure"
+      ],
+      "length": 1236
+    },
+    {
+      "url": "https://dp-web.directpay.lk/directpay-ipg",
+      "filepath": "results/directpay_pvt_ltd_/crawled/dp-web.directpay.lk__directpay-ipg.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 2045
+    },
+    {
+      "url": "https://tracxn.com/d/companies/directpay/__tUQrsJ0RGOpckdJlD1tUnssDNEjeLy_MWrcadY7v5Io",
+      "filepath": "results/directpay_pvt_ltd_/crawled/tracxn.com__d__companies__directpay____tUQrsJ0RGOpckdJlD1tUnssDNEjeLy_MWrcadY7v5Io.md",
+      "categories": [
+        "Founders and Leadership",
+        "Competitive Landscape",
+        "Market Position",
+        "Company Size",
+        "Financial Performance",
+        "Contact Information"
+      ],
+      "length": 6908
+    },
+    {
+      "url": "https://trpndirectpay.com/about",
+      "filepath": "results/directpay_pvt_ltd_/crawled/trpndirectpay.com__about.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 1639
+    },
+    {
+      "url": "https://www.combank.lk/news/news-events/combank-partners-directpay-to-support-digital-payment-solutions-for-businesses",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.combank.lk__news__news-events__combank-partners-directpay-to-support-digital-payment-solutions-for-businesses.md",
+      "categories": [
+        "Competitive Landscape",
+        "Market Position",
+        "Customer Base",
+        "Partnerships",
+        "Future Plans",
+        "Financial Performance",
+        "Social Responsibility",
+        "Case Studies",
+        "Pricing Information"
+      ],
+      "length": 6852
+    },
+    {
+      "url": "https://www.directpay.lk/about",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__about.md",
+      "categories": [
+        "Founders and Leadership",
+        "Business Model and Revenue",
+        "Products and Services",
+        "Company History",
+        "Organizational Structure",
+        "Customer Base",
+        "Mission and Values",
+        "Technology Stack",
+        "Company Size",
+        "Future Plans",
+        "Financial Performance",
+        "Challenges and Opportunities",
+        "Innovation and R&D",
+        "Social Responsibility",
+        "Case Studies",
+        "Contact Information"
+      ],
+      "length": 911
+    },
+    {
+      "url": "https://combank2021.annualreports.lk/integrated_report/leading_through_innovation.html",
+      "filepath": "results/directpay_pvt_ltd_/crawled/combank2021.annualreports.lk__integrated_report__leading_through_innovation.html.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 24461
+    },
+    {
+      "url": "https://www.dailymirror.lk/print/business-news/DirectPay-achieves-1000x-growth-in-60-months/273-294722",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.dailymirror.lk__print__business-news__DirectPay-achieves-1000x-growth-in-60-months__273-294722.md",
+      "categories": [
+        "Market Position"
+      ],
+      "length": 43
+    },
+    {
+      "url": "https://www.directpay.lk/",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk.md",
+      "categories": [
+        "Organizational Structure",
+        "Achievements and Recognition",
+        "Customer Base",
+        "Mission and Values",
+        "Technology Stack",
+        "Partnerships",
+        "Company Size",
+        "Future Plans",
+        "Financial Performance",
+        "Challenges and Opportunities",
+        "Innovation and R&D",
+        "Social Responsibility",
+        "Pricing Information",
+        "Contact Information"
+      ],
+      "length": 1636
+    },
+    {
+      "url": "https://www.directpay.lk/business",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__business.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Customer Base",
+        "Mission and Values",
+        "Innovation and R&D",
+        "Social Responsibility"
+      ],
+      "length": 317
+    },
+    {
+      "url": "https://www.directpay.lk/blog",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__blog.md",
+      "categories": [
+        "Innovation and R&D",
+        "Case Studies"
+      ],
+      "length": 1567
+    },
+    {
+      "url": "https://www.directpay.lk/blog5",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__blog5.md",
+      "categories": [
+        "Company History",
+        "Partnerships",
+        "Innovation and R&D",
+        "Case Studies"
+      ],
+      "length": 1425
+    },
+    {
+      "url": "https://www.directpay.lk/blog8",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__blog8.md",
+      "categories": [
+        "Achievements and Recognition",
+        "Social Responsibility",
+        "Case Studies"
+      ],
+      "length": 1447
+    },
+    {
+      "url": "https://www.directpay.lk/blog2",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__blog2.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Company History",
+        "Recent News and Updates",
+        "Mission and Values",
+        "Partnerships",
+        "Innovation and R&D"
+      ],
+      "length": 1452
+    },
+    {
+      "url": "https://www.dailymirror.lk/business-news/DirectPay-achieves-1000x-growth-in-60-months/273-294722",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.dailymirror.lk__business-news__DirectPay-achieves-1000x-growth-in-60-months__273-294722.md",
+      "categories": [
+        "Company History",
+        "Recent News and Updates"
+      ],
+      "length": 6585
+    },
+    {
+      "url": "https://www.directpay.lk/blog9",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__blog9.md",
+      "categories": [
+        "Achievements and Recognition",
+        "Mission and Values",
+        "Awards and Certifications",
+        "Innovation and R&D",
+        "Social Responsibility",
+        "Case Studies"
+      ],
+      "length": 1243
+    },
+    {
+      "url": "https://www.directpay.lk/blog4",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__blog4.md",
+      "categories": [
+        "Financial Performance",
+        "Case Studies"
+      ],
+      "length": 1919
+    },
+    {
+      "url": "https://www.directpay.lk/blog3",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__blog3.md",
+      "categories": [
+        "Innovation and R&D"
+      ],
+      "length": 2187
+    },
+    {
+      "url": "https://www.directpay.lk/blog7",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__blog7.md",
+      "categories": [
+        "Innovation and R&D",
+        "Case Studies"
+      ],
+      "length": 3489
+    },
+    {
+      "url": "https://www.directpay.lk/awards",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__awards.md",
+      "categories": [
+        "Achievements and Recognition",
+        "Awards and Certifications"
+      ],
+      "length": 436
+    },
+    {
+      "url": "https://www.directpay.lk/Career",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__Career.md",
+      "categories": [
+        "Organizational Structure",
+        "Mission and Values",
+        "Company Size",
+        "Challenges and Opportunities",
+        "Company Culture",
+        "Innovation and R&D",
+        "Social Responsibility"
+      ],
+      "length": 4315
+    },
+    {
+      "url": "https://www.directpay.lk/contact",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__contact.md",
+      "categories": [
+        "Innovation and R&D",
+        "Contact Information"
+      ],
+      "length": 302
+    },
+    {
+      "url": "https://www.directpay.lk/direct-pay-ipg",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__direct-pay-ipg.md",
+      "categories": [
+        "Business Model and Revenue"
+      ],
+      "length": 71
+    },
+    {
+      "url": "https://www.directpay.lk/merchant",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__merchant.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services",
+        "Technology Stack",
+        "Future Plans"
+      ],
+      "length": 1169
+    },
+    {
+      "url": "https://www.directpay.lk/news",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__news.md",
+      "categories": [
+        "Company History",
+        "Market Position",
+        "Recent News and Updates",
+        "Recent News and Updates",
+        "Organizational Structure",
+        "Achievements and Recognition",
+        "Partnerships",
+        "Awards and Certifications",
+        "Challenges and Opportunities",
+        "Innovation and R&D",
+        "Case Studies"
+      ],
+      "length": 2254
+    },
+    {
+      "url": "https://www.directpay.lk/pos",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__pos.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services",
+        "Technology Stack",
+        "Pricing Information"
+      ],
+      "length": 2257
+    },
+    {
+      "url": "https://www.directpay.lk/privacy",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__privacy.md",
+      "categories": [
+        "Technology Stack"
+      ],
+      "length": 5049
+    },
+    {
+      "url": "https://www.directpay.lk/ipg",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__ipg.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services",
+        "Technology Stack",
+        "Innovation and R&D",
+        "Pricing Information"
+      ],
+      "length": 2520
+    },
+    {
+      "url": "https://www.directpay.lk/faq",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__faq.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services",
+        "Organizational Structure",
+        "Customer Base",
+        "Mission and Values",
+        "Technology Stack",
+        "Challenges and Opportunities",
+        "Innovation and R&D",
+        "Social Responsibility",
+        "Pricing Information"
+      ],
+      "length": 9213
+    },
+    {
+      "url": "https://www.directpay.lk/web",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__web.md",
+      "categories": [
+        "Products and Services",
+        "Technology Stack",
+        "Innovation and R&D",
+        "Contact Information"
+      ],
+      "length": 308
+    },
+    {
+      "url": "https://www.directpay.lk/whitelable",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__whitelable.md",
+      "categories": [
+        "Products and Services",
+        "Technology Stack"
+      ],
+      "length": 313
+    },
+    {
+      "url": "https://www.directpay.lk/user",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__user.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services",
+        "Technology Stack"
+      ],
+      "length": 748
+    },
+    {
+      "url": "https://www.directpay.lk/vpos",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__vpos.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services",
+        "Technology Stack",
+        "Pricing Information"
+      ],
+      "length": 2084
+    },
+    {
+      "url": "https://www.globalscientificjournal.com/researchpaper/Navigating_the_risk_management_in_Sri_Lanka_s_emerging_FinTech_Entities_A_strategic_evaluation.pdf",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.globalscientificjournal.com__researchpaper__Navigating_the_risk_management_in_Sri_Lanka_s_emerging_FinTech_Entities_A_strategic_evaluation.pdf.md",
+      "categories": [
+        "Partnerships",
+        "Challenges and Opportunities"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://www.directpay.lk/terms",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.directpay.lk__terms.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Innovation and R&D",
+        "Contact Information"
+      ],
+      "length": 23875
+    },
+    {
+      "url": "https://www.g2.com/products/directpay/competitors/alternatives",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.g2.com__products__directpay__competitors__alternatives.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://www.glassdoor.co.in/Reviews/Employee-Review-DirectPay-E1828281-RVW24173317.htm",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.glassdoor.co.in__Reviews__Employee-Review-DirectPay-E1828281-RVW24173317.htm.md",
+      "categories": [
+        "Company Culture",
+        "Customer Reviews"
+      ],
+      "length": 2088
+    },
+    {
+      "url": "https://www.ft.lk/financial-services/DirectPay-achieves-1000x-growth-in-just-60-months/42-718480",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.ft.lk__financial-services__DirectPay-achieves-1000x-growth-in-just-60-months__42-718480.md",
+      "categories": [
+        "Company History"
+      ],
+      "length": 89
+    },
+    {
+      "url": "https://www.ft.lk/financial-services/DirectPay-achieves-1000x-growth-in-just-60-months/42-768480",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.ft.lk__financial-services__DirectPay-achieves-1000x-growth-in-just-60-months__42-768480.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 93
+    },
+    {
+      "url": "https://www.echelon.lk/why-directpay-is-sri-lankas-fastest-growing-fintech",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.echelon.lk__why-directpay-is-sri-lankas-fastest-growing-fintech.md",
+      "categories": [
+        "Market Position"
+      ],
+      "length": 11392
+    },
+    {
+      "url": "https://www.ft.lk/front-page/DirectPay-achieves-1000x-growth-in-just-60-months/44-768480",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.ft.lk__front-page__DirectPay-achieves-1000x-growth-in-just-60-months__44-768480.md",
+      "categories": [
+        "Recent News and Updates",
+        "Future Plans"
+      ],
+      "length": 93
+    },
+    {
+      "url": "https://www.indeed.com/cmp/Directpay/reviews?ftopic=mgmt",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.indeed.com__cmp__Directpay__reviews.md",
+      "categories": [
+        "Company Culture",
+        "Customer Reviews"
+      ],
+      "length": 1877
+    },
+    {
+      "url": "https://www.icta.lk/media/news/directpay-wins-seedstars-colombo-2018",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.icta.lk__media__news__directpay-wins-seedstars-colombo-2018.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 3565
+    },
+    {
+      "url": "https://www.lankayp.com/company/27924/DirectPay",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.lankayp.com__company__27924__DirectPay.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 1679
+    },
+    {
+      "url": "https://www.grant-graham.co.uk/en/grant-and-graham-blog/the-evolution-of-the-payment-sector-the-rise-of-digital-wallets-and-the-future-of-traditional-payment-networks",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.grant-graham.co.uk__en__grant-and-graham-blog__the-evolution-of-the-payment-sector-the-rise-of-digital-wallets-and-the-future-of-traditional-payment-networks.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 12669
+    },
+    {
+      "url": "https://www.indeed.com/cmp/Directpay/reviews?fcountry=ALL",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.indeed.com__cmp__Directpay__reviews.md",
+      "categories": [
+        "Company Culture",
+        "Customer Reviews"
+      ],
+      "length": 2161
+    },
+    {
+      "url": "https://www.glassdoor.com/Overview/Working-at-DirectPay-EI_IE4972943.11,20.htm",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.glassdoor.com__Overview__Working-at-DirectPay-EI_IE4972943.11,20.htm.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 2881
+    },
+    {
+      "url": "https://www.glassdoor.com/Reviews/DirectPay-Reviews-EI_IE4972943.11,20.htm",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.glassdoor.com__Reviews__DirectPay-Reviews-EI_IE4972943.11,20.htm.md",
+      "categories": [
+        "Customer Reviews"
+      ],
+      "length": 2877
+    },
+    {
+      "url": "https://www.glassdoor.com/Reviews/DirectPay-Reviews-E1828281.htm",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.glassdoor.com__Reviews__DirectPay-Reviews-E1828281.htm.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 2867
+    },
+    {
+      "url": "https://www.seu.ac.lk/researchandpublications/symposium_fia/2016/SURVEY%20ON%20CORPORATE%20SOCIAL%20RESPONSIBILITY%20IN%20SRI%20LANKA%20-Sheham%20AM%20(2).pdf",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.seu.ac.lk__researchandpublications__symposium_fia__2016__SURVEY%20ON%20CORPORATE%20SOCIAL%20RESPONSIBILITY%20IN%20SRI%20LANKA%20-Sheham%20AM%20(2).pdf.md",
+      "categories": [
+        "Social Responsibility"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://www.irs.gov/payments/direct-pay-help",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.irs.gov__payments__direct-pay-help.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 17693
+    },
+    {
+      "url": "https://www.zoominfo.com/c/directpay/547077552",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.zoominfo.com__c__directpay__547077552.md",
+      "categories": [
+        "Competitive Landscape",
+        "Organizational Structure",
+        "Company Size"
+      ],
+      "length": 288
+    },
+    {
+      "url": "https://www.ft.lk/financial-services/DirectPay-achieves-1000x-growth-in-just-60-months/42-718571",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.ft.lk__financial-services__DirectPay-achieves-1000x-growth-in-just-60-months__42-718571.md",
+      "categories": [
+        "Market Position",
+        "Financial Performance"
+      ],
+      "length": 89
+    },
+    {
+      "url": "https://www.ft.lk/financial-services/Sri-Lanka-s-journey-from-cash-to-cashless/42-776465",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.ft.lk__financial-services__Sri-Lanka-s-journey-from-cash-to-cashless__42-776465.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 91
+    },
+    {
+      "url": "https://www.tracxn.com/d/companies/directpay/__tUQrsJ0RGOpckdJlD1tUnssDNEjeLy_MWrcadY7v5Io",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.tracxn.com__d__companies__directpay____tUQrsJ0RGOpckdJlD1tUnssDNEjeLy_MWrcadY7v5Io.md",
+      "categories": [
+        "Organizational Structure"
+      ],
+      "length": 6928
+    },
+    {
+      "url": "https://www.lankabusinessnews.com/directpay-celebrates-its-5-year-anniversary-achieving-13-5-billion-rupees-in-transactions",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.lankabusinessnews.com__directpay-celebrates-its-5-year-anniversary-achieving-13-5-billion-rupees-in-transactions.md",
+      "categories": [
+        "Company History"
+      ],
+      "length": 5886
+    },
+    {
+      "url": "https://www.paymedia.lk/case-studies",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.paymedia.lk__case-studies.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 7046
+    },
+    {
+      "url": "https://www.trustpilot.com/review/directpay.online",
+      "filepath": "results/directpay_pvt_ltd_/crawled/www.trustpilot.com__review__directpay.online.md",
+      "categories": [
+        "Customer Reviews"
+      ],
+      "length": 4982
+    },
+    {
+      "url": "https://zapier.com/blog/best-payment-gateways",
+      "filepath": "results/directpay_pvt_ltd_/crawled/zapier.com__blog__best-payment-gateways.md",
+      "categories": [
+        "Competitive Landscape",
+        "Pricing Information"
+      ],
+      "length": 35626
+    }
+  ],
+  "url_to_categories": {
+    "https://www.directpay.lk/about": [
+      "Founders and Leadership",
+      "Business Model and Revenue",
+      "Products and Services",
+      "Company History",
+      "Organizational Structure",
+      "Customer Base",
+      "Mission and Values",
+      "Technology Stack",
+      "Company Size",
+      "Future Plans",
+      "Financial Performance",
+      "Challenges and Opportunities",
+      "Innovation and R&D",
+      "Social Responsibility",
+      "Case Studies",
+      "Contact Information"
+    ],
+    "https://dp-web.directpay.lk/our-management-team": [
+      "Founders and Leadership",
+      "Organizational Structure"
+    ],
+    "https://dp-web.directpay.lk/kanishka-weeramunda": [
+      "Founders and Leadership"
+    ],
+    "https://economynext.com/brand_voice/why-directpay-is-the-fastest-growing-fintech-in-sri-lanka": [
+      "Founders and Leadership",
+      "Company History",
+      "Market Position",
+      "Mission and Values",
+      "Financial Performance"
+    ],
+    "https://echelon.lk/why-directpay-is-sri-lankas-fastest-growing-fintech": [
+      "Founders and Leadership",
+      "Competitive Landscape",
+      "Market Position",
+      "Achievements and Recognition",
+      "Customer Base",
+      "Mission and Values",
+      "Future Plans",
+      "Awards and Certifications",
+      "Financial Performance",
+      "Challenges and Opportunities",
+      "Innovation and R&D"
+    ],
+    "https://tracxn.com/d/companies/directpay/__tUQrsJ0RGOpckdJlD1tUnssDNEjeLy_MWrcadY7v5Io": [
+      "Founders and Leadership",
+      "Competitive Landscape",
+      "Market Position",
+      "Company Size",
+      "Financial Performance",
+      "Contact Information"
+    ],
+    "https://www.directpay.lk/ipg": [
+      "Business Model and Revenue",
+      "Products and Services",
+      "Technology Stack",
+      "Innovation and R&D",
+      "Pricing Information"
+    ],
+    "https://www.directpay.lk/vpos": [
+      "Business Model and Revenue",
+      "Products and Services",
+      "Technology Stack",
+      "Pricing Information"
+    ],
+    "https://www.directpay.lk/pos": [
+      "Business Model and Revenue",
+      "Products and Services",
+      "Technology Stack",
+      "Pricing Information"
+    ],
+    "https://www.directpay.lk/merchant": [
+      "Business Model and Revenue",
+      "Products and Services",
+      "Technology Stack",
+      "Future Plans"
+    ],
+    "https://www.directpay.lk/user": [
+      "Business Model and Revenue",
+      "Products and Services",
+      "Technology Stack"
+    ],
+    "https://www.directpay.lk/business": [
+      "Business Model and Revenue",
+      "Customer Base",
+      "Mission and Values",
+      "Innovation and R&D",
+      "Social Responsibility"
+    ],
+    "https://www.directpay.lk/terms": [
+      "Business Model and Revenue",
+      "Innovation and R&D",
+      "Contact Information"
+    ],
+    "https://www.directpay.lk/faq": [
+      "Business Model and Revenue",
+      "Products and Services",
+      "Organizational Structure",
+      "Customer Base",
+      "Mission and Values",
+      "Technology Stack",
+      "Challenges and Opportunities",
+      "Innovation and R&D",
+      "Social Responsibility",
+      "Pricing Information"
+    ],
+    "https://www.directpay.lk/direct-pay-ipg": [
+      "Business Model and Revenue"
+    ],
+    "https://www.directpay.lk/blog2": [
+      "Business Model and Revenue",
+      "Company History",
+      "Recent News and Updates",
+      "Mission and Values",
+      "Partnerships",
+      "Innovation and R&D"
+    ],
+    "https://www.directpay.lk/whitelable": [
+      "Products and Services",
+      "Technology Stack"
+    ],
+    "https://www.directpay.lk/web": [
+      "Products and Services",
+      "Technology Stack",
+      "Innovation and R&D",
+      "Contact Information"
+    ],
+    "https://www.directpay.lk/news": [
+      "Company History",
+      "Market Position",
+      "Recent News and Updates",
+      "Recent News and Updates",
+      "Organizational Structure",
+      "Achievements and Recognition",
+      "Partnerships",
+      "Awards and Certifications",
+      "Challenges and Opportunities",
+      "Innovation and R&D",
+      "Case Studies"
+    ],
+    "https://arteculate.asia/directpay-crosses-lkr-3-billion-transactions": [
+      "Company History",
+      "Competitive Landscape",
+      "Market Position",
+      "Recent News and Updates",
+      "Customer Base",
+      "Partnerships",
+      "Challenges and Opportunities",
+      "Case Studies",
+      "Pricing Information"
+    ],
+    "https://www.dailymirror.lk/business-news/DirectPay-achieves-1000x-growth-in-60-months/273-294722": [
+      "Company History",
+      "Recent News and Updates"
+    ],
+    "https://www.lankabusinessnews.com/directpay-celebrates-its-5-year-anniversary-achieving-13-5-billion-rupees-in-transactions": [
+      "Company History"
+    ],
+    "https://www.directpay.lk/blog5": [
+      "Company History",
+      "Partnerships",
+      "Innovation and R&D",
+      "Case Studies"
+    ],
+    "https://www.ft.lk/financial-services/DirectPay-achieves-1000x-growth-in-just-60-months/42-718480": [
+      "Company History"
+    ],
+    "https://www.g2.com/products/directpay/competitors/alternatives": [
+      "Competitive Landscape"
+    ],
+    "https://www.combank.lk/news/news-events/combank-partners-directpay-to-support-digital-payment-solutions-for-businesses": [
+      "Competitive Landscape",
+      "Market Position",
+      "Customer Base",
+      "Partnerships",
+      "Future Plans",
+      "Financial Performance",
+      "Social Responsibility",
+      "Case Studies",
+      "Pricing Information"
+    ],
+    "https://www.zoominfo.com/c/directpay/547077552": [
+      "Competitive Landscape",
+      "Organizational Structure",
+      "Company Size"
+    ],
+    "https://www.grant-graham.co.uk/en/grant-and-graham-blog/the-evolution-of-the-payment-sector-the-rise-of-digital-wallets-and-the-future-of-traditional-payment-networks": [
+      "Competitive Landscape"
+    ],
+    "https://zapier.com/blog/best-payment-gateways": [
+      "Competitive Landscape",
+      "Pricing Information"
+    ],
+    "https://www.irs.gov/payments/direct-pay-help": [
+      "Competitive Landscape"
+    ],
+    "https://www.dailymirror.lk/print/business-news/DirectPay-achieves-1000x-growth-in-60-months/273-294722": [
+      "Market Position"
+    ],
+    "https://www.ft.lk/financial-services/DirectPay-achieves-1000x-growth-in-just-60-months/42-718571": [
+      "Market Position",
+      "Financial Performance"
+    ],
+    "https://www.echelon.lk/why-directpay-is-sri-lankas-fastest-growing-fintech": [
+      "Market Position"
+    ],
+    "https://dp-web.directpay.lk/news": [
+      "Recent News and Updates"
+    ],
+    "https://dailynews.lk/2024/08/14/business/607732/directpay-surpasses-rs-30-bn-mark-in-transaction-processing": [
+      "Recent News and Updates",
+      "Achievements and Recognition",
+      "Financial Performance"
+    ],
+    "https://www.ft.lk/front-page/DirectPay-achieves-1000x-growth-in-just-60-months/44-768480": [
+      "Recent News and Updates",
+      "Future Plans"
+    ],
+    "https://lankatalks.com/post/directpay-recognized-for-its-pci-dss-compliance-has-surpassed-rs--30-billion-mark-in-transaction-processing": [
+      "Recent News and Updates",
+      "Achievements and Recognition",
+      "Awards and Certifications",
+      "Social Responsibility"
+    ],
+    "https://www.directpay.lk/": [
+      "Organizational Structure",
+      "Achievements and Recognition",
+      "Customer Base",
+      "Mission and Values",
+      "Technology Stack",
+      "Partnerships",
+      "Company Size",
+      "Future Plans",
+      "Financial Performance",
+      "Challenges and Opportunities",
+      "Innovation and R&D",
+      "Social Responsibility",
+      "Pricing Information",
+      "Contact Information"
+    ],
+    "https://dp-web.directpay.lk/about-us": [
+      "Organizational Structure"
+    ],
+    "https://www.directpay.lk/Career": [
+      "Organizational Structure",
+      "Mission and Values",
+      "Company Size",
+      "Challenges and Opportunities",
+      "Company Culture",
+      "Innovation and R&D",
+      "Social Responsibility"
+    ],
+    "https://www.tracxn.com/d/companies/directpay/__tUQrsJ0RGOpckdJlD1tUnssDNEjeLy_MWrcadY7v5Io": [
+      "Organizational Structure"
+    ],
+    "https://www.directpay.lk/awards": [
+      "Achievements and Recognition",
+      "Awards and Certifications"
+    ],
+    "https://www.directpay.lk/blog8": [
+      "Achievements and Recognition",
+      "Social Responsibility",
+      "Case Studies"
+    ],
+    "https://www.directpay.lk/blog9": [
+      "Achievements and Recognition",
+      "Mission and Values",
+      "Awards and Certifications",
+      "Innovation and R&D",
+      "Social Responsibility",
+      "Case Studies"
+    ],
+    "http://www.sundaytimes.lk/181028/business-times/sl-fintech-start-ups-win-gold-and-merit-awards-at-apicta-317189.html": [
+      "Achievements and Recognition",
+      "Awards and Certifications"
+    ],
+    "http://bizenglish.adaderana.lk/directpay-celebrates-its-5-year-anniversary-achieving-13-5-billion-rupees-in-transactions": [
+      "Customer Base"
+    ],
+    "http://island.lk/combank-partners-directpay-to-support-digital-payment-solutions-for-businesses": [
+      "Customer Base"
+    ],
+    "https://www.directpay.lk/privacy": [
+      "Technology Stack"
+    ],
+    "https://cdn.cse.lk/pdf/company-articles/COMB-N0000-ComBankpartnersDirectPaytosupportdigitalpaymentsolutions.pdf": [
+      "Partnerships"
+    ],
+    "https://www.globalscientificjournal.com/researchpaper/Navigating_the_risk_management_in_Sri_Lanka_s_emerging_FinTech_Entities_A_strategic_evaluation.pdf": [
+      "Partnerships",
+      "Challenges and Opportunities"
+    ],
+    "https://commercialbankleap.globallinker.com/network/computer-peripherals-it/sme/directpay-private-limited-367665": [
+      "Company Size",
+      "Contact Information"
+    ],
+    "https://pitchbook.com/profiles/company/551664-82": [
+      "Company Size"
+    ],
+    "https://dailynews.lk/2024/10/29/business/662550/directpay-achieves-1000x-growth-in-just-60-months": [
+      "Future Plans"
+    ],
+    "https://bizenglish.adaderana.lk/directpay-celebrates-its-5-year-anniversary-achieving-13-5-billion-rupees-in-transactions": [
+      "Future Plans",
+      "Financial Performance",
+      "Case Studies"
+    ],
+    "http://island.lk/startup-directpay-achieves-phenomenal-growth-in-just-60-months": [
+      "Future Plans",
+      "Case Studies"
+    ],
+    "https://arteculate.asia/directpay-nbqsa-2021": [
+      "Awards and Certifications",
+      "Financial Performance"
+    ],
+    "https://www.directpay.lk/blog4": [
+      "Financial Performance",
+      "Case Studies"
+    ],
+    "https://www.ft.lk/financial-services/Sri-Lanka-s-journey-from-cash-to-cashless/42-776465": [
+      "Challenges and Opportunities"
+    ],
+    "https://ceo.lk/a-prosperous-climb-to-the-pinnacle-of-his-course-chief-executive-officer-of-paymedia-pvt-ltd-and-directpay-pvt-ltd-kanishka-weeramunda": [
+      "Challenges and Opportunities",
+      "Case Studies"
+    ],
+    "https://ensun.io/search/payment-processing/sri-lanka": [
+      "Challenges and Opportunities"
+    ],
+    "https://trpndirectpay.com/about": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.glassdoor.com/Reviews/DirectPay-Reviews-E1828281.htm": [
+      "Company Culture"
+    ],
+    "https://www.indeed.com/cmp/Directpay/reviews?fcountry=ALL": [
+      "Company Culture",
+      "Customer Reviews"
+    ],
+    "https://www.glassdoor.co.in/Reviews/Employee-Review-DirectPay-E1828281-RVW24173317.htm": [
+      "Company Culture",
+      "Customer Reviews"
+    ],
+    "https://www.indeed.com/cmp/Directpay/reviews?ftopic=mgmt": [
+      "Company Culture",
+      "Customer Reviews"
+    ],
+    "https://www.glassdoor.com/Overview/Working-at-DirectPay-EI_IE4972943.11,20.htm": [
+      "Company Culture"
+    ],
+    "https://www.trustpilot.com/review/directpay.online": [
+      "Customer Reviews"
+    ],
+    "https://www.glassdoor.com/Reviews/DirectPay-Reviews-EI_IE4972943.11,20.htm": [
+      "Customer Reviews"
+    ],
+    "https://www.directpay.lk/blog": [
+      "Innovation and R&D",
+      "Case Studies"
+    ],
+    "https://www.directpay.lk/blog7": [
+      "Innovation and R&D",
+      "Case Studies"
+    ],
+    "https://www.directpay.lk/blog3": [
+      "Innovation and R&D"
+    ],
+    "https://www.directpay.lk/contact": [
+      "Innovation and R&D",
+      "Contact Information"
+    ],
+    "https://ijabf.sljol.info/articles/168/files/68ae775110cc0.pdf": [
+      "Social Responsibility"
+    ],
+    "https://sljm.pim.sjp.ac.lk/admin/uploads/178_1681805745.pdf": [
+      "Social Responsibility"
+    ],
+    "https://www.seu.ac.lk/researchandpublications/symposium_fia/2016/SURVEY%20ON%20CORPORATE%20SOCIAL%20RESPONSIBILITY%20IN%20SRI%20LANKA%20-Sheham%20AM%20(2).pdf": [
+      "Social Responsibility"
+    ],
+    "https://www.paymedia.lk/case-studies": [
+      "Case Studies"
+    ],
+    "https://www.icta.lk/media/news/directpay-wins-seedstars-colombo-2018": [
+      "Case Studies"
+    ],
+    "https://www.ft.lk/financial-services/DirectPay-achieves-1000x-growth-in-just-60-months/42-768480": [
+      "Case Studies"
+    ],
+    "https://razorpay.com/pricing": [
+      "Pricing Information"
+    ],
+    "https://dp-web.directpay.lk/directpay-ipg": [
+      "Pricing Information"
+    ],
+    "https://shop.directpay.online/category/hotel": [
+      "Pricing Information"
+    ],
+    "https://combank2021.annualreports.lk/integrated_report/leading_through_innovation.html": [
+      "Contact Information"
+    ],
+    "https://dp-web.directpay.lk/contact-us": [
+      "Contact Information"
+    ],
+    "https://cbizz.lk/profile/directpay": [
+      "Contact Information"
+    ],
+    "https://www.lankayp.com/company/27924/DirectPay": [
+      "Contact Information"
+    ]
+  }
+}

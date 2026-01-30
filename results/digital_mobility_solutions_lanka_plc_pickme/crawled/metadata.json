@@ -1,0 +1,831 @@
+{
+  "company_name": "Digital Mobility Solutions Lanka PLC (PickMe)",
+  "base_url": "https://pickme.lk/",
+  "location": "Sri Lanka",
+  "stats": {
+    "total_scraped": 55,
+    "total_failed": 10,
+    "total_chars": 214104
+  },
+  "scraped_urls": [
+    {
+      "url": "https://cdn.cse.lk/cms-internal/upcoming/trT6dl6NVpbm2OHw_3Sep2024142117GMT_1725373277685.pdf",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/cdn.cse.lk__cms-internal__upcoming__trT6dl6NVpbm2OHw_3Sep2024142117GMT_1725373277685.pdf.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://invest.pickme.lk/wp-content/uploads/2024/09/PickMe-Teaser_FINAL.pdf",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/invest.pickme.lk__wp-content__uploads__2024__09__PickMe-Teaser_FINAL.pdf.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://firstcapital.lk/wp-content/uploads/2024/09/Pickme-IPO-11-06-24-1.pdf",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/firstcapital.lk__wp-content__uploads__2024__09__Pickme-IPO-11-06-24-1.pdf.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/PickMe",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/en.wikipedia.org__wiki__PickMe.md",
+      "categories": [
+        "Company History",
+        "Market Position",
+        "Achievements and Recognition",
+        "Customer Base",
+        "Technology Stack",
+        "Company Size",
+        "Case Studies",
+        "Contact Information"
+      ],
+      "length": 10851
+    },
+    {
+      "url": "https://firstcapital.lk/wp-content/uploads/2025/12/PKME-Initition-Coverage-09.12.2025.pdf",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/firstcapital.lk__wp-content__uploads__2025__12__PKME-Initition-Coverage-09.12.2025.pdf.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://cdn.cse.lk/cmt/upload_report_file/3218_1727936625518.pdf",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/cdn.cse.lk__cmt__upload_report_file__3218_1727936625518.pdf.md",
+      "categories": [
+        "Technology Stack",
+        "Partnerships",
+        "Future Plans"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://invest.pickme.lk/pickme-rs-1-56-bn-ipo-pivotal-step-in-its-journey",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/invest.pickme.lk__pickme-rs-1-56-bn-ipo-pivotal-step-in-its-journey.md",
+      "categories": [
+        "Customer Base"
+      ],
+      "length": 3187
+    },
+    {
+      "url": "https://invest.pickme.lk/leaderships/leadership",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/invest.pickme.lk__leaderships__leadership.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company History",
+        "Organizational Structure"
+      ],
+      "length": 107
+    },
+    {
+      "url": "https://invest.pickme.lk/",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/invest.pickme.lk.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company History",
+        "Market Position",
+        "Recent News and Updates",
+        "Organizational Structure",
+        "Achievements and Recognition",
+        "Mission and Values",
+        "Case Studies"
+      ],
+      "length": 4074
+    },
+    {
+      "url": "https://pickme.lk/",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/pickme.lk.md",
+      "categories": [
+        "Products and Services",
+        "Company Size",
+        "Contact Information"
+      ],
+      "length": 746
+    },
+    {
+      "url": "https://abansgroup.com/news/abans-appoints-pickme-as-corporate-mobility-partner",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/abansgroup.com__news__abans-appoints-pickme-as-corporate-mobility-partner.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 3480
+    },
+    {
+      "url": "https://invest.pickme.lk/ta",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/invest.pickme.lk__ta.md",
+      "categories": [
+        "Founders and Leadership",
+        "Business Model and Revenue",
+        "Company History",
+        "Case Studies"
+      ],
+      "length": 4489
+    },
+    {
+      "url": "https://economynext.com/sri-lankas-pickme-moratuwa-uni-to-study-linking-trishaws-with-trains-and-buses-238824",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/economynext.com__sri-lankas-pickme-moratuwa-uni-to-study-linking-trishaws-with-trains-and-buses-238824.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 12144
+    },
+    {
+      "url": "https://invest.pickme.lk/en/financial-information-reports",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/invest.pickme.lk__en__financial-information-reports.md",
+      "categories": [
+        "Recent News and Updates"
+      ],
+      "length": 755
+    },
+    {
+      "url": "https://dailynews.lk/2026/01/29/business/941707/pickme-posts-record-9-month-performance-in-3q-fy2",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/dailynews.lk__2026__01__29__business__941707__pickme-posts-record-9-month-performance-in-3q-fy2.md",
+      "categories": [
+        "Recent News and Updates",
+        "Customer Base",
+        "Future Plans"
+      ],
+      "length": 4911
+    },
+    {
+      "url": "https://pickme.lk/about-us",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/pickme.lk__about-us.md",
+      "categories": [
+        "Founders and Leadership",
+        "Organizational Structure",
+        "Achievements and Recognition",
+        "Customer Base",
+        "Mission and Values",
+        "Technology Stack",
+        "Partnerships",
+        "Case Studies",
+        "Contact Information"
+      ],
+      "length": 7657
+    },
+    {
+      "url": "https://pickme.lk/contact-us",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/pickme.lk__contact-us.md",
+      "categories": [
+        "Company Size",
+        "Contact Information"
+      ],
+      "length": 2320
+    },
+    {
+      "url": "https://pickme.lk/careers",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/pickme.lk__careers.md",
+      "categories": [
+        "Mission and Values"
+      ],
+      "length": 4238
+    },
+    {
+      "url": "https://invest.pickme.lk/si",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/invest.pickme.lk__si.md",
+      "categories": [
+        "Founders and Leadership",
+        "Business Model and Revenue",
+        "Company History",
+        "Organizational Structure",
+        "Mission and Values",
+        "Technology Stack",
+        "Partnerships",
+        "Future Plans"
+      ],
+      "length": 4477
+    },
+    {
+      "url": "https://invest.pickme.lk/en",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/invest.pickme.lk__en.md",
+      "categories": [
+        "Founders and Leadership",
+        "Business Model and Revenue",
+        "Company History",
+        "Market Position",
+        "Organizational Structure",
+        "Mission and Values",
+        "Technology Stack"
+      ],
+      "length": 4074
+    },
+    {
+      "url": "https://ceylontoday.lk/2025/07/15/pickme-marks-10-years-of-innovation-and-growth",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/ceylontoday.lk__2025__07__15__pickme-marks-10-years-of-innovation-and-growth.md",
+      "categories": [
+        "Company History",
+        "Recent News and Updates",
+        "Mission and Values",
+        "Future Plans",
+        "Future Plans",
+        "Case Studies"
+      ],
+      "length": 10350
+    },
+    {
+      "url": "https://pickme.lk/place-booking",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/pickme.lk__place-booking.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 654
+    },
+    {
+      "url": "https://pickme.lk/services/flash",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/pickme.lk__services__flash.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services",
+        "Pricing Information"
+      ],
+      "length": 3818
+    },
+    {
+      "url": "https://restofworld.org/2024/sri-lanka-pickme",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/restofworld.org__2024__sri-lanka-pickme.md",
+      "categories": [
+        "Company History",
+        "Competitive Landscape",
+        "Recent News and Updates",
+        "Pricing Information"
+      ],
+      "length": 10198
+    },
+    {
+      "url": "https://rocketreach.co/pickme-digital-mobility-solutions-lanka-pvt-ltd-management_b548eacaf695f3c7",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/rocketreach.co__pickme-digital-mobility-solutions-lanka-pvt-ltd-management_b548eacaf695f3c7.md",
+      "categories": [
+        "Company Size"
+      ],
+      "length": 283
+    },
+    {
+      "url": "https://pickme.lk/services/market",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/pickme.lk__services__market.md",
+      "categories": [
+        "Products and Services",
+        "Customer Base",
+        "Pricing Information"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://pickme.lk/wp-content/uploads/2025/03/FY25-Annual-Report-DMSL-PLC.pdf",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/pickme.lk__wp-content__uploads__2025__03__FY25-Annual-Report-DMSL-PLC.pdf.md",
+      "categories": [
+        "Company Size"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://pickme.lk/wp-content/uploads/2025/06/Form-to-Request-1.pdf",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/pickme.lk__wp-content__uploads__2025__06__Form-to-Request-1.pdf.md",
+      "categories": [
+        "Company Size"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://pickme.lk/services/pickme-pass",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/pickme.lk__services__pickme-pass.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services",
+        "Pricing Information"
+      ],
+      "length": 12
+    },
+    {
+      "url": "https://rocketreach.co/pickme-digital-mobility-solutions-lanka-pvt-ltd-profile_b548eacaf695f3c7",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/rocketreach.co__pickme-digital-mobility-solutions-lanka-pvt-ltd-profile_b548eacaf695f3c7.md",
+      "categories": [
+        "Organizational Structure",
+        "Contact Information"
+      ],
+      "length": 283
+    },
+    {
+      "url": "https://pickme.lk/services/ride",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/pickme.lk__services__ride.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services",
+        "Pricing Information"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://pickme.lk/services/rentals",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/pickme.lk__services__rentals.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services",
+        "Pricing Information"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://themorningmoney.com/articles/cmky11gpa00013b6of9zp2i04",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/themorningmoney.com__articles__cmky11gpa00013b6of9zp2i04.md",
+      "categories": [
+        "Recent News and Updates"
+      ],
+      "length": 6090
+    },
+    {
+      "url": "https://stockanalysis.com/quote/cose/PKME.N0000/company",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/stockanalysis.com__quote__cose__PKME.N0000__company.md",
+      "categories": [
+        "Market Position"
+      ],
+      "length": 1468
+    },
+    {
+      "url": "https://rocketreach.co/pickme-digital-mobility-solutions-lanka-pvt-ltd-technology-stack_b548eacaf695f3c7",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/rocketreach.co__pickme-digital-mobility-solutions-lanka-pvt-ltd-technology-stack_b548eacaf695f3c7.md",
+      "categories": [
+        "Technology Stack"
+      ],
+      "length": 19135
+    },
+    {
+      "url": "https://stockanalysis.com/quote/cose/PKME.N0000/employees",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/stockanalysis.com__quote__cose__PKME.N0000__employees.md",
+      "categories": [
+        "Company Size"
+      ],
+      "length": 1448
+    },
+    {
+      "url": "https://www.preqin.com/data/profile/asset/digital-mobility-solutions-lanka-pvt-ltd-/281429",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/www.preqin.com__data__profile__asset__digital-mobility-solutions-lanka-pvt-ltd-__281429.md",
+      "categories": [
+        "Company History",
+        "Market Position",
+        "Achievements and Recognition"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://www.emis.com/php/company-profile/LK/Digital_Mobility_Solutions_Lanka_PLC_en_17118034.html",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/www.emis.com__php__company-profile__LK__Digital_Mobility_Solutions_Lanka_PLC_en_17118034.html.md",
+      "categories": [
+        "Organizational Structure",
+        "Company Size",
+        "Contact Information"
+      ],
+      "length": 3465
+    },
+    {
+      "url": "https://tracxn.com/d/companies/pickme/__TL58ieU_vIm8CUBVIdkM-Sflfj55AN2aEUGSGqtN2hY",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/tracxn.com__d__companies__pickme____TL58ieU_vIm8CUBVIdkM-Sflfj55AN2aEUGSGqtN2hY.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 8036
+    },
+    {
+      "url": "https://simplywall.st/stocks/lk/transportation/cose-pkme.n0000/digital-mobility-solutions-lanka-shares/information",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/simplywall.st__stocks__lk__transportation__cose-pkme.n0000__digital-mobility-solutions-lanka-shares__information.md",
+      "categories": [
+        "Company Size",
+        "Contact Information"
+      ],
+      "length": 3738
+    },
+    {
+      "url": "https://pickme.lk/services/pickme-for-business",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/pickme.lk__services__pickme-for-business.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services",
+        "Customer Base"
+      ],
+      "length": 1332
+    },
+    {
+      "url": "https://www.icta.lk/mr-jiffry-zulfer",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/www.icta.lk__mr-jiffry-zulfer.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company History",
+        "Competitive Landscape",
+        "Market Position",
+        "Organizational Structure",
+        "Achievements and Recognition",
+        "Contact Information"
+      ],
+      "length": 908
+    },
+    {
+      "url": "https://sundaytimes.lk/online/news-online/New-ride-hailing-facility-in-Sri-Lanka-after-PickMe-and-Uber/2-1150715",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/sundaytimes.lk__online__news-online__New-ride-hailing-facility-in-Sri-Lanka-after-PickMe-and-Uber__2-1150715.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 3139
+    },
+    {
+      "url": "https://www.icta.lk/media/news/e-swabhimani-awards-empowering-local-entrepreneurs-the-story-of-pickme",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/www.icta.lk__media__news__e-swabhimani-awards-empowering-local-entrepreneurs-the-story-of-pickme.md",
+      "categories": [
+        "Achievements and Recognition",
+        "Mission and Values",
+        "Case Studies"
+      ],
+      "length": 2769
+    },
+    {
+      "url": "https://www.zoominfo.com/pic/pickme/426558638",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/www.zoominfo.com__pic__pickme__426558638.md",
+      "categories": [
+        "Organizational Structure"
+      ],
+      "length": 288
+    },
+    {
+      "url": "https://www.42gears.com/case-studies/42gears-helps-pickme-and-its-taxi-fleet-shine",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/www.42gears.com__case-studies__42gears-helps-pickme-and-its-taxi-fleet-shine.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 4563
+    },
+    {
+      "url": "https://www.sc.com/en/news/corporate-investment-banking/api-solution-sri-lanka-pickme-case-study",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/www.sc.com__en__news__corporate-investment-banking__api-solution-sri-lanka-pickme-case-study.md",
+      "categories": [
+        "Competitive Landscape",
+        "Market Position",
+        "Technology Stack",
+        "Case Studies"
+      ],
+      "length": 5337
+    },
+    {
+      "url": "https://www.ft.lk/motor/PickMe-marks-10-years-with-AI-push-and-rural-expansion-plan/55-780294",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/www.ft.lk__motor__PickMe-marks-10-years-with-AI-push-and-rural-expansion-plan__55-780294.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 92
+    },
+    {
+      "url": "https://www.ft.lk/front-page/PickMe-reports-strong-Q1-performance-with-50-revenue-growth/44-779627",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/www.ft.lk__front-page__PickMe-reports-strong-Q1-performance-with-50-revenue-growth__44-779627.md",
+      "categories": [
+        "Competitive Landscape",
+        "Recent News and Updates",
+        "Achievements and Recognition",
+        "Customer Base"
+      ],
+      "length": 93
+    },
+    {
+      "url": "https://www.ft.lk/business/PickMe-bags-SLASSCOM-s-Best-Disruptor-Award-as-they-mark-3-years-of-disrupting/50-659091",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/www.ft.lk__business__PickMe-bags-SLASSCOM-s-Best-Disruptor-Award-as-they-mark-3-years-of-disrupting__50-659091.md",
+      "categories": [
+        "Achievements and Recognition"
+      ],
+      "length": 90
+    },
+    {
+      "url": "https://www.tradingview.com/symbols/CSELK-PKME.N0000/financials-overview",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/www.tradingview.com__symbols__CSELK-PKME.N0000__financials-overview.md",
+      "categories": [
+        "Market Position"
+      ],
+      "length": 3883
+    },
+    {
+      "url": "https://www.ft.lk/business/PickMe-uses-its-local-intelligence-to-introduce-unique-pricing-structure-for-three-wheelers/34-644482",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/www.ft.lk__business__PickMe-uses-its-local-intelligence-to-introduce-unique-pricing-structure-for-three-wheelers__34-644482.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 93
+    },
+    {
+      "url": "https://uber.com",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/uber.com.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 5596
+    },
+    {
+      "url": "https://www.dailymirror.lk/business-news/CFA-Society-Sri-Lanka-names-PickMe-as-Subject-Company-for-202526-Research-Challenge/273-327900",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/www.dailymirror.lk__business-news__CFA-Society-Sri-Lanka-names-PickMe-as-Subject-Company-for-202526-Research-Challenge__273-327900.md",
+      "categories": [
+        "Recent News and Updates"
+      ],
+      "length": 8698
+    },
+    {
+      "url": "https://www.similarweb.com/company/pickme.lk",
+      "filepath": "results/digital_mobility_solutions_lanka_plc_pickme/crawled/www.similarweb.com__company__pickme.lk.md",
+      "categories": [
+        "Competitive Landscape",
+        "Market Position"
+      ],
+      "length": 40724
+    }
+  ],
+  "url_to_categories": {
+    "https://invest.pickme.lk/leaderships/leadership": [
+      "Founders and Leadership",
+      "Company History",
+      "Organizational Structure"
+    ],
+    "https://invest.pickme.lk/": [
+      "Founders and Leadership",
+      "Company History",
+      "Market Position",
+      "Recent News and Updates",
+      "Organizational Structure",
+      "Achievements and Recognition",
+      "Mission and Values",
+      "Case Studies"
+    ],
+    "https://pickme.lk/about-us": [
+      "Founders and Leadership",
+      "Organizational Structure",
+      "Achievements and Recognition",
+      "Customer Base",
+      "Mission and Values",
+      "Technology Stack",
+      "Partnerships",
+      "Case Studies",
+      "Contact Information"
+    ],
+    "https://invest.pickme.lk/en": [
+      "Founders and Leadership",
+      "Business Model and Revenue",
+      "Company History",
+      "Market Position",
+      "Organizational Structure",
+      "Mission and Values",
+      "Technology Stack"
+    ],
+    "https://www.icta.lk/mr-jiffry-zulfer": [
+      "Founders and Leadership",
+      "Company History",
+      "Competitive Landscape",
+      "Market Position",
+      "Organizational Structure",
+      "Achievements and Recognition",
+      "Contact Information"
+    ],
+    "https://invest.pickme.lk/si": [
+      "Founders and Leadership",
+      "Business Model and Revenue",
+      "Company History",
+      "Organizational Structure",
+      "Mission and Values",
+      "Technology Stack",
+      "Partnerships",
+      "Future Plans"
+    ],
+    "https://invest.pickme.lk/ta": [
+      "Founders and Leadership",
+      "Business Model and Revenue",
+      "Company History",
+      "Case Studies"
+    ],
+    "https://pickme.lk/services/ride": [
+      "Business Model and Revenue",
+      "Products and Services",
+      "Pricing Information"
+    ],
+    "https://pickme.lk/services/flash": [
+      "Business Model and Revenue",
+      "Products and Services",
+      "Pricing Information"
+    ],
+    "https://pickme.lk/services/pickme-for-business": [
+      "Business Model and Revenue",
+      "Products and Services",
+      "Customer Base"
+    ],
+    "https://pickme.lk/services/pickme-pass": [
+      "Business Model and Revenue",
+      "Products and Services",
+      "Pricing Information"
+    ],
+    "https://pickme.lk/services/rentals": [
+      "Business Model and Revenue",
+      "Products and Services",
+      "Pricing Information"
+    ],
+    "https://pickme.lk/merchant": [
+      "Business Model and Revenue",
+      "Partnerships"
+    ],
+    "https://pickme.lk/": [
+      "Products and Services",
+      "Company Size",
+      "Contact Information"
+    ],
+    "https://pickme.lk/services/food": [
+      "Products and Services"
+    ],
+    "https://pickme.lk/services/market": [
+      "Products and Services",
+      "Customer Base",
+      "Pricing Information"
+    ],
+    "https://en.wikipedia.org/wiki/PickMe": [
+      "Company History",
+      "Market Position",
+      "Achievements and Recognition",
+      "Customer Base",
+      "Technology Stack",
+      "Company Size",
+      "Case Studies",
+      "Contact Information"
+    ],
+    "https://restofworld.org/2024/sri-lanka-pickme": [
+      "Company History",
+      "Competitive Landscape",
+      "Recent News and Updates",
+      "Pricing Information"
+    ],
+    "https://ceylontoday.lk/2025/07/15/pickme-marks-10-years-of-innovation-and-growth": [
+      "Company History",
+      "Recent News and Updates",
+      "Mission and Values",
+      "Future Plans",
+      "Future Plans",
+      "Case Studies"
+    ],
+    "https://www.preqin.com/data/profile/asset/digital-mobility-solutions-lanka-pvt-ltd-/281429": [
+      "Company History",
+      "Market Position",
+      "Achievements and Recognition"
+    ],
+    "https://uber.com": [
+      "Competitive Landscape"
+    ],
+    "https://www.ft.lk/business/PickMe-uses-its-local-intelligence-to-introduce-unique-pricing-structure-for-three-wheelers/34-644482": [
+      "Competitive Landscape"
+    ],
+    "https://www.ft.lk/front-page/PickMe-reports-strong-Q1-performance-with-50-revenue-growth/44-779627": [
+      "Competitive Landscape",
+      "Recent News and Updates",
+      "Achievements and Recognition",
+      "Customer Base"
+    ],
+    "https://sundaytimes.lk/online/news-online/New-ride-hailing-facility-in-Sri-Lanka-after-PickMe-and-Uber/2-1150715": [
+      "Competitive Landscape"
+    ],
+    "https://www.sc.com/en/news/corporate-investment-banking/api-solution-sri-lanka-pickme-case-study": [
+      "Competitive Landscape",
+      "Market Position",
+      "Technology Stack",
+      "Case Studies"
+    ],
+    "https://tracxn.com/d/companies/pickme/__TL58ieU_vIm8CUBVIdkM-Sflfj55AN2aEUGSGqtN2hY": [
+      "Competitive Landscape"
+    ],
+    "https://www.similarweb.com/company/pickme.lk": [
+      "Competitive Landscape",
+      "Market Position"
+    ],
+    "https://www.tradingview.com/symbols/CSELK-PKME.N0000/financials-overview": [
+      "Market Position"
+    ],
+    "https://stockanalysis.com/quote/cose/PKME.N0000/company": [
+      "Market Position"
+    ],
+    "https://pickme.lk/news": [
+      "Recent News and Updates"
+    ],
+    "https://dailynews.lk/2026/01/29/business/941707/pickme-posts-record-9-month-performance-in-3q-fy2": [
+      "Recent News and Updates",
+      "Customer Base",
+      "Future Plans"
+    ],
+    "https://invest.pickme.lk/en/financial-information-reports": [
+      "Recent News and Updates"
+    ],
+    "https://www.dailymirror.lk/business-news/CFA-Society-Sri-Lanka-names-PickMe-as-Subject-Company-for-202526-Research-Challenge/273-327900": [
+      "Recent News and Updates"
+    ],
+    "https://themorningmoney.com/articles/cmky11gpa00013b6of9zp2i04": [
+      "Recent News and Updates"
+    ],
+    "https://www.emis.com/php/company-profile/LK/Digital_Mobility_Solutions_Lanka_PLC_en_17118034.html": [
+      "Organizational Structure",
+      "Company Size",
+      "Contact Information"
+    ],
+    "https://rocketreach.co/pickme-digital-mobility-solutions-lanka-pvt-ltd-profile_b548eacaf695f3c7": [
+      "Organizational Structure",
+      "Contact Information"
+    ],
+    "https://www.zoominfo.com/pic/pickme/426558638": [
+      "Organizational Structure"
+    ],
+    "https://www.icta.lk/media/news/e-swabhimani-awards-empowering-local-entrepreneurs-the-story-of-pickme": [
+      "Achievements and Recognition",
+      "Mission and Values",
+      "Case Studies"
+    ],
+    "https://www.ft.lk/business/PickMe-bags-SLASSCOM-s-Best-Disruptor-Award-as-they-mark-3-years-of-disrupting/50-659091": [
+      "Achievements and Recognition"
+    ],
+    "https://pickme.lk/pickme-caps-decade-of-innovation-with-a-bold-vision-for-the-next-100-years": [
+      "Achievements and Recognition",
+      "Partnerships"
+    ],
+    "https://pickme.lk/franchise": [
+      "Customer Base",
+      "Partnerships",
+      "Future Plans"
+    ],
+    "https://pickme.lk/services/truck": [
+      "Customer Base",
+      "Pricing Information"
+    ],
+    "https://invest.pickme.lk/pickme-rs-1-56-bn-ipo-pivotal-step-in-its-journey": [
+      "Customer Base"
+    ],
+    "https://pickme.lk/careers": [
+      "Mission and Values"
+    ],
+    "https://pickme.lk/investor-relations": [
+      "Mission and Values",
+      "Technology Stack"
+    ],
+    "https://pickme.lk/drive": [
+      "Mission and Values"
+    ],
+    "https://rocketreach.co/pickme-digital-mobility-solutions-lanka-pvt-ltd-technology-stack_b548eacaf695f3c7": [
+      "Technology Stack"
+    ],
+    "https://cdn.cse.lk/cmt/upload_report_file/3218_1727936625518.pdf": [
+      "Technology Stack",
+      "Partnerships",
+      "Future Plans"
+    ],
+    "https://pickme.lk/pickme-partners-with-university-of-moratuwa-to-drive-indigenous-innovation-in-sri-lankas-mobility-tech-sector": [
+      "Partnerships"
+    ],
+    "https://cdn.cse.lk/cms-internal/upcoming/trT6dl6NVpbm2OHw_3Sep2024142117GMT_1725373277685.pdf": [
+      "Partnerships"
+    ],
+    "https://abansgroup.com/news/abans-appoints-pickme-as-corporate-mobility-partner": [
+      "Partnerships"
+    ],
+    "https://simplywall.st/stocks/lk/transportation/cose-pkme.n0000/digital-mobility-solutions-lanka-shares/information": [
+      "Company Size",
+      "Contact Information"
+    ],
+    "https://rocketreach.co/pickme-digital-mobility-solutions-lanka-pvt-ltd-management_b548eacaf695f3c7": [
+      "Company Size"
+    ],
+    "https://pickme.lk/wp-content/uploads/2025/06/Form-to-Request-1.pdf": [
+      "Company Size"
+    ],
+    "https://pickme.lk/contact-us": [
+      "Company Size",
+      "Contact Information"
+    ],
+    "https://pickme.lk/wp-content/uploads/2025/03/FY25-Annual-Report-DMSL-PLC.pdf": [
+      "Company Size"
+    ],
+    "https://stockanalysis.com/quote/cose/PKME.N0000/employees": [
+      "Company Size"
+    ],
+    "https://invest.pickme.lk/wp-content/uploads/2024/09/PickMe-Teaser_FINAL.pdf": [
+      "Future Plans"
+    ],
+    "https://firstcapital.lk/wp-content/uploads/2024/09/Pickme-IPO-11-06-24-1.pdf": [
+      "Future Plans"
+    ],
+    "https://www.ft.lk/motor/PickMe-marks-10-years-with-AI-push-and-rural-expansion-plan/55-780294": [
+      "Future Plans"
+    ],
+    "https://economynext.com/sri-lankas-pickme-moratuwa-uni-to-study-linking-trishaws-with-trains-and-buses-238824": [
+      "Case Studies"
+    ],
+    "https://www.42gears.com/case-studies/42gears-helps-pickme-and-its-taxi-fleet-shine": [
+      "Case Studies"
+    ],
+    "https://firstcapital.lk/wp-content/uploads/2025/12/PKME-Initition-Coverage-09.12.2025.pdf": [
+      "Pricing Information"
+    ],
+    "https://pickme.lk/place-booking": [
+      "Pricing Information"
+    ],
+    "https://pickme.lk/faqs": [
+      "Contact Information"
+    ]
+  }
+}

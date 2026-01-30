@@ -1,0 +1,30 @@
+­
+Skip to content 
+Enroll now for the March 2026 Intake
+Register for Open Day '26!
+View cart Continue shopping
+Link
+Close share Copy link
+**_An Invitation to Explore AOD’s International Design Foundation Plus Programme_**
+AOD, along with its award-winning international faculty, is set to host an open event for post O/L students on Sunday, July 21st. This event aims to help students explore creative career paths and understand how to turn these aspirations into reality. The event will give potential students the opportunity to participate in workshops, engage in diverse experiences, and converse with creative experts. It’s a chance to experience the world of Design, spanning from Fashion to Animation to Interior Design, and to gain insights into the creative industries. Participants will learn how to forge careers, empower themselves as innovators or entrepreneurs, and drive positive change in Sri Lanka and beyond.
+In today’s interconnected world, where global perspectives and innovation drive creativity, the realm of design evolves at a rapid pace. It is essential for designers to be global and skilled to remain relevant on international platforms. At AOD, the leading institution in design education with over 20 years of experience, this philosophy forms the cornerstone of approaching and nurturing the next generation of design talent.
+Partnering with prestigious institutions like Northumbria University, UK, and De Montfort University, UK, AOD ensures it offers international Degrees from Sri Lankan shores. Students can complete BA (Hons) programmes in Fashion & Textile Design, Motion Graphics and Animation Design, Fashion Design and Marketing, Graphics & Visual Communication Design, and Interior Design, providing them with a robust educational pathway and global recognition. With international study tours spanning from Dubai to New York, and partnerships with institutions like KEA in Denmark and others in North America, AOD truly embodies a global perspective.
+The AOD International Design Foundation Programme stands as a testament to AOD’s commitment to providing comprehensive design education that prepares students for successful careers in the creative industries post O/L graduates eager to embark on their design journey, this programme offers a solid foundation in international design principles and practices.
+The curriculum of the AOD International Design Foundation Programme covers a wide spectrum of disciplines including Animation and Comics, Motion Graphics, Graphic and 3D Design, Interior Architecture Design, Photography and Video, Illustration, Fashion, Film Making, Printmaking and Drawing, Design Thinking, and Cultural Studies. This holistic approach not only hones technical skills but also fosters creativity and critical thinking, essential for thriving in the competitive world of design. A key focus of AOD’s International Design Foundation Programme is to allow students to explore these disciplines comprehensively, gaining valuable insights into various design pathways and principles. Supported by experienced lecturers who grasp their interests and strengths, students can make informed decisions regarding which design BA programme best aligns with their aspirations and talents upon completion of the programme.
+At the helm of the programme is Verónica Londoño, an accomplished Colombian designer with a Bachelor of Graphic Design from Institución Universitaria Colegiatura. Her extensive background in graphic design, photography, art direction, and communication strategies enriches the learning experience, providing students with insights into both artistic expression and professional practice.
+Verónica is supported by a faculty including María Antonio Perez, a Social Transformation Desiner, Mika Nivela, who holds a degree in Visual Arts from Malmo Amartorteater Forum, Sweden, and Carolina Caroprese, who holds a Master’s degree in Multimedia from the University of Strasbourg with contribution Fashion Faculthy Prof Thomas Atkinson and Lesley Defreitas. Their international perspectives contribute significantly to the programme’s global outlook. Together, they bring a wealth of educational and industry expertise, ensuring students receive comprehensive and cutting-edge guidance.
+Speaking on the programme’s philosophy, Verónica Londoño emphasises, “AOD’s International Design Foundation programme is a breath of fresh air, fostering authentic artistic beings. By incorporating a mind-body approach and holistic elements, we go beyond technical skills. We nurture a deeper connection to creativity, one that embraces students’ cultural heritage and fosters a connection with nature.”
+The AOD International Design Foundation Programme not only emphasises technical proficiency but also promotes a shift towards a holistic approach to design thinking. Whether you are considering design education after O/Ls or are unsure about which design pathway to pursue, AOD’s programme provides an ideal starting point. It encourages students to explore their unique artistic voices, empowering them to express themselves authentically and paving the way towards prestigious design careers both locally and globally.
+As AOD prepares to welcome its next intake in July 2024, they invite all O/L graduates passionate about creativity to enroll in the International Design Foundation Programme. Prospective students can visit AOD at Colombo Innovation Tower, Colombo 04, to learn more about the programme on 21st of July, 10 am – 1pm. Walk in Free to AOD at Colombo Innovation Tower No 477, R A De Mel Mawatha, Colombo 04. With this event, AOD will wrap up its final student recruitments for its 2024 Design Foundation Plus programme Intake.
+**For more information, please contact AOD on 0775727772, email info@aod.lk or walk in between 9am and 5pm Monday to Friday**
+**Colombo Innovation Tower, No 477, R A De Mel Mawatha, Colombo 04.  
+www.aod.lk**
+**The Sunday Times Article**
+Life at AOD
+Our Campus
+What's happening
+477 R. A. De Mel Mawatha, Colombo 00400 
+  * Choosing a selection results in a full page refresh.
+  * Opens in a new window.
+
+

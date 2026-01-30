@@ -5,15 +5,13 @@ def get_url_selection_prompt(company_name: str, base_url: str, website_urls: lis
 
 You have been provided with:
 1. Website URLs extracted from the company's website
-2. All Google search results for each of 25 research categories
+2. All Google search results for each of research categories
 
 Your task is to select the MOST RELEVANT and HIGH-QUALITY URLs for each category.
 
-TARGET: Select 80-120 TOTAL unique URLs across all categories.
-
 URL SELECTION STRATEGY:
 - Considering the url name and its hypothesized density of information, about the topic(category), choose appropriate number of websites for each category
-- Try to aim for this amount of urls:
+- Must aim for this amount of urls:
   - Simple categories -> 5-7 URLs
   - Medium complexity categories -> 7-9 URLs
   - Complex categories -> 9-11 URLs

@@ -1,0 +1,1158 @@
+{
+  "company_name": "Mintpay (PVT) LTD",
+  "base_url": "https://mintpay.lk/",
+  "location": "Sri Lanka",
+  "stats": {
+    "total_scraped": 77,
+    "total_failed": 1,
+    "total_chars": 547006
+  },
+  "scraped_urls": [
+    {
+      "url": "http://www.sundaytimes.lk/220220/business-times/start-up-mintpay-raises-rs-51-5-mln-in-seed-funding",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.sundaytimes.lk__220220__business-times__start-up-mintpay-raises-rs-51-5-mln-in-seed-funding.md",
+      "categories": [
+        "Financial Performance"
+      ],
+      "length": 44
+    },
+    {
+      "url": "https://cdn.cse.lk/cmt/upload_report_file/2714_1693559989669.pdf",
+      "filepath": "results/mintpay_pvt_ltd/crawled/cdn.cse.lk__cmt__upload_report_file__2714_1693559989669.pdf.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://cdn.cse.lk/pdf/company-articles/SEYB-N0000-Seylan-teams-up-with-Mintpay.pdf",
+      "filepath": "results/mintpay_pvt_ltd/crawled/cdn.cse.lk__pdf__company-articles__SEYB-N0000-Seylan-teams-up-with-Mintpay.pdf.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://mintpay.lk/business",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__business.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Mission and Values",
+        "Partnerships",
+        "Company Size",
+        "Future Plans",
+        "Awards and Certifications",
+        "Challenges and Opportunities",
+        "Customer Reviews",
+        "Innovation and R&D",
+        "Case Studies",
+        "Contact Information"
+      ],
+      "length": 8406
+    },
+    {
+      "url": "http://www.sundaytimes.lk/220220/business-times/start-up-mintpay-raises-rs-51-5-mln-in-seed-funding-473207.html",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.sundaytimes.lk__220220__business-times__start-up-mintpay-raises-rs-51-5-mln-in-seed-funding-473207.html.md",
+      "categories": [
+        "Awards and Certifications"
+      ],
+      "length": 4866
+    },
+    {
+      "url": "https://echelon.lk/the-audacious-duo",
+      "filepath": "results/mintpay_pvt_ltd/crawled/echelon.lk__the-audacious-duo.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 4957
+    },
+    {
+      "url": "https://mintpay.lk/",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk.md",
+      "categories": [
+        "Products and Services",
+        "Company History",
+        "Recent News and Updates",
+        "Organizational Structure",
+        "Achievements and Recognition",
+        "Mission and Values",
+        "Partnerships",
+        "Company Size",
+        "Awards and Certifications",
+        "Financial Performance",
+        "Challenges and Opportunities",
+        "Company Culture",
+        "Customer Reviews",
+        "Innovation and R&D",
+        "Social Responsibility",
+        "Case Studies",
+        "Pricing Information",
+        "Contact Information"
+      ],
+      "length": 11294
+    },
+    {
+      "url": "https://lankatalks.com/post/mintpay-partners-with-burger-king-and-other-softlogic-restaurants",
+      "filepath": "results/mintpay_pvt_ltd/crawled/lankatalks.com__post__mintpay-partners-with-burger-king-and-other-softlogic-restaurants.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 4293
+    },
+    {
+      "url": "https://english.news.cn/asiapacific/20251102/38a3967c964541468592d0c1f1a37b4b/c.html",
+      "filepath": "results/mintpay_pvt_ltd/crawled/english.news.cn__asiapacific__20251102__38a3967c964541468592d0c1f1a37b4b__c.html.md",
+      "categories": [
+        "Financial Performance"
+      ],
+      "length": 2705
+    },
+    {
+      "url": "http://bizenglish.adaderana.lk/mintpay-enters-into-a-strategic-partnership-with-retail-giant-softlogic",
+      "filepath": "results/mintpay_pvt_ltd/crawled/bizenglish.adaderana.lk__mintpay-enters-into-a-strategic-partnership-with-retail-giant-softlogic.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 25787
+    },
+    {
+      "url": "https://au.indeed.com/cmp/Mint-Payments/reviews",
+      "filepath": "results/mintpay_pvt_ltd/crawled/au.indeed.com__cmp__Mint-Payments__reviews.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 4565
+    },
+    {
+      "url": "https://bizenglish.adaderana.lk/mintpay-enters-into-a-strategic-partnership-with-retail-giant-softlogic",
+      "filepath": "results/mintpay_pvt_ltd/crawled/bizenglish.adaderana.lk__mintpay-enters-into-a-strategic-partnership-with-retail-giant-softlogic.md",
+      "categories": [
+        "Competitive Landscape",
+        "Partnerships",
+        "Future Plans",
+        "Financial Performance"
+      ],
+      "length": 25896
+    },
+    {
+      "url": "https://bizenglish.adaderana.lk/mintpay-partners-with-burger-king-and-other-softlogic-restaurants",
+      "filepath": "results/mintpay_pvt_ltd/crawled/bizenglish.adaderana.lk__mintpay-partners-with-burger-king-and-other-softlogic-restaurants.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 25393
+    },
+    {
+      "url": "https://investsrilanka.com/home/why-sri-lanka/information_tech_subpage",
+      "filepath": "results/mintpay_pvt_ltd/crawled/investsrilanka.com__home__why-sri-lanka__information_tech_subpage.md",
+      "categories": [
+        "Financial Performance"
+      ],
+      "length": 2006
+    },
+    {
+      "url": "https://bizenglish.adaderana.lk/seylan-revolutionizes-buy-now-pay-later-in-partnership-with-mintpay",
+      "filepath": "results/mintpay_pvt_ltd/crawled/bizenglish.adaderana.lk__seylan-revolutionizes-buy-now-pay-later-in-partnership-with-mintpay.md",
+      "categories": [
+        "Competitive Landscape",
+        "Partnerships"
+      ],
+      "length": 26965
+    },
+    {
+      "url": "https://mintpay.lk/careers",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__careers.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company History",
+        "Organizational Structure",
+        "Achievements and Recognition",
+        "Mission and Values",
+        "Company Size",
+        "Awards and Certifications",
+        "Challenges and Opportunities",
+        "Company Culture",
+        "Innovation and R&D"
+      ],
+      "length": 1863
+    },
+    {
+      "url": "https://mintpay.lk/category/electronics",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__category__electronics.md",
+      "categories": [
+        "Products and Services",
+        "Pricing Information"
+      ],
+      "length": 1432
+    },
+    {
+      "url": "https://lans.lk/mintpay-sri-lanka-everything-you-need-to-know-about-cashback-pay-later-merchant-integration-2025",
+      "filepath": "results/mintpay_pvt_ltd/crawled/lans.lk__mintpay-sri-lanka-everything-you-need-to-know-about-cashback-pay-later-merchant-integration-2025.md",
+      "categories": [
+        "Recent News and Updates",
+        "Recent News and Updates",
+        "Achievements and Recognition",
+        "Future Plans",
+        "Awards and Certifications",
+        "Challenges and Opportunities",
+        "Company Culture",
+        "Customer Reviews",
+        "Innovation and R&D",
+        "Social Responsibility",
+        "Case Studies",
+        "Pricing Information"
+      ],
+      "length": 6806
+    },
+    {
+      "url": "https://mintpay.lk/category/featured",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__category__featured.md",
+      "categories": [
+        "Technology Stack"
+      ],
+      "length": 1154
+    },
+    {
+      "url": "https://island.lk/seylan-revolutionizes-buy-now-pay-later-in-partnership-with-mintpay",
+      "filepath": "results/mintpay_pvt_ltd/crawled/island.lk__seylan-revolutionizes-buy-now-pay-later-in-partnership-with-mintpay.md",
+      "categories": [
+        "Recent News and Updates"
+      ],
+      "length": 11459
+    },
+    {
+      "url": "http://island.lk/sri-lankas-first-buy-now-pay-later-mintpay-closes-lkr-51-5-mn-in-seed-funding",
+      "filepath": "results/mintpay_pvt_ltd/crawled/island.lk__sri-lankas-first-buy-now-pay-later-mintpay-closes-lkr-51-5-mn-in-seed-funding.md",
+      "categories": [
+        "Financial Performance"
+      ],
+      "length": 12430
+    },
+    {
+      "url": "https://mintpay.lk/education",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__education.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 4293
+    },
+    {
+      "url": "https://island.lk/sri-lankas-first-buy-now-pay-later-mintpay-closes-lkr-51-5-mn-in-seed-funding",
+      "filepath": "results/mintpay_pvt_ltd/crawled/island.lk__sri-lankas-first-buy-now-pay-later-mintpay-closes-lkr-51-5-mn-in-seed-funding.md",
+      "categories": [
+        "Company History",
+        "Future Plans",
+        "Financial Performance"
+      ],
+      "length": 12425
+    },
+    {
+      "url": "https://island.lk/cinnamon-hotels-resorts-and-mintpay-join-forces-to-transform-travel-payment-solutions",
+      "filepath": "results/mintpay_pvt_ltd/crawled/island.lk__cinnamon-hotels-resorts-and-mintpay-join-forces-to-transform-travel-payment-solutions.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 13409
+    },
+    {
+      "url": "https://mintpay.lk/education?cashback=0&price=0",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__education.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 4291
+    },
+    {
+      "url": "https://mintpay.lk/category/food-and-beverage",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__category__food-and-beverage.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 1510
+    },
+    {
+      "url": "https://mintpay.lk/get-the-app",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__get-the-app.md",
+      "categories": [
+        "Achievements and Recognition",
+        "Customer Reviews",
+        "Innovation and R&D"
+      ],
+      "length": 9175
+    },
+    {
+      "url": "https://mintpay.lk/pay-now",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__pay-now.md",
+      "categories": [
+        "Technology Stack",
+        "Innovation and R&D"
+      ],
+      "length": 5328
+    },
+    {
+      "url": "https://mintpay.lk/support",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__support.md",
+      "categories": [
+        "Products and Services",
+        "Market Position",
+        "Organizational Structure",
+        "Achievements and Recognition",
+        "Mission and Values",
+        "Company Size",
+        "Awards and Certifications",
+        "Customer Reviews",
+        "Innovation and R&D",
+        "Social Responsibility",
+        "Case Studies",
+        "Pricing Information",
+        "Contact Information"
+      ],
+      "length": 18468
+    },
+    {
+      "url": "https://mintpay.lk/stores",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__stores.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 7688
+    },
+    {
+      "url": "https://mintpay.lk/pay-later",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__pay-later.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Technology Stack",
+        "Customer Reviews",
+        "Pricing Information"
+      ],
+      "length": 6923
+    },
+    {
+      "url": "https://mintpay.lk/press",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__press.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Company History",
+        "Market Position",
+        "Recent News and Updates",
+        "Organizational Structure",
+        "Achievements and Recognition",
+        "Technology Stack",
+        "Partnerships",
+        "Company Size",
+        "Future Plans",
+        "Awards and Certifications",
+        "Financial Performance",
+        "Challenges and Opportunities",
+        "Customer Reviews",
+        "Social Responsibility",
+        "Case Studies",
+        "Contact Information"
+      ],
+      "length": 7424
+    },
+    {
+      "url": "https://mintpay.lk/policy",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__policy.md",
+      "categories": [
+        "Technology Stack"
+      ],
+      "length": 19158
+    },
+    {
+      "url": "https://mintpay.lk/category/dining-and-restaurants",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__category__dining-and-restaurants.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 6253
+    },
+    {
+      "url": "https://mintpay.lk/mint-coins",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__mint-coins.md",
+      "categories": [
+        "Technology Stack"
+      ],
+      "length": 3667
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/mintpay",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.crunchbase.com__organization__mintpay.md",
+      "categories": [
+        "Founders and Leadership",
+        "Competitive Landscape",
+        "Market Position",
+        "Financial Performance"
+      ],
+      "length": 164
+    },
+    {
+      "url": "https://mintpay.lk/category/lifestyle",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__category__lifestyle.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 4073
+    },
+    {
+      "url": "https://mintpay.lk/vouchers",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__vouchers.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 7488
+    },
+    {
+      "url": "https://rocketreach.co/mintpay-management_b7fc74cbc25c9e17",
+      "filepath": "results/mintpay_pvt_ltd/crawled/rocketreach.co__mintpay-management_b7fc74cbc25c9e17.md",
+      "categories": [
+        "Organizational Structure",
+        "Company Size"
+      ],
+      "length": 282
+    },
+    {
+      "url": "https://startupsl.lk/singleStartup/772",
+      "filepath": "results/mintpay_pvt_ltd/crawled/startupsl.lk__singleStartup__772.md",
+      "categories": [
+        "Mission and Values",
+        "Company Size",
+        "Challenges and Opportunities"
+      ],
+      "length": 1642
+    },
+    {
+      "url": "https://wise.com/gb/hub/payment-methods-in-sri-lanka",
+      "filepath": "results/mintpay_pvt_ltd/crawled/wise.com__gb__hub__payment-methods-in-sri-lanka.md",
+      "categories": [
+        "Achievements and Recognition"
+      ],
+      "length": 39
+    },
+    {
+      "url": "https://neda.gov.lk/research-development",
+      "filepath": "results/mintpay_pvt_ltd/crawled/neda.gov.lk__research-development.md",
+      "categories": [
+        "Innovation and R&D"
+      ],
+      "length": 6940
+    },
+    {
+      "url": "https://www.acceleratingasia.com/portfolio/mintpay",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.acceleratingasia.com__portfolio__mintpay.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 2362
+    },
+    {
+      "url": "https://tracxn.com/d/explore/alternative-lending-startups-in-sri-lanka/__WotY7YWZwtSc-kcAU3-glElZfnGQEzzGWLNxsqOfc-o/companies",
+      "filepath": "results/mintpay_pvt_ltd/crawled/tracxn.com__d__explore__alternative-lending-startups-in-sri-lanka____WotY7YWZwtSc-kcAU3-glElZfnGQEzzGWLNxsqOfc-o__companies.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 3520
+    },
+    {
+      "url": "https://tracxn.com/d/explore/fintech-startups-in-sri-lanka/__giCu69LvGbU7cFiY4hLvCUuRM_npJ_3I2V8PI1G_1Vs/companies",
+      "filepath": "results/mintpay_pvt_ltd/crawled/tracxn.com__d__explore__fintech-startups-in-sri-lanka____giCu69LvGbU7cFiY4hLvCUuRM_npJ_3I2V8PI1G_1Vs__companies.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 3830
+    },
+    {
+      "url": "https://tracxn.com/d/companies/mintpay/__-9arZhjlyg3pPiAtF4uZugFpkAQ0ZUdIFZFUCbqq4b8",
+      "filepath": "results/mintpay_pvt_ltd/crawled/tracxn.com__d__companies__mintpay____-9arZhjlyg3pPiAtF4uZugFpkAQ0ZUdIFZFUCbqq4b8.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Competitive Landscape",
+        "Market Position",
+        "Organizational Structure",
+        "Technology Stack",
+        "Partnerships",
+        "Company Size",
+        "Awards and Certifications",
+        "Financial Performance",
+        "Innovation and R&D",
+        "Social Responsibility",
+        "Case Studies",
+        "Contact Information"
+      ],
+      "length": 8985
+    },
+    {
+      "url": "https://sundaytimes.lk/online/press-release/Cinnamon-Hotels-Resorts-and-Mintpay-Join-Forces-to-Transform-Travel-Payment-Solutions/242-1142694",
+      "filepath": "results/mintpay_pvt_ltd/crawled/sundaytimes.lk__online__press-release__Cinnamon-Hotels-Resorts-and-Mintpay-Join-Forces-to-Transform-Travel-Payment-Solutions__242-1142694.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 4186
+    },
+    {
+      "url": "https://www.cbinsights.com/company/mintpay/alternatives-competitors",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.cbinsights.com__company__mintpay__alternatives-competitors.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Competitive Landscape",
+        "Mission and Values",
+        "Company Size",
+        "Challenges and Opportunities",
+        "Customer Reviews"
+      ],
+      "length": 5823
+    },
+    {
+      "url": "https://www.cbinsights.com/company/mintpay/financials",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.cbinsights.com__company__mintpay__financials.md",
+      "categories": [
+        "Financial Performance"
+      ],
+      "length": 7321
+    },
+    {
+      "url": "https://pitchbook.com/profiles/company/491416-66",
+      "filepath": "results/mintpay_pvt_ltd/crawled/pitchbook.com__profiles__company__491416-66.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Market Position",
+        "Organizational Structure",
+        "Achievements and Recognition",
+        "Company Size",
+        "Financial Performance",
+        "Contact Information"
+      ],
+      "length": 7930
+    },
+    {
+      "url": "https://mintpay.lk/terms",
+      "filepath": "results/mintpay_pvt_ltd/crawled/mintpay.lk__terms.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Technology Stack",
+        "Awards and Certifications",
+        "Challenges and Opportunities",
+        "Customer Reviews",
+        "Pricing Information",
+        "Contact Information"
+      ],
+      "length": 65583
+    },
+    {
+      "url": "https://www.dfcc.lk/media/dfcc-bank-and-mintpay-forge-ahead-with-an-innovative-partnership-to-extend-buy-now-pay-later-offering-for-debit-cardholders",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.dfcc.lk__media__dfcc-bank-and-mintpay-forge-ahead-with-an-innovative-partnership-to-extend-buy-now-pay-later-offering-for-debit-cardholders.md",
+      "categories": [
+        "Recent News and Updates",
+        "Partnerships",
+        "Future Plans",
+        "Social Responsibility",
+        "Case Studies"
+      ],
+      "length": 5271
+    },
+    {
+      "url": "https://www.glassdoor.ca/Overview/Working-at-Mintpay-EI_IE7328132.11,18.htm",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.glassdoor.ca__Overview__Working-at-Mintpay-EI_IE7328132.11,18.htm.md",
+      "categories": [
+        "Mission and Values"
+      ],
+      "length": 2085
+    },
+    {
+      "url": "https://www.glassdoor.co.in/Reviews/Mintpay-Reviews-E7328132.htm",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.glassdoor.co.in__Reviews__Mintpay-Reviews-E7328132.htm.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 2088
+    },
+    {
+      "url": "https://wise.com/gb/blog/cash-or-card-in-sri-lanka",
+      "filepath": "results/mintpay_pvt_ltd/crawled/wise.com__gb__blog__cash-or-card-in-sri-lanka.md",
+      "categories": [
+        "Achievements and Recognition"
+      ],
+      "length": 12541
+    },
+    {
+      "url": "https://www.glassdoor.com.au/Overview/Working-at-Mintpay-EI_IE7328132.11,18.htm",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.glassdoor.com.au__Overview__Working-at-Mintpay-EI_IE7328132.11,18.htm.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 2089
+    },
+    {
+      "url": "https://www.glassdoor.com/Reviews/The-Mint-Agency-people-Reviews-EI_IE1730756.0,15_KH16,22.htm",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.glassdoor.com__Reviews__The-Mint-Agency-people-Reviews-EI_IE1730756.0,15_KH16,22.htm.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 2777
+    },
+    {
+      "url": "https://www.glassdoor.com/Reviews/Mintpay-Reviews-E7328132.htm",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.glassdoor.com__Reviews__Mintpay-Reviews-E7328132.htm.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 2745
+    },
+    {
+      "url": "https://www.dailymirror.lk/business-news/DFCC-Bank-forges-strategic-alliance-with-Mintpay/273-290120",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.dailymirror.lk__business-news__DFCC-Bank-forges-strategic-alliance-with-Mintpay__273-290120.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 7921
+    },
+    {
+      "url": "https://www.ft.lk/front-page/SL-s-Mintpay-among-Accelerating-Asia-s-eight-new-graduate-startups-to-pitch-to-top-global-investors/44-757655",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.ft.lk__front-page__SL-s-Mintpay-among-Accelerating-Asia-s-eight-new-graduate-startups-to-pitch-to-top-global-investors__44-757655.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 94
+    },
+    {
+      "url": "https://www.heritage-partners.com/news/lan-invests-in-mintpay-private-limited",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.heritage-partners.com__news__lan-invests-in-mintpay-private-limited.md",
+      "categories": [
+        "Partnerships",
+        "Future Plans"
+      ],
+      "length": 457
+    },
+    {
+      "url": "https://www.ft.lk/front-page/Sri-Lanka-emerging-as-Asia-s-next-start-up-and-innovation-hub/44-781958",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.ft.lk__front-page__Sri-Lanka-emerging-as-Asia-s-next-start-up-and-innovation-hub__44-781958.md",
+      "categories": [
+        "Social Responsibility"
+      ],
+      "length": 97
+    },
+    {
+      "url": "https://www.ft.lk/Financial-Services/Sri-Lanka-s-first-Buy-Now-Pay-Later-Mintpay-closes-Rs-51-5-m-in-Seed-Funding/42-730679",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.ft.lk__Financial-Services__Sri-Lanka-s-first-Buy-Now-Pay-Later-Mintpay-closes-Rs-51-5-m-in-Seed-Funding__42-730679.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company History",
+        "Competitive Landscape",
+        "Recent News and Updates",
+        "Mission and Values",
+        "Technology Stack",
+        "Financial Performance"
+      ],
+      "length": 96
+    },
+    {
+      "url": "https://www.dailymirror.lk/business-news/Mintpay-partners-with-Burger-King-and-other-Softlogic-Restaurants/273-304439",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.dailymirror.lk__business-news__Mintpay-partners-with-Burger-King-and-other-Softlogic-Restaurants__273-304439.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 8015
+    },
+    {
+      "url": "https://www.indeed.com/cmp/The-Mint/reviews",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.indeed.com__cmp__The-Mint__reviews.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 6401
+    },
+    {
+      "url": "https://www.lankabusinessnews.com/tag/mintpay",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.lankabusinessnews.com__tag__mintpay.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 4090
+    },
+    {
+      "url": "https://www.sundaytimes.lk/220220/business-times/start-up-mintpay-raises-rs-51-5-mln-in-seed-funding",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.sundaytimes.lk__220220__business-times__start-up-mintpay-raises-rs-51-5-mln-in-seed-funding.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 44
+    },
+    {
+      "url": "https://www.lankapay.net/en/awards?page=2",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.lankapay.net__en__awards.md",
+      "categories": [
+        "Awards and Certifications"
+      ],
+      "length": 1906
+    },
+    {
+      "url": "https://www.sundaytimes.lk/220220/business-times/start-up-mintpay-raises-rs-51-5-mln-in-seed-funding-473207.html",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.sundaytimes.lk__220220__business-times__start-up-mintpay-raises-rs-51-5-mln-in-seed-funding-473207.html.md",
+      "categories": [
+        "Company History",
+        "Recent News and Updates",
+        "Awards and Certifications",
+        "Financial Performance",
+        "Case Studies"
+      ],
+      "length": 4866
+    },
+    {
+      "url": "https://www.sundaytimes.lk/250803/business-times/nventures-sri-lankas-first-mas-licensed-foreign-vc-607062.html",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.sundaytimes.lk__250803__business-times__nventures-sri-lankas-first-mas-licensed-foreign-vc-607062.html.md",
+      "categories": [
+        "Financial Performance"
+      ],
+      "length": 5588
+    },
+    {
+      "url": "https://www.lankayp.com/company/27928/Mintpay",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.lankayp.com__company__27928__Mintpay.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 1594
+    },
+    {
+      "url": "https://www.recharge.com/en/at/mint-prepaid",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.recharge.com__en__at__mint-prepaid.md",
+      "categories": [
+        "Customer Reviews",
+        "Pricing Information"
+      ],
+      "length": 4141
+    },
+    {
+      "url": "https://www.themorning.lk/mintpay-closes-rs-51-5-m-in-seed-funding",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.themorning.lk__mintpay-closes-rs-51-5-m-in-seed-funding.md",
+      "categories": [
+        "Founders and Leadership",
+        "Recent News and Updates",
+        "Financial Performance"
+      ],
+      "length": 2710
+    },
+    {
+      "url": "https://www.zoominfo.com/top-lists/top-companies-in-LK",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.zoominfo.com__top-lists__top-companies-in-LK.md",
+      "categories": [
+        "Market Position"
+      ],
+      "length": 136
+    },
+    {
+      "url": "https://www.mintpayments.com/about/mint",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.mintpayments.com__about__mint.md",
+      "categories": [
+        "Social Responsibility"
+      ],
+      "length": 6112
+    },
+    {
+      "url": "https://www.seylan.lk/seylan-revolutionizes-buy-now-pay-later-in-partnership-with-mintpay",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.seylan.lk__seylan-revolutionizes-buy-now-pay-later-in-partnership-with-mintpay.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company History",
+        "Partnerships",
+        "Future Plans",
+        "Social Responsibility",
+        "Case Studies",
+        "Pricing Information"
+      ],
+      "length": 4868
+    },
+    {
+      "url": "https://www.startupblink.com/top-startups/sri-lanka",
+      "filepath": "results/mintpay_pvt_ltd/crawled/www.startupblink.com__top-startups__sri-lanka.md",
+      "categories": [
+        "Market Position"
+      ],
+      "length": 25771
+    }
+  ],
+  "url_to_categories": {
+    "https://mintpay.lk/careers": [
+      "Founders and Leadership",
+      "Company History",
+      "Organizational Structure",
+      "Achievements and Recognition",
+      "Mission and Values",
+      "Company Size",
+      "Awards and Certifications",
+      "Challenges and Opportunities",
+      "Company Culture",
+      "Innovation and R&D"
+    ],
+    "https://www.seylan.lk/seylan-revolutionizes-buy-now-pay-later-in-partnership-with-mintpay": [
+      "Founders and Leadership",
+      "Company History",
+      "Partnerships",
+      "Future Plans",
+      "Social Responsibility",
+      "Case Studies",
+      "Pricing Information"
+    ],
+    "https://www.ft.lk/Financial-Services/Sri-Lanka-s-first-Buy-Now-Pay-Later-Mintpay-closes-Rs-51-5-m-in-Seed-Funding/42-730679": [
+      "Founders and Leadership",
+      "Company History",
+      "Competitive Landscape",
+      "Recent News and Updates",
+      "Mission and Values",
+      "Technology Stack",
+      "Financial Performance"
+    ],
+    "https://www.themorning.lk/mintpay-closes-rs-51-5-m-in-seed-funding": [
+      "Founders and Leadership",
+      "Recent News and Updates",
+      "Financial Performance"
+    ],
+    "https://www.crunchbase.com/organization/mintpay": [
+      "Founders and Leadership",
+      "Competitive Landscape",
+      "Market Position",
+      "Financial Performance"
+    ],
+    "https://mintpay.lk/business": [
+      "Business Model and Revenue",
+      "Mission and Values",
+      "Partnerships",
+      "Company Size",
+      "Future Plans",
+      "Awards and Certifications",
+      "Challenges and Opportunities",
+      "Customer Reviews",
+      "Innovation and R&D",
+      "Case Studies",
+      "Contact Information"
+    ],
+    "https://mintpay.lk/terms": [
+      "Business Model and Revenue",
+      "Technology Stack",
+      "Awards and Certifications",
+      "Challenges and Opportunities",
+      "Customer Reviews",
+      "Pricing Information",
+      "Contact Information"
+    ],
+    "https://mintpay.lk/pay-later": [
+      "Business Model and Revenue",
+      "Technology Stack",
+      "Customer Reviews",
+      "Pricing Information"
+    ],
+    "https://mintpay.lk/press": [
+      "Business Model and Revenue",
+      "Company History",
+      "Market Position",
+      "Recent News and Updates",
+      "Organizational Structure",
+      "Achievements and Recognition",
+      "Technology Stack",
+      "Partnerships",
+      "Company Size",
+      "Future Plans",
+      "Awards and Certifications",
+      "Financial Performance",
+      "Challenges and Opportunities",
+      "Customer Reviews",
+      "Social Responsibility",
+      "Case Studies",
+      "Contact Information"
+    ],
+    "https://www.cbinsights.com/company/mintpay/alternatives-competitors": [
+      "Business Model and Revenue",
+      "Competitive Landscape",
+      "Mission and Values",
+      "Company Size",
+      "Challenges and Opportunities",
+      "Customer Reviews"
+    ],
+    "https://tracxn.com/d/companies/mintpay/__-9arZhjlyg3pPiAtF4uZugFpkAQ0ZUdIFZFUCbqq4b8": [
+      "Business Model and Revenue",
+      "Competitive Landscape",
+      "Market Position",
+      "Organizational Structure",
+      "Technology Stack",
+      "Partnerships",
+      "Company Size",
+      "Awards and Certifications",
+      "Financial Performance",
+      "Innovation and R&D",
+      "Social Responsibility",
+      "Case Studies",
+      "Contact Information"
+    ],
+    "https://pitchbook.com/profiles/company/491416-66": [
+      "Business Model and Revenue",
+      "Market Position",
+      "Organizational Structure",
+      "Achievements and Recognition",
+      "Company Size",
+      "Financial Performance",
+      "Contact Information"
+    ],
+    "https://mintpay.lk/": [
+      "Products and Services",
+      "Company History",
+      "Recent News and Updates",
+      "Organizational Structure",
+      "Achievements and Recognition",
+      "Mission and Values",
+      "Partnerships",
+      "Company Size",
+      "Awards and Certifications",
+      "Financial Performance",
+      "Challenges and Opportunities",
+      "Company Culture",
+      "Customer Reviews",
+      "Innovation and R&D",
+      "Social Responsibility",
+      "Case Studies",
+      "Pricing Information",
+      "Contact Information"
+    ],
+    "https://mintpay.lk/stores": [
+      "Products and Services"
+    ],
+    "https://mintpay.lk/category/electronics": [
+      "Products and Services",
+      "Pricing Information"
+    ],
+    "https://mintpay.lk/category/food-and-beverage": [
+      "Products and Services"
+    ],
+    "https://mintpay.lk/category/lifestyle": [
+      "Products and Services"
+    ],
+    "https://mintpay.lk/category/dining-and-restaurants": [
+      "Products and Services"
+    ],
+    "https://mintpay.lk/vouchers": [
+      "Products and Services"
+    ],
+    "https://mintpay.lk/education": [
+      "Products and Services"
+    ],
+    "https://mintpay.lk/support": [
+      "Products and Services",
+      "Market Position",
+      "Organizational Structure",
+      "Achievements and Recognition",
+      "Mission and Values",
+      "Company Size",
+      "Awards and Certifications",
+      "Customer Reviews",
+      "Innovation and R&D",
+      "Social Responsibility",
+      "Case Studies",
+      "Pricing Information",
+      "Contact Information"
+    ],
+    "https://www.sundaytimes.lk/220220/business-times/start-up-mintpay-raises-rs-51-5-mln-in-seed-funding-473207.html": [
+      "Company History",
+      "Recent News and Updates",
+      "Awards and Certifications",
+      "Financial Performance",
+      "Case Studies"
+    ],
+    "https://island.lk/sri-lankas-first-buy-now-pay-later-mintpay-closes-lkr-51-5-mn-in-seed-funding": [
+      "Company History",
+      "Future Plans",
+      "Financial Performance"
+    ],
+    "https://tracxn.com/d/explore/alternative-lending-startups-in-sri-lanka/__WotY7YWZwtSc-kcAU3-glElZfnGQEzzGWLNxsqOfc-o/companies": [
+      "Competitive Landscape"
+    ],
+    "https://tracxn.com/d/explore/fintech-startups-in-sri-lanka/__giCu69LvGbU7cFiY4hLvCUuRM_npJ_3I2V8PI1G_1Vs/companies": [
+      "Competitive Landscape"
+    ],
+    "https://bizenglish.adaderana.lk/mintpay-enters-into-a-strategic-partnership-with-retail-giant-softlogic": [
+      "Competitive Landscape",
+      "Partnerships",
+      "Future Plans",
+      "Financial Performance"
+    ],
+    "https://bizenglish.adaderana.lk/seylan-revolutionizes-buy-now-pay-later-in-partnership-with-mintpay": [
+      "Competitive Landscape",
+      "Partnerships"
+    ],
+    "https://www.similarweb.com/website/paykoko.com/vs/mintpay.lk": [
+      "Competitive Landscape"
+    ],
+    "https://www.startupblink.com/top-startups/sri-lanka": [
+      "Market Position"
+    ],
+    "https://www.zoominfo.com/top-lists/top-companies-in-LK": [
+      "Market Position"
+    ],
+    "https://island.lk/seylan-revolutionizes-buy-now-pay-later-in-partnership-with-mintpay": [
+      "Recent News and Updates"
+    ],
+    "https://lans.lk/mintpay-sri-lanka-everything-you-need-to-know-about-cashback-pay-later-merchant-integration-2025": [
+      "Recent News and Updates",
+      "Recent News and Updates",
+      "Achievements and Recognition",
+      "Future Plans",
+      "Awards and Certifications",
+      "Challenges and Opportunities",
+      "Company Culture",
+      "Customer Reviews",
+      "Innovation and R&D",
+      "Social Responsibility",
+      "Case Studies",
+      "Pricing Information"
+    ],
+    "https://www.dfcc.lk/media/dfcc-bank-and-mintpay-forge-ahead-with-an-innovative-partnership-to-extend-buy-now-pay-later-offering-for-debit-cardholders": [
+      "Recent News and Updates",
+      "Partnerships",
+      "Future Plans",
+      "Social Responsibility",
+      "Case Studies"
+    ],
+    "https://rocketreach.co/mintpay-management_b7fc74cbc25c9e17": [
+      "Organizational Structure",
+      "Company Size"
+    ],
+    "https://mintpay.lk/get-the-app": [
+      "Achievements and Recognition",
+      "Customer Reviews",
+      "Innovation and R&D"
+    ],
+    "https://wise.com/gb/blog/cash-or-card-in-sri-lanka": [
+      "Achievements and Recognition"
+    ],
+    "https://wise.com/gb/hub/payment-methods-in-sri-lanka": [
+      "Achievements and Recognition"
+    ],
+    "https://startupsl.lk/singleStartup/772": [
+      "Mission and Values",
+      "Company Size",
+      "Challenges and Opportunities"
+    ],
+    "https://www.glassdoor.ca/Overview/Working-at-Mintpay-EI_IE7328132.11,18.htm": [
+      "Mission and Values"
+    ],
+    "https://mintpay.lk/policy": [
+      "Technology Stack"
+    ],
+    "https://mintpay.lk/mint-coins": [
+      "Technology Stack"
+    ],
+    "https://mintpay.lk/pay-now": [
+      "Technology Stack",
+      "Innovation and R&D"
+    ],
+    "https://mintpay.lk/category/featured": [
+      "Technology Stack"
+    ],
+    "https://lankatalks.com/post/mintpay-partners-with-burger-king-and-other-softlogic-restaurants": [
+      "Partnerships"
+    ],
+    "https://sundaytimes.lk/online/press-release/Cinnamon-Hotels-Resorts-and-Mintpay-Join-Forces-to-Transform-Travel-Payment-Solutions/242-1142694": [
+      "Partnerships"
+    ],
+    "https://cdn.cse.lk/pdf/company-articles/SEYB-N0000-Seylan-teams-up-with-Mintpay.pdf": [
+      "Partnerships"
+    ],
+    "https://www.heritage-partners.com/news/lan-invests-in-mintpay-private-limited": [
+      "Partnerships",
+      "Future Plans"
+    ],
+    "https://bizenglish.adaderana.lk/mintpay-partners-with-burger-king-and-other-softlogic-restaurants": [
+      "Partnerships"
+    ],
+    "https://www.dailymirror.lk/business-news/DFCC-Bank-forges-strategic-alliance-with-Mintpay/273-290120": [
+      "Partnerships"
+    ],
+    "https://www.dailymirror.lk/business-news/Mintpay-partners-with-Burger-King-and-other-Softlogic-Restaurants/273-304439": [
+      "Partnerships"
+    ],
+    "http://bizenglish.adaderana.lk/mintpay-enters-into-a-strategic-partnership-with-retail-giant-softlogic": [
+      "Partnerships"
+    ],
+    "https://island.lk/cinnamon-hotels-resorts-and-mintpay-join-forces-to-transform-travel-payment-solutions": [
+      "Future Plans"
+    ],
+    "https://www.sundaytimes.lk/220220/business-times/start-up-mintpay-raises-rs-51-5-mln-in-seed-funding": [
+      "Future Plans"
+    ],
+    "https://www.lankapay.net/en/awards?page=2": [
+      "Awards and Certifications"
+    ],
+    "http://www.sundaytimes.lk/220220/business-times/start-up-mintpay-raises-rs-51-5-mln-in-seed-funding-473207.html": [
+      "Awards and Certifications"
+    ],
+    "https://www.cbinsights.com/company/mintpay/financials": [
+      "Financial Performance"
+    ],
+    "https://www.sundaytimes.lk/250803/business-times/nventures-sri-lankas-first-mas-licensed-foreign-vc-607062.html": [
+      "Financial Performance"
+    ],
+    "http://www.sundaytimes.lk/220220/business-times/start-up-mintpay-raises-rs-51-5-mln-in-seed-funding": [
+      "Financial Performance"
+    ],
+    "https://investsrilanka.com/home/why-sri-lanka/information_tech_subpage": [
+      "Financial Performance"
+    ],
+    "https://english.news.cn/asiapacific/20251102/38a3967c964541468592d0c1f1a37b4b/c.html": [
+      "Financial Performance"
+    ],
+    "http://island.lk/sri-lankas-first-buy-now-pay-later-mintpay-closes-lkr-51-5-mn-in-seed-funding": [
+      "Financial Performance"
+    ],
+    "https://echelon.lk/the-audacious-duo": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.ft.lk/front-page/SL-s-Mintpay-among-Accelerating-Asia-s-eight-new-graduate-startups-to-pitch-to-top-global-investors/44-757655": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.lankabusinessnews.com/tag/mintpay": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.acceleratingasia.com/portfolio/mintpay": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.glassdoor.co.in/Reviews/Mintpay-Reviews-E7328132.htm": [
+      "Company Culture"
+    ],
+    "https://www.indeed.com/cmp/The-Mint/reviews": [
+      "Company Culture"
+    ],
+    "https://www.glassdoor.com/Reviews/The-Mint-Agency-people-Reviews-EI_IE1730756.0,15_KH16,22.htm": [
+      "Company Culture"
+    ],
+    "https://www.glassdoor.com.au/Overview/Working-at-Mintpay-EI_IE7328132.11,18.htm": [
+      "Company Culture"
+    ],
+    "https://www.glassdoor.com/Reviews/Mintpay-Reviews-E7328132.htm": [
+      "Company Culture"
+    ],
+    "https://au.indeed.com/cmp/Mint-Payments/reviews": [
+      "Company Culture"
+    ],
+    "https://cdn.cse.lk/cmt/upload_report_file/2714_1693559989669.pdf": [
+      "Company Culture"
+    ],
+    "https://www.recharge.com/en/at/mint-prepaid": [
+      "Customer Reviews",
+      "Pricing Information"
+    ],
+    "https://neda.gov.lk/research-development": [
+      "Innovation and R&D"
+    ],
+    "https://www.ft.lk/front-page/Sri-Lanka-emerging-as-Asia-s-next-start-up-and-innovation-hub/44-781958": [
+      "Social Responsibility"
+    ],
+    "https://www.mintpayments.com/about/mint": [
+      "Social Responsibility"
+    ],
+    "https://mintpay.lk/education?cashback=0&price=0": [
+      "Pricing Information"
+    ],
+    "https://www.lankayp.com/company/27928/Mintpay": [
+      "Contact Information"
+    ]
+  }
+}

@@ -99,18 +99,26 @@ def group_by_category(metadata: dict) -> dict:
     
     return merged_content
 
-def create_detailed_report_for_llm(detailed_summaries: dict, category_content: dict) -> str:
-    detailed_report = ""
+def create_ui_detailed_report(detailed_summaries: dict, category_sources: dict) -> str:
+    ui_report = ""
     
     enabled_categories = get_enabled_categories()
     
-    for category in enabled_categories:
+    for idx, category in enumerate(enabled_categories, 1):
         if category in detailed_summaries:
-            detailed_report += f"## {category}\n\n"
-            detailed_report += detailed_summaries[category]
-            detailed_report += "\n\n---\n\n"
+            ui_report += f"## {idx}. {category}\n\n"
+            ui_report += detailed_summaries[category]
+            ui_report += "\n\n"
+            
+            if category in category_sources and category_sources[category]:
+                ui_report += "**Sources:**\n\n"
+                for source in category_sources[category]:
+                    ui_report += f"- {source}\n"
+                ui_report += "\n"
+            
+            ui_report += "---\n\n"
     
-    return detailed_report
+    return ui_report
 
 def save_reports(company_name: str, base_url: str, location: str, summary_report: str, detailed_report: str, metadata: dict):
     base_path = get_company_path(company_name)
@@ -192,8 +200,6 @@ async def summarize_company(company_name: str, base_url: str, location: str, ski
         if category in category_content:
             category_sources[category] = category_content[category]["sources"]
     
-    detailed_report_for_llm = create_detailed_report_for_llm(detailed_summaries, category_content)
-    
     print(f"\n{'='*60}")
     print("AI is generating final polished report...")
     print(f"{'='*60}\n")
@@ -209,7 +215,7 @@ async def summarize_company(company_name: str, base_url: str, location: str, ski
     print(f"{'='*60}\n")
     
     summary_report_with_sources = add_sources_to_report(final_report_content, category_sources)
-    detailed_report_with_sources = add_sources_to_report(detailed_report_for_llm, category_sources)
+    detailed_report_with_sources = create_ui_detailed_report(detailed_summaries, category_sources)
     
     save_reports(company_name, base_url, location, summary_report_with_sources, detailed_report_with_sources, metadata)
     
@@ -220,8 +226,12 @@ async def summarize_company(company_name: str, base_url: str, location: str, ski
     print(f"{'='*60}\n")
 
 async def main():
-    company_name = "AOD South Asia (Pvt) Ltd"
-    base_url = "https://www.aod.lk/"
+    # company_name = "AOD South Asia (Pvt) Ltd"
+    # base_url = "https://www.aod.lk/"
+    # location = "Sri Lanka"
+
+    company_name = "oDoc"
+    base_url = "https://www.odoc.life/"
     location = "Sri Lanka"
     
     await summarize_company(

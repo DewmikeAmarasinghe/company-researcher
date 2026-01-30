@@ -1,0 +1,1107 @@
+{
+  "company_name": "Asiri Hospital Holdings PLC",
+  "base_url": "https://www.asirihealth.com/",
+  "location": "Sri Lanka",
+  "stats": {
+    "total_scraped": 89,
+    "total_failed": 1,
+    "total_chars": 690899
+  },
+  "scraped_urls": [
+    {
+      "url": "https://asirihealth.com/international-patients/service/359",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__international-patients__service__359.md",
+      "categories": [
+        "Innovation and R&D"
+      ],
+      "length": 3308
+    },
+    {
+      "url": "https://asirihealth.com/asiri-laboratories/service/323",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__asiri-laboratories__service__323.md",
+      "categories": [
+        "Innovation and R&D"
+      ],
+      "length": 3057
+    },
+    {
+      "url": "https://asirihealth.com/asiri-history",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__asiri-history.md",
+      "categories": [
+        "Founders and Leadership",
+        "Mission and Values"
+      ],
+      "length": 8085
+    },
+    {
+      "url": "https://asirihealth.com/news-and-events",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__news-and-events.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Case Studies"
+      ],
+      "length": 4306
+    },
+    {
+      "url": "https://asirihealth.com/news-and-events/news-detail/12/asiri-health-signs-an-mou-with-the-university-of-sri-jayawardena-in-a-pledge-to-support-environment-conservation",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__news-and-events__news-detail__12__asiri-health-signs-an-mou-with-the-university-of-sri-jayawardena-in-a-pledge-to-support-environment-conservation.md",
+      "categories": [
+        "Social Responsibility"
+      ],
+      "length": 4603
+    },
+    {
+      "url": "https://asirihealth.com/awards-recognitions",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__awards-recognitions.md",
+      "categories": [
+        "Mission and Values",
+        "Awards and Certifications",
+        "Innovation and R&D"
+      ],
+      "length": 5620
+    },
+    {
+      "url": "https://asirihealth.com/asiri-financial-information",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__asiri-financial-information.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Financial Performance"
+      ],
+      "length": 3995
+    },
+    {
+      "url": "https://asirihealth.com/asiri-esg-policy",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__asiri-esg-policy.md",
+      "categories": [
+        "Founders and Leadership",
+        "Mission and Values",
+        "Future Plans",
+        "Social Responsibility"
+      ],
+      "length": 6623
+    },
+    {
+      "url": "https://asirihealth.com/",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com.md",
+      "categories": [
+        "Founders and Leadership",
+        "Business Model and Revenue",
+        "Products and Services",
+        "Mission and Values",
+        "Technology Stack",
+        "Partnerships",
+        "Company Size",
+        "Contact Information"
+      ],
+      "length": 7331
+    },
+    {
+      "url": "https://asirihealth.com/news-and-events/news-detail/16/asiri-central-hospital-receives-bronze-award-at-presidential-environment-awards-2024",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__news-and-events__news-detail__16__asiri-central-hospital-receives-bronze-award-at-presidential-environment-awards-2024.md",
+      "categories": [
+        "Social Responsibility"
+      ],
+      "length": 4068
+    },
+    {
+      "url": "https://asirihealth.com/board-of-directors",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__board-of-directors.md",
+      "categories": [
+        "Founders and Leadership"
+      ],
+      "length": 3625
+    },
+    {
+      "url": "https://asirihealth.com/contact-us",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__contact-us.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 2936
+    },
+    {
+      "url": "https://asirihealth.com/coe-mini-detail/6/6",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__coe-mini-detail__6__6.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 5795
+    },
+    {
+      "url": "https://asirihealth.com/matara-home",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__matara-home.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 17364
+    },
+    {
+      "url": "https://asirihealth.com/asiri-about-us",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__asiri-about-us.md",
+      "categories": [
+        "Founders and Leadership",
+        "Business Model and Revenue",
+        "Mission and Values",
+        "Partnerships",
+        "Future Plans"
+      ],
+      "length": 8109
+    },
+    {
+      "url": "https://asirihealth.com/kandy-home",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__kandy-home.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 20979
+    },
+    {
+      "url": "https://asirihealth.com/blog/blog-detail/56/advancing-the-fight-against-cancer-the-role-of-innovative-treatments",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__blog__blog-detail__56__advancing-the-fight-against-cancer-the-role-of-innovative-treatments.md",
+      "categories": [
+        "Innovation and R&D"
+      ],
+      "length": 10330
+    },
+    {
+      "url": "https://asirihealth.com/galle-home",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__galle-home.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 16947
+    },
+    {
+      "url": "https://asirihealth.com/central-home",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__central-home.md",
+      "categories": [
+        "Products and Services",
+        "Pricing Information"
+      ],
+      "length": 45910
+    },
+    {
+      "url": "https://asirihealth.com/asiri-laboratories/service/322",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__asiri-laboratories__service__322.md",
+      "categories": [
+        "Company Size"
+      ],
+      "length": 22039
+    },
+    {
+      "url": "https://asirihealth.com/news-and-events/news-detail/25/strengthening-global-partnerships-in-healthcare",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__news-and-events__news-detail__25__strengthening-global-partnerships-in-healthcare.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 16
+    },
+    {
+      "url": "https://asirihealth.com/news-and-events/news-detail/18/asiri-hospitals-and-nitf-sign-landmark-agreement-to-provide-tangible-healthcare-benefits-for-all-agrahara-members",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__news-and-events__news-detail__18__asiri-hospitals-and-nitf-sign-landmark-agreement-to-provide-tangible-healthcare-benefits-for-all-agrahara-members.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 7387
+    },
+    {
+      "url": "https://asirihealth.com/news-and-events/news-detail/23/we-reached-a-significant-partnership-milestone-today-by-signing-an-mou-between-asiri-academy-of-health-sciences-and-esoft-metro-campus",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__news-and-events__news-detail__23__we-reached-a-significant-partnership-milestone-today-by-signing-an-mou-between-asiri-academy-of-health-sciences-and-esoft-metro-campus.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 4403
+    },
+    {
+      "url": "https://asirihealth.com/news-and-events/news-detail/4/asiri-health-was-a-main-sponsor-at-the-the-annual-academic-sessions-2024-of-the-sri-lanka-college-of-military-medicine",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__news-and-events__news-detail__4__asiri-health-was-a-main-sponsor-at-the-the-annual-academic-sessions-2024-of-the-sri-lanka-college-of-military-medicine.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 4035
+    },
+    {
+      "url": "https://asirihealth.com/news-and-events/news-detail/24/great-place-to-work-certification-congratulations",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__news-and-events__news-detail__24__great-place-to-work-certification-congratulations.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 4505
+    },
+    {
+      "url": "https://bioclad.com/projects/asiri-hospital",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/bioclad.com__projects__asiri-hospital.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 10921
+    },
+    {
+      "url": "https://economynext.com/sri-lankas-asiri-hospitals-to-promote-medical-tourism-with-port-city-venture-146136",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/economynext.com__sri-lankas-asiri-hospitals-to-promote-medical-tourism-with-port-city-venture-146136.md",
+      "categories": [
+        "Future Plans",
+        "Future Plans",
+        "Challenges and Opportunities"
+      ],
+      "length": 12571
+    },
+    {
+      "url": "https://asirihealth.com/wellness-packages",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__wellness-packages.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 31873
+    },
+    {
+      "url": "https://ceylontoday.lk/2026/01/05/asiri-health-icta-boost-healthtech-startups",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/ceylontoday.lk__2026__01__05__asiri-health-icta-boost-healthtech-startups.md",
+      "categories": [
+        "Partnerships",
+        "Future Plans",
+        "Challenges and Opportunities",
+        "Innovation and R&D",
+        "Social Responsibility"
+      ],
+      "length": 8775
+    },
+    {
+      "url": "https://bizenglish.adaderana.lk/asiri-health-partners-icta-to-accelerate-sri-lankas-healthtech-startup-ecosystem",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/bizenglish.adaderana.lk__asiri-health-partners-icta-to-accelerate-sri-lankas-healthtech-startup-ecosystem.md",
+      "categories": [
+        "Partnerships",
+        "Challenges and Opportunities"
+      ],
+      "length": 25846
+    },
+    {
+      "url": "https://asirihealth.com/services/radiology",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__services__radiology.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 2871
+    },
+    {
+      "url": "https://asirihealth.com/services/ambulance-service",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__services__ambulance-service.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 2984
+    },
+    {
+      "url": "https://asirihealth.com/surgical-home/service/66",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__surgical-home__service__66.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 6118
+    },
+    {
+      "url": "https://asirihealth.com/services/outpatient-care",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__services__outpatient-care.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 2901
+    },
+    {
+      "url": "https://asirihealth.com/services/pharmacy",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__services__pharmacy.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 4115
+    },
+    {
+      "url": "https://asirihealth.com/patient-feedback",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__patient-feedback.md",
+      "categories": [
+        "Customer Reviews"
+      ],
+      "length": 2736
+    },
+    {
+      "url": "https://asirihealth.com/services/home-nursing",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__services__home-nursing.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 4052
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Asiri_Hospital_Holdings",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/en.wikipedia.org__wiki__Asiri_Hospital_Holdings.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Market Position",
+        "Technology Stack",
+        "Awards and Certifications"
+      ],
+      "length": 10878
+    },
+    {
+      "url": "https://asirihealth.com/services/amazing-care-membership",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__services__amazing-care-membership.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 7068
+    },
+    {
+      "url": "https://emojot.com/case-study/asiri-hospitals",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/emojot.com__case-study__asiri-hospitals.md",
+      "categories": [
+        "Technology Stack",
+        "Innovation and R&D",
+        "Case Studies"
+      ],
+      "length": 6543
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Healthcare_in_Sri_Lanka",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/en.wikipedia.org__wiki__Healthcare_in_Sri_Lanka.md",
+      "categories": [
+        "Market Position"
+      ],
+      "length": 10333
+    },
+    {
+      "url": "https://asirihealth.com/surgical-home",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/asirihealth.com__surgical-home.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 21444
+    },
+    {
+      "url": "https://greatplacetowork.lk/best-workplace/asiri-central-hospital-ltd",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/greatplacetowork.lk__best-workplace__asiri-central-hospital-ltd.md",
+      "categories": [
+        "Awards and Certifications"
+      ],
+      "length": 2255
+    },
+    {
+      "url": "https://lankanewsweb.net/archives/32332/asiri-group-to-build-state-of-the-art-hospital-in-port-city",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/lankanewsweb.net__archives__32332__asiri-group-to-build-state-of-the-art-hospital-in-port-city.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 5200
+    },
+    {
+      "url": "https://lankatalks.com/post/asiri-health-partners-icta-to-accelerate-sri-lanka-s-healthtech-startup-ecosystem",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/lankatalks.com__post__asiri-health-partners-icta-to-accelerate-sri-lanka-s-healthtech-startup-ecosystem.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 5053
+    },
+    {
+      "url": "https://rocketreach.co/asiri-group-of-hospitals-technology-stack_b5c9b054f42e3048",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/rocketreach.co__asiri-group-of-hospitals-technology-stack_b5c9b054f42e3048.md",
+      "categories": [
+        "Technology Stack"
+      ],
+      "length": 4033
+    },
+    {
+      "url": "https://sg.indeed.com/cmp/Asiri-Hospital-Holdings-PLC",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/sg.indeed.com__cmp__Asiri-Hospital-Holdings-PLC.md",
+      "categories": [
+        "Company Culture",
+        "Customer Reviews"
+      ],
+      "length": 2338
+    },
+    {
+      "url": "https://rainbowpages.lk/essential-services/channeling-centers/asiri-hospital-holdings-plc-2",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/rainbowpages.lk__essential-services__channeling-centers__asiri-hospital-holdings-plc-2.md",
+      "categories": [
+        "Company Size"
+      ],
+      "length": 1169
+    },
+    {
+      "url": "https://lankabizz.net/2024/06/03/asiri-hospitals-holdings-plc-demonstrated-outstanding-financial-performance-for-fy-2023-24",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/lankabizz.net__2024__06__03__asiri-hospitals-holdings-plc-demonstrated-outstanding-financial-performance-for-fy-2023-24.md",
+      "categories": [
+        "Market Position",
+        "Financial Performance"
+      ],
+      "length": 9621
+    },
+    {
+      "url": "https://rainbowpages.lk/health/24-hours-pharmacies/asiri-hospital-holdings-plc-colombo-06-2",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/rainbowpages.lk__health__24-hours-pharmacies__asiri-hospital-holdings-plc-colombo-06-2.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 872
+    },
+    {
+      "url": "https://island.lk/four-asiri-group-hospitals-awarded-australian-healthcare-accreditation",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/island.lk__four-asiri-group-hospitals-awarded-australian-healthcare-accreditation.md",
+      "categories": [
+        "Awards and Certifications",
+        "Social Responsibility"
+      ],
+      "length": 13342
+    },
+    {
+      "url": "https://sljhr.sljol.info/articles/10.4038/sljhr.v2i1.49",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/sljhr.sljol.info__articles__10.4038__sljhr.v2i1.49.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 2970
+    },
+    {
+      "url": "https://sp-edge.com/companies/348629",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/sp-edge.com__companies__348629.md",
+      "categories": [
+        "Technology Stack"
+      ],
+      "length": 2373
+    },
+    {
+      "url": "https://stockanalysis.com/quote/cose/ASIR.N0000",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/stockanalysis.com__quote__cose__ASIR.N0000.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Company Size"
+      ],
+      "length": 1791
+    },
+    {
+      "url": "https://softlogicit.lk/health-asiri-hospital",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/softlogicit.lk__health-asiri-hospital.md",
+      "categories": [
+        "Technology Stack"
+      ],
+      "length": 1658
+    },
+    {
+      "url": "https://leadingway.lk/projects/asiri-surgical-hospital",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/leadingway.lk__projects__asiri-surgical-hospital.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 713
+    },
+    {
+      "url": "https://www.cse.lk/company-profile?symbol=ASIR.N0000",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.cse.lk__company-profile.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 1533
+    },
+    {
+      "url": "https://www.cabinetoffice.gov.lk/cab/index.php?did=7332&id=16&itemid=49&lang=en&option=com_content&view=article",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.cabinetoffice.gov.lk__cab__index.php.md",
+      "categories": [
+        "Awards and Certifications"
+      ],
+      "length": 4171
+    },
+    {
+      "url": "https://medicare.lk/asiri-hospital-holdings-plc-announced-as-platinum-sponsor-for-medicare-2025-international-healthcare-exhibition",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/medicare.lk__asiri-hospital-holdings-plc-announced-as-platinum-sponsor-for-medicare-2025-international-healthcare-exhibition.md",
+      "categories": [
+        "Future Plans",
+        "Challenges and Opportunities"
+      ],
+      "length": 3113
+    },
+    {
+      "url": "https://www.appsruntheworld.com/customers-database/customers/view/asiri-hospitals-sri-lanka",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.appsruntheworld.com__customers-database__customers__view__asiri-hospitals-sri-lanka.md",
+      "categories": [
+        "Technology Stack",
+        "Innovation and R&D",
+        "Case Studies"
+      ],
+      "length": 12915
+    },
+    {
+      "url": "https://stockanalysis.com/quote/cose/ASIR.N0000/statistics",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/stockanalysis.com__quote__cose__ASIR.N0000__statistics.md",
+      "categories": [
+        "Financial Performance"
+      ],
+      "length": 5077
+    },
+    {
+      "url": "https://sundaytimes.lk/online/business/asiri-central-hospital-receives-jci-re-accreditation/10-1124725",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/sundaytimes.lk__online__business__asiri-central-hospital-receives-jci-re-accreditation__10-1124725.md",
+      "categories": [
+        "Awards and Certifications"
+      ],
+      "length": 4153
+    },
+    {
+      "url": "https://simplywall.st/stocks/lk/healthcare/cose-asir.n0000/asiri-hospital-holdings-shares",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/simplywall.st__stocks__lk__healthcare__cose-asir.n0000__asiri-hospital-holdings-shares.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Market Position",
+        "Financial Performance"
+      ],
+      "length": 10282
+    },
+    {
+      "url": "https://www.bajajfinserv.in/hospital-information-system",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.bajajfinserv.in__hospital-information-system.md",
+      "categories": [
+        "Technology Stack"
+      ],
+      "length": 24910
+    },
+    {
+      "url": "https://www.dialog.lk/news/Nawaloka-and-Durdans-Join-Asiri-in-DOC990-Joint-Venture-with-Dialog",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.dialog.lk__news__Nawaloka-and-Durdans-Join-Asiri-in-DOC990-Joint-Venture-with-Dialog.md",
+      "categories": [
+        "Future Plans",
+        "Challenges and Opportunities"
+      ],
+      "length": 10007
+    },
+    {
+      "url": "https://www.glassdoor.com/Reviews/Asiri-Health-Reviews-E1592848.htm",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.glassdoor.com__Reviews__Asiri-Health-Reviews-E1592848.htm.md",
+      "categories": [
+        "Company Culture",
+        "Customer Reviews"
+      ],
+      "length": 2750
+    },
+    {
+      "url": "https://www.glassdoor.com/Overview/Working-at-Asiri-Health-EI_IE1592848.11,23.htm",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.glassdoor.com__Overview__Working-at-Asiri-Health-EI_IE1592848.11,23.htm.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 2764
+    },
+    {
+      "url": "https://www.dialog.lk/news/Nawaloka-and-Durdans-Join-Asiri-in-DOC990-Joint-Venture-with-Dialog?language=ta",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.dialog.lk__news__Nawaloka-and-Durdans-Join-Asiri-in-DOC990-Joint-Venture-with-Dialog.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 10019
+    },
+    {
+      "url": "https://www.investing.com/pro/COSE:ASIRN0000/compare/COSE:SINHN0000,COSE:LHCLN0000,COSE:AMSLN0000,COSE:NHLN0000,COSE:MULLN0000,COSE:CHLX0000",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.investing.com__pro__COSE:ASIRN0000__compare__COSE:SINHN0000,COSE:LHCLN0000,COSE:AMSLN0000,COSE:NHLN0000,COSE:MULLN0000,COSE:CHLX0000.md",
+      "categories": [
+        "Business Model and Revenue"
+      ],
+      "length": 45
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3825491",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/pmc.ncbi.nlm.nih.gov__articles__PMC3825491.md",
+      "categories": [
+        "Social Responsibility"
+      ],
+      "length": 41570
+    },
+    {
+      "url": "https://www.dailymirror.lk/print/business-main/Asiri-Group-plans-US-100mn-hospital-in-Port-City-Colombo/245-257721",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.dailymirror.lk__print__business-main__Asiri-Group-plans-US-100mn-hospital-in-Port-City-Colombo__245-257721.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 43
+    },
+    {
+      "url": "https://www.comparably.com/companies/asiri-group-of-hospitals",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.comparably.com__companies__asiri-group-of-hospitals.md",
+      "categories": [
+        "Company Culture",
+        "Customer Reviews"
+      ],
+      "length": 6241
+    },
+    {
+      "url": "https://www.ft.lk/Healthcare/asiri-hospitals-holdings-adjudged-healthcare-sector-winner-at-cima-lmd-100-awards/45-513527",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.ft.lk__Healthcare__asiri-hospitals-holdings-adjudged-healthcare-sector-winner-at-cima-lmd-100-awards__45-513527.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 95
+    },
+    {
+      "url": "https://www.ft.lk/top-story/Asiri-Hospital-first-off-the-block-at-Port-City-with----100-m-investment/26-747393",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.ft.lk__top-story__Asiri-Hospital-first-off-the-block-at-Port-City-with----100-m-investment__26-747393.md",
+      "categories": [
+        "Market Position",
+        "Partnerships",
+        "Future Plans",
+        "Financial Performance"
+      ],
+      "length": 92
+    },
+    {
+      "url": "https://www.nithyapartners.com/news/asiri-acquires-hemas-southern-hospital-limited",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.nithyapartners.com__news__asiri-acquires-hemas-southern-hospital-limited.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 201
+    },
+    {
+      "url": "https://www.ft.lk/healthcare/asiri-surgical-hospital-receives-further-international-certifications/45-174666",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.ft.lk__healthcare__asiri-surgical-hospital-receives-further-international-certifications__45-174666.md",
+      "categories": [
+        "Awards and Certifications"
+      ],
+      "length": 92
+    },
+    {
+      "url": "https://www.zoominfo.com/pic/asiri-group-of-hospitals-ltd/1155182132",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.zoominfo.com__pic__asiri-group-of-hospitals-ltd__1155182132.md",
+      "categories": [
+        "Company Size"
+      ],
+      "length": 289
+    },
+    {
+      "url": "https://www.marketscreener.com/quote/stock/ASIRI-HOSPITAL-HOLDINGS-P-16746248/finances-segments",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.marketscreener.com__quote__stock__ASIRI-HOSPITAL-HOLDINGS-P-16746248__finances-segments.md",
+      "categories": [
+        "Market Position",
+        "Financial Performance"
+      ],
+      "length": 5130
+    },
+    {
+      "url": "https://www.marketscreener.com/quote/stock/ASIRI-HOSPITAL-HOLDINGS-P-16746248/company",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.marketscreener.com__quote__stock__ASIRI-HOSPITAL-HOLDINGS-P-16746248__company.md",
+      "categories": [
+        "Company Size"
+      ],
+      "length": 6362
+    },
+    {
+      "url": "https://www.softlogic.lk/group-contact-information/asiri-central-hospital",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.softlogic.lk__group-contact-information__asiri-central-hospital.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 768
+    },
+    {
+      "url": "https://www.owler.com/company/asirihospitals",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.owler.com__company__asirihospitals.md",
+      "categories": [
+        "Market Position",
+        "Technology Stack",
+        "Customer Reviews"
+      ],
+      "length": 7423
+    },
+    {
+      "url": "https://www.itij.com/latest/news/asiri-hospital-holdings-establish-new-hospital",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.itij.com__latest__news__asiri-hospital-holdings-establish-new-hospital.md",
+      "categories": [
+        "Challenges and Opportunities",
+        "Innovation and R&D"
+      ],
+      "length": 7335
+    },
+    {
+      "url": "https://www.softlogic.lk/group-contact-information/asiri-surgical-hospital",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.softlogic.lk__group-contact-information__asiri-surgical-hospital.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 788
+    },
+    {
+      "url": "https://www.softlogic.lk/group-contact-information/asiri-medical-hospital",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.softlogic.lk__group-contact-information__asiri-medical-hospital.md",
+      "categories": [
+        "Company Size",
+        "Contact Information"
+      ],
+      "length": 2813
+    },
+    {
+      "url": "https://www.softlogic.lk/healthcare-sector/company-details/9",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.softlogic.lk__healthcare-sector__company-details__9.md",
+      "categories": [
+        "Market Position",
+        "Pricing Information"
+      ],
+      "length": 2025
+    },
+    {
+      "url": "https://www.marketscreener.com/quote/stock/ASIRI-HOSPITAL-HOLDINGS-P-16746248/company-network",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.marketscreener.com__quote__stock__ASIRI-HOSPITAL-HOLDINGS-P-16746248__company-network.md",
+      "categories": [
+        "Business Model and Revenue"
+      ],
+      "length": 8262
+    },
+    {
+      "url": "https://www.investing.com/equities/asiri-hospital-holdings",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.investing.com__equities__asiri-hospital-holdings.md",
+      "categories": [
+        "Market Position",
+        "Financial Performance"
+      ],
+      "length": 14266
+    },
+    {
+      "url": "https://www.sundaytimes.lk/online/business/Asiri-Hospital-Holdings-announced-as-Platinum-Sponsor-for-Medicare-International-Healthcare-Exhibition/10-1148262",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.sundaytimes.lk__online__business__Asiri-Hospital-Holdings-announced-as-Platinum-Sponsor-for-Medicare-International-Healthcare-Exhibition__10-1148262.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 4273
+    },
+    {
+      "url": "https://www.mdpi.com/2673-7116/3/4/32",
+      "filepath": "results/asiri_hospital_holdings_plc/crawled/www.mdpi.com__2673-7116__3__4__32.md",
+      "categories": [
+        "Challenges and Opportunities",
+        "Innovation and R&D"
+      ],
+      "length": 40299
+    }
+  ],
+  "url_to_categories": {
+    "https://asirihealth.com/board-of-directors": [
+      "Founders and Leadership"
+    ],
+    "https://asirihealth.com/asiri-about-us": [
+      "Founders and Leadership",
+      "Business Model and Revenue",
+      "Mission and Values",
+      "Partnerships",
+      "Future Plans"
+    ],
+    "https://asirihealth.com/asiri-history": [
+      "Founders and Leadership",
+      "Mission and Values"
+    ],
+    "https://asirihealth.com/asiri-esg-policy": [
+      "Founders and Leadership",
+      "Mission and Values",
+      "Future Plans",
+      "Social Responsibility"
+    ],
+    "https://asirihealth.com/": [
+      "Founders and Leadership",
+      "Business Model and Revenue",
+      "Products and Services",
+      "Mission and Values",
+      "Technology Stack",
+      "Partnerships",
+      "Company Size",
+      "Contact Information"
+    ],
+    "https://asirihealth.com/asiri-financial-information": [
+      "Business Model and Revenue",
+      "Financial Performance"
+    ],
+    "https://asirihealth.com/news-and-events": [
+      "Business Model and Revenue",
+      "Case Studies"
+    ],
+    "https://www.marketscreener.com/quote/stock/ASIRI-HOSPITAL-HOLDINGS-P-16746248/company-network": [
+      "Business Model and Revenue"
+    ],
+    "https://stockanalysis.com/quote/cose/ASIR.N0000": [
+      "Business Model and Revenue",
+      "Company Size"
+    ],
+    "https://www.investing.com/pro/COSE:ASIRN0000/compare/COSE:SINHN0000,COSE:LHCLN0000,COSE:AMSLN0000,COSE:NHLN0000,COSE:MULLN0000,COSE:CHLX0000": [
+      "Business Model and Revenue"
+    ],
+    "https://simplywall.st/stocks/lk/healthcare/cose-asir.n0000/asiri-hospital-holdings-shares": [
+      "Business Model and Revenue",
+      "Market Position",
+      "Financial Performance"
+    ],
+    "https://en.wikipedia.org/wiki/Asiri_Hospital_Holdings": [
+      "Business Model and Revenue",
+      "Market Position",
+      "Technology Stack",
+      "Awards and Certifications"
+    ],
+    "https://asirihealth.com/surgical-home": [
+      "Products and Services"
+    ],
+    "https://asirihealth.com/central-home": [
+      "Products and Services",
+      "Pricing Information"
+    ],
+    "https://asirihealth.com/matara-home": [
+      "Products and Services"
+    ],
+    "https://asirihealth.com/galle-home": [
+      "Products and Services"
+    ],
+    "https://asirihealth.com/kandy-home": [
+      "Products and Services"
+    ],
+    "https://asirihealth.com/services/home-nursing": [
+      "Products and Services"
+    ],
+    "https://asirihealth.com/services/ambulance-service": [
+      "Products and Services"
+    ],
+    "https://asirihealth.com/services/radiology": [
+      "Products and Services"
+    ],
+    "https://asirihealth.com/services/outpatient-care": [
+      "Products and Services"
+    ],
+    "https://asirihealth.com/services/pharmacy": [
+      "Products and Services"
+    ],
+    "https://www.softlogic.lk/healthcare-sector/company-details/9": [
+      "Market Position",
+      "Pricing Information"
+    ],
+    "https://www.investing.com/equities/asiri-hospital-holdings": [
+      "Market Position",
+      "Financial Performance"
+    ],
+    "https://www.marketscreener.com/quote/stock/ASIRI-HOSPITAL-HOLDINGS-P-16746248/finances-segments": [
+      "Market Position",
+      "Financial Performance"
+    ],
+    "https://www.owler.com/company/asirihospitals": [
+      "Market Position",
+      "Technology Stack",
+      "Customer Reviews"
+    ],
+    "https://en.wikipedia.org/wiki/Healthcare_in_Sri_Lanka": [
+      "Market Position"
+    ],
+    "https://www.ft.lk/top-story/Asiri-Hospital-first-off-the-block-at-Port-City-with----100-m-investment/26-747393": [
+      "Market Position",
+      "Partnerships",
+      "Future Plans",
+      "Financial Performance"
+    ],
+    "https://lankabizz.net/2024/06/03/asiri-hospitals-holdings-plc-demonstrated-outstanding-financial-performance-for-fy-2023-24": [
+      "Market Position",
+      "Financial Performance"
+    ],
+    "https://asirihealth.com/awards-recognitions": [
+      "Mission and Values",
+      "Awards and Certifications",
+      "Innovation and R&D"
+    ],
+    "https://rocketreach.co/asiri-group-of-hospitals-technology-stack_b5c9b054f42e3048": [
+      "Technology Stack"
+    ],
+    "https://sp-edge.com/companies/348629": [
+      "Technology Stack"
+    ],
+    "https://www.appsruntheworld.com/customers-database/customers/view/asiri-hospitals-sri-lanka": [
+      "Technology Stack",
+      "Innovation and R&D",
+      "Case Studies"
+    ],
+    "https://softlogicit.lk/health-asiri-hospital": [
+      "Technology Stack"
+    ],
+    "https://emojot.com/case-study/asiri-hospitals": [
+      "Technology Stack",
+      "Innovation and R&D",
+      "Case Studies"
+    ],
+    "https://www.bajajfinserv.in/hospital-information-system": [
+      "Technology Stack"
+    ],
+    "https://asirihealth.com/news-and-events/news-detail/23/we-reached-a-significant-partnership-milestone-today-by-signing-an-mou-between-asiri-academy-of-health-sciences-and-esoft-metro-campus": [
+      "Partnerships"
+    ],
+    "https://asirihealth.com/news-and-events/news-detail/18/asiri-hospitals-and-nitf-sign-landmark-agreement-to-provide-tangible-healthcare-benefits-for-all-agrahara-members": [
+      "Partnerships"
+    ],
+    "https://asirihealth.com/news-and-events/news-detail/4/asiri-health-was-a-main-sponsor-at-the-the-annual-academic-sessions-2024-of-the-sri-lanka-college-of-military-medicine": [
+      "Partnerships"
+    ],
+    "https://asirihealth.com/news-and-events/news-detail/25/strengthening-global-partnerships-in-healthcare": [
+      "Partnerships"
+    ],
+    "https://www.dialog.lk/news/Nawaloka-and-Durdans-Join-Asiri-in-DOC990-Joint-Venture-with-Dialog?language=ta": [
+      "Partnerships"
+    ],
+    "https://www.nithyapartners.com/news/asiri-acquires-hemas-southern-hospital-limited": [
+      "Partnerships"
+    ],
+    "https://bizenglish.adaderana.lk/asiri-health-partners-icta-to-accelerate-sri-lankas-healthtech-startup-ecosystem": [
+      "Partnerships",
+      "Challenges and Opportunities"
+    ],
+    "https://ceylontoday.lk/2026/01/05/asiri-health-icta-boost-healthtech-startups": [
+      "Partnerships",
+      "Future Plans",
+      "Challenges and Opportunities",
+      "Innovation and R&D",
+      "Social Responsibility"
+    ],
+    "https://asirihealth.com/asiri-laboratories/service/322": [
+      "Company Size"
+    ],
+    "https://www.marketscreener.com/quote/stock/ASIRI-HOSPITAL-HOLDINGS-P-16746248/company": [
+      "Company Size"
+    ],
+    "https://www.softlogic.lk/group-contact-information/asiri-medical-hospital": [
+      "Company Size",
+      "Contact Information"
+    ],
+    "https://rainbowpages.lk/essential-services/channeling-centers/asiri-hospital-holdings-plc-2": [
+      "Company Size"
+    ],
+    "https://www.zoominfo.com/pic/asiri-group-of-hospitals-ltd/1155182132": [
+      "Company Size"
+    ],
+    "https://economynext.com/sri-lankas-asiri-hospitals-to-promote-medical-tourism-with-port-city-venture-146136": [
+      "Future Plans",
+      "Future Plans",
+      "Challenges and Opportunities"
+    ],
+    "https://www.dailymirror.lk/print/business-main/Asiri-Group-plans-US-100mn-hospital-in-Port-City-Colombo/245-257721": [
+      "Future Plans"
+    ],
+    "https://lankanewsweb.net/archives/32332/asiri-group-to-build-state-of-the-art-hospital-in-port-city": [
+      "Future Plans"
+    ],
+    "https://www.dialog.lk/news/Nawaloka-and-Durdans-Join-Asiri-in-DOC990-Joint-Venture-with-Dialog": [
+      "Future Plans",
+      "Challenges and Opportunities"
+    ],
+    "https://medicare.lk/asiri-hospital-holdings-plc-announced-as-platinum-sponsor-for-medicare-2025-international-healthcare-exhibition": [
+      "Future Plans",
+      "Challenges and Opportunities"
+    ],
+    "https://greatplacetowork.lk/best-workplace/asiri-central-hospital-ltd": [
+      "Awards and Certifications"
+    ],
+    "https://island.lk/four-asiri-group-hospitals-awarded-australian-healthcare-accreditation": [
+      "Awards and Certifications",
+      "Social Responsibility"
+    ],
+    "https://sundaytimes.lk/online/business/asiri-central-hospital-receives-jci-re-accreditation/10-1124725": [
+      "Awards and Certifications"
+    ],
+    "https://www.ft.lk/healthcare/asiri-surgical-hospital-receives-further-international-certifications/45-174666": [
+      "Awards and Certifications"
+    ],
+    "https://www.cabinetoffice.gov.lk/cab/index.php?did=7332&id=16&itemid=49&lang=en&option=com_content&view=article": [
+      "Awards and Certifications"
+    ],
+    "https://stockanalysis.com/quote/cose/ASIR.N0000/statistics": [
+      "Financial Performance"
+    ],
+    "https://www.itij.com/latest/news/asiri-hospital-holdings-establish-new-hospital": [
+      "Challenges and Opportunities",
+      "Innovation and R&D"
+    ],
+    "https://lankatalks.com/post/asiri-health-partners-icta-to-accelerate-sri-lanka-s-healthtech-startup-ecosystem": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.who.int/emergencies/funding/health-emergency-appeals/2022/2023/2023-appeals/appeal-sri-lanka": [
+      "Challenges and Opportunities",
+      "Social Responsibility"
+    ],
+    "https://www.mdpi.com/2673-7116/3/4/32": [
+      "Challenges and Opportunities",
+      "Innovation and R&D"
+    ],
+    "https://www.sundaytimes.lk/online/business/Asiri-Hospital-Holdings-announced-as-Platinum-Sponsor-for-Medicare-International-Healthcare-Exhibition/10-1148262": [
+      "Challenges and Opportunities"
+    ],
+    "https://asirihealth.com/news-and-events/news-detail/24/great-place-to-work-certification-congratulations": [
+      "Company Culture"
+    ],
+    "https://www.glassdoor.com/Reviews/Asiri-Health-Reviews-E1592848.htm": [
+      "Company Culture",
+      "Customer Reviews"
+    ],
+    "https://www.comparably.com/companies/asiri-group-of-hospitals": [
+      "Company Culture",
+      "Customer Reviews"
+    ],
+    "https://sg.indeed.com/cmp/Asiri-Hospital-Holdings-PLC": [
+      "Company Culture",
+      "Customer Reviews"
+    ],
+    "https://www.glassdoor.com/Overview/Working-at-Asiri-Health-EI_IE1592848.11,23.htm": [
+      "Company Culture"
+    ],
+    "https://www.ft.lk/Healthcare/asiri-hospitals-holdings-adjudged-healthcare-sector-winner-at-cima-lmd-100-awards/45-513527": [
+      "Company Culture"
+    ],
+    "https://asirihealth.com/patient-feedback": [
+      "Customer Reviews"
+    ],
+    "https://asirihealth.com/blog/blog-detail/56/advancing-the-fight-against-cancer-the-role-of-innovative-treatments": [
+      "Innovation and R&D"
+    ],
+    "https://asirihealth.com/asiri-laboratories/service/323": [
+      "Innovation and R&D"
+    ],
+    "https://asirihealth.com/international-patients/service/359": [
+      "Innovation and R&D"
+    ],
+    "https://asirihealth.com/news-and-events/news-detail/12/asiri-health-signs-an-mou-with-the-university-of-sri-jayawardena-in-a-pledge-to-support-environment-conservation": [
+      "Social Responsibility"
+    ],
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3825491": [
+      "Social Responsibility"
+    ],
+    "https://asirihealth.com/news-and-events/news-detail/16/asiri-central-hospital-receives-bronze-award-at-presidential-environment-awards-2024": [
+      "Social Responsibility"
+    ],
+    "https://leadingway.lk/projects/asiri-surgical-hospital": [
+      "Case Studies"
+    ],
+    "https://bioclad.com/projects/asiri-hospital": [
+      "Case Studies"
+    ],
+    "https://asirihealth.com/wellness-packages": [
+      "Pricing Information"
+    ],
+    "https://asirihealth.com/surgical-home/service/66": [
+      "Pricing Information"
+    ],
+    "https://asirihealth.com/services/amazing-care-membership": [
+      "Pricing Information"
+    ],
+    "https://sljhr.sljol.info/articles/10.4038/sljhr.v2i1.49": [
+      "Pricing Information"
+    ],
+    "https://asirihealth.com/coe-mini-detail/6/6": [
+      "Pricing Information"
+    ],
+    "https://www.cse.lk/company-profile?symbol=ASIR.N0000": [
+      "Contact Information"
+    ],
+    "https://www.softlogic.lk/group-contact-information/asiri-central-hospital": [
+      "Contact Information"
+    ],
+    "https://www.softlogic.lk/group-contact-information/asiri-surgical-hospital": [
+      "Contact Information"
+    ],
+    "https://rainbowpages.lk/health/24-hours-pharmacies/asiri-hospital-holdings-plc-colombo-06-2": [
+      "Contact Information"
+    ],
+    "https://asirihealth.com/contact-us": [
+      "Contact Information"
+    ]
+  }
+}

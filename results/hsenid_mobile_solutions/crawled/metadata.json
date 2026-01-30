@@ -1,0 +1,943 @@
+{
+  "company_name": "hSenid mobile solutions",
+  "base_url": "https://hsenidmobile.com/",
+  "location": "Sri Lanka",
+  "stats": {
+    "total_scraped": 71,
+    "total_failed": 0,
+    "total_chars": 454100
+  },
+  "scraped_urls": [
+    {
+      "url": "https://cdn.cse.lk/cmt/upload_report_file/2652_1721820978525.pdf",
+      "filepath": "results/hsenid_mobile_solutions/crawled/cdn.cse.lk__cmt__upload_report_file__2652_1721820978525.pdf.md",
+      "categories": [
+        "Social Responsibility"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://bizreporter.lk/bureau-veritas-lanka-awards-hsenidbiz-with-iso-27017-certification-the-first-to-be-certified-in-sri-lanka/business-and-economy",
+      "filepath": "results/hsenid_mobile_solutions/crawled/bizreporter.lk__bureau-veritas-lanka-awards-hsenidbiz-with-iso-27017-certification-the-first-to-be-certified-in-sri-lanka__business-and-economy.md",
+      "categories": [
+        "Achievements and Recognition",
+        "Awards and Certifications"
+      ],
+      "length": 4257
+    },
+    {
+      "url": "https://bizreporter.lk/bureau-veritas-lanka-awards-hsenidbiz-with-iso-27017-certification-the-first-to-be-certified-in-sri-lanka/business-and-economy)",
+      "filepath": "results/hsenid_mobile_solutions/crawled/bizreporter.lk__bureau-veritas-lanka-awards-hsenidbiz-with-iso-27017-certification-the-first-to-be-certified-in-sri-lanka__business-and-economy).md",
+      "categories": [
+        "Social Responsibility"
+      ],
+      "length": 4257
+    },
+    {
+      "url": "https://bizenglish.adaderana.lk/hsenidbiz-reports-robust-growth-with-significant-margin-expansion",
+      "filepath": "results/hsenid_mobile_solutions/crawled/bizenglish.adaderana.lk__hsenidbiz-reports-robust-growth-with-significant-margin-expansion.md",
+      "categories": [
+        "Financial Performance"
+      ],
+      "length": 25828
+    },
+    {
+      "url": "https://echelon.lk/what-is-next-for-hsenid-sri-lankas-pioneer-tech-company",
+      "filepath": "results/hsenid_mobile_solutions/crawled/echelon.lk__what-is-next-for-hsenid-sri-lankas-pioneer-tech-company.md",
+      "categories": [
+        "Company History",
+        "Future Plans"
+      ],
+      "length": 17599
+    },
+    {
+      "url": "https://abs2025.asia.berlin/participations/603638",
+      "filepath": "results/hsenid_mobile_solutions/crawled/abs2025.asia.berlin__participations__603638.md",
+      "categories": [
+        "Mission and Values"
+      ],
+      "length": 2094
+    },
+    {
+      "url": "https://hsenidlanka.com/news-and-events",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidlanka.com__news-and-events.md",
+      "categories": [
+        "Recent News and Updates"
+      ],
+      "length": 957
+    },
+    {
+      "url": "https://hsenidlanka.com/our-process",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidlanka.com__our-process.md",
+      "categories": [
+        "Customer Base",
+        "Partnerships"
+      ],
+      "length": 3250
+    },
+    {
+      "url": "https://hsenidmobile.com/case-studies",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__case-studies.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 198
+    },
+    {
+      "url": "https://hsenidlanka.com/about",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidlanka.com__about.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company History",
+        "Mission and Values",
+        "Company Culture"
+      ],
+      "length": 5490
+    },
+    {
+      "url": "https://hsenidlanka.com/awards-and-recognitions",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidlanka.com__awards-and-recognitions.md",
+      "categories": [
+        "Achievements and Recognition",
+        "Awards and Certifications"
+      ],
+      "length": 5668
+    },
+    {
+      "url": "https://hsenidmobile.com/ai-document-verification-system",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__ai-document-verification-system.md",
+      "categories": [
+        "Products and Services",
+        "Technology Stack"
+      ],
+      "length": 3585
+    },
+    {
+      "url": "https://hsenidmobile.com/case-studies-2-draft",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__case-studies-2-draft.md",
+      "categories": [
+        "Partnerships",
+        "Case Studies"
+      ],
+      "length": 905
+    },
+    {
+      "url": "https://hsenidmobile.com/",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 8646
+    },
+    {
+      "url": "https://hsenidmobile.com/about-us",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__about-us.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company History",
+        "Organizational Structure",
+        "Customer Base",
+        "Mission and Values",
+        "Partnerships",
+        "Company Size",
+        "Future Plans",
+        "Company Culture",
+        "Pricing Information"
+      ],
+      "length": 4211
+    },
+    {
+      "url": "https://hsenidmobile.com/contact",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__contact.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 791
+    },
+    {
+      "url": "https://hsenidmobile.com/ai-companies-in-sri-lanka-for-enterprise-solutions",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__ai-companies-in-sri-lanka-for-enterprise-solutions.md",
+      "categories": [
+        "Competitive Landscape",
+        "Challenges and Opportunities"
+      ],
+      "length": 8690
+    },
+    {
+      "url": "https://hsenidmobile.com/blogs/2",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__blogs__2.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 18504
+    },
+    {
+      "url": "https://hsenidmobile.com/7-must-have-features-when-partnering-with-a-sri-lankan-ai-company",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__7-must-have-features-when-partnering-with-a-sri-lankan-ai-company.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Competitive Landscape",
+        "Recent News and Updates",
+        "Future Plans"
+      ],
+      "length": 11096
+    },
+    {
+      "url": "https://hsenidmobile.com/ai-powered-enterprise-agent-solutions-for-sri-lankan-companies",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__ai-powered-enterprise-agent-solutions-for-sri-lankan-companies.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Technology Stack"
+      ],
+      "length": 9100
+    },
+    {
+      "url": "https://hsenidmobile.com/business-ai-services-in-sri-lanka-that-deliver-measurable-roi-in-90-day",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__business-ai-services-in-sri-lanka-that-deliver-measurable-roi-in-90-day.md",
+      "categories": [
+        "Business Model and Revenue"
+      ],
+      "length": 11953
+    },
+    {
+      "url": "https://hsenidmobile.com/choosing-the-right-service-delivery-platform-for-your-business",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__choosing-the-right-service-delivery-platform-for-your-business.md",
+      "categories": [
+        "Business Model and Revenue"
+      ],
+      "length": 7881
+    },
+    {
+      "url": "https://hsenidmobile.com/best-enterprise-ai-solutions-for-telecom-operators-cx-vs-revenue-vs-operations",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__best-enterprise-ai-solutions-for-telecom-operators-cx-vs-revenue-vs-operations.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Competitive Landscape"
+      ],
+      "length": 14613
+    },
+    {
+      "url": "https://hsenidmobile.com/frontend-developer",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__frontend-developer.md",
+      "categories": [
+        "Technology Stack"
+      ],
+      "length": 2161
+    },
+    {
+      "url": "https://hsenidmobile.com/data-science-and-aiml-solution",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__data-science-and-aiml-solution.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 3769
+    },
+    {
+      "url": "https://hsenidmobile.com/how-ai-is-transforming-sri-lankan-enterprises-in-2025",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__how-ai-is-transforming-sri-lankan-enterprises-in-2025.md",
+      "categories": [
+        "Recent News and Updates",
+        "Future Plans",
+        "Challenges and Opportunities"
+      ],
+      "length": 11097
+    },
+    {
+      "url": "https://hsenidmobile.com/enterprise-ai-in-sri-lanka-the-best-kept-secret-in-tech",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__enterprise-ai-in-sri-lanka-the-best-kept-secret-in-tech.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Challenges and Opportunities"
+      ],
+      "length": 8842
+    },
+    {
+      "url": "https://hsenidmobile.com/how-to-set-up-a-sigtran-gateway-for-ss7",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__how-to-set-up-a-sigtran-gateway-for-ss7.md",
+      "categories": [
+        "Technology Stack"
+      ],
+      "length": 8890
+    },
+    {
+      "url": "https://hsenidmobile.com/enterprise-ai-in-sri-lanka-the-next-decade-of-disruption-2",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__enterprise-ai-in-sri-lanka-the-next-decade-of-disruption-2.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 8901
+    },
+    {
+      "url": "https://hsenidmobile.com/how-enterprise-ai-companies-in-sri-lanka-compete-with-silicon-valley",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__how-enterprise-ai-companies-in-sri-lanka-compete-with-silicon-valley.md",
+      "categories": [
+        "Technology Stack",
+        "Challenges and Opportunities"
+      ],
+      "length": 12916
+    },
+    {
+      "url": "https://hsenidmobile.com/hsenid-mobile-announces-the-11th-edition-of-tadhack-sri-lanka-2024",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__hsenid-mobile-announces-the-11th-edition-of-tadhack-sri-lanka-2024.md",
+      "categories": [
+        "Recent News and Updates",
+        "Achievements and Recognition",
+        "Partnerships",
+        "Future Plans",
+        "Awards and Certifications"
+      ],
+      "length": 4484
+    },
+    {
+      "url": "https://hsenidmobile.com/hsenid-mobile-hosts-tadhack-sri-lanka-for-7th-time",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__hsenid-mobile-hosts-tadhack-sri-lanka-for-7th-time.md",
+      "categories": [
+        "Achievements and Recognition",
+        "Awards and Certifications"
+      ],
+      "length": 7034
+    },
+    {
+      "url": "https://hsenidmobile.com/hsenid-platform-engineering",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__hsenid-platform-engineering.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 3849
+    },
+    {
+      "url": "https://hsenidmobile.com/hsenid-edevops-services",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__hsenid-edevops-services.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 7524
+    },
+    {
+      "url": "https://hsenidmobile.com/how-to-use-ai-to-improve-business-operations-in-sri-lanka",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__how-to-use-ai-to-improve-business-operations-in-sri-lanka.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Customer Base",
+        "Challenges and Opportunities"
+      ],
+      "length": 12918
+    },
+    {
+      "url": "https://hsenidmobile.com/smsc",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__smsc.md",
+      "categories": [
+        "Products and Services",
+        "Technology Stack",
+        "Pricing Information"
+      ],
+      "length": 3688
+    },
+    {
+      "url": "https://hsenidmobile.com/hsenid-smart-chatbot",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__hsenid-smart-chatbot.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 3020
+    },
+    {
+      "url": "https://hsenidmobile.com/location-based-service",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__location-based-service.md",
+      "categories": [
+        "Products and Services",
+        "Technology Stack"
+      ],
+      "length": 3111
+    },
+    {
+      "url": "https://hsenidmobile.com/hsenid-mobile-announces-the-new-mission-and-tagline",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__hsenid-mobile-announces-the-new-mission-and-tagline.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company History",
+        "Mission and Values",
+        "Company Culture"
+      ],
+      "length": 4160
+    },
+    {
+      "url": "https://hsenidmobile.com/hsenid-mobile-solution-2",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__hsenid-mobile-solution-2.md",
+      "categories": [
+        "Organizational Structure",
+        "Customer Base",
+        "Partnerships"
+      ],
+      "length": 6953
+    },
+    {
+      "url": "https://hsenidmobile.com/partner-with-us",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__partner-with-us.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 4149
+    },
+    {
+      "url": "https://iccsrilanka.com/mr-dinesh-saparamadu",
+      "filepath": "results/hsenid_mobile_solutions/crawled/iccsrilanka.com__mr-dinesh-saparamadu.md",
+      "categories": [
+        "Organizational Structure",
+        "Mission and Values"
+      ],
+      "length": 1951
+    },
+    {
+      "url": "https://hsenidmobile.com/tadhack-sri-lanka-2024-wraps-up-with-game-changing-innovations-at-dialog-auditorium",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__tadhack-sri-lanka-2024-wraps-up-with-game-changing-innovations-at-dialog-auditorium.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 5737
+    },
+    {
+      "url": "https://hsenidmobile.com/the-future-of-service-delivery-platforms-in-2024-whats-new",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__the-future-of-service-delivery-platforms-in-2024-whats-new.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Recent News and Updates",
+        "Partnerships",
+        "Future Plans"
+      ],
+      "length": 8401
+    },
+    {
+      "url": "https://hsenidmobile.com/is-your-company-ready-for-ai-enterprise-checklist-for-sri-lanka-2",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__is-your-company-ready-for-ai-enterprise-checklist-for-sri-lanka-2.md",
+      "categories": [
+        "Competitive Landscape",
+        "Challenges and Opportunities"
+      ],
+      "length": 9438
+    },
+    {
+      "url": "https://hsenidmobile.com/tailored-ai-and-data-solutions-for-your-business",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__tailored-ai-and-data-solutions-for-your-business.md",
+      "categories": [
+        "Products and Services",
+        "Future Plans"
+      ],
+      "length": 9727
+    },
+    {
+      "url": "https://pitchbook.com/profiles/company/489453-22",
+      "filepath": "results/hsenid_mobile_solutions/crawled/pitchbook.com__profiles__company__489453-22.md",
+      "categories": [
+        "Market Position"
+      ],
+      "length": 279
+    },
+    {
+      "url": "https://rocketreach.co/hsenid-mobile-solutions-pvt-ltd-management_b5c32aeff42e0f70",
+      "filepath": "results/hsenid_mobile_solutions/crawled/rocketreach.co__hsenid-mobile-solutions-pvt-ltd-management_b5c32aeff42e0f70.md",
+      "categories": [
+        "Organizational Structure"
+      ],
+      "length": 282
+    },
+    {
+      "url": "https://hsenidmobile.com/ussd-gateway",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__ussd-gateway.md",
+      "categories": [
+        "Products and Services"
+      ],
+      "length": 3304
+    },
+    {
+      "url": "https://www.g2.com/products/hsenid-mobile-solutions/competitors/alternatives",
+      "filepath": "results/hsenid_mobile_solutions/crawled/www.g2.com__products__hsenid-mobile-solutions__competitors__alternatives.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://hsenidmobile.com/why-sri-lanka-is-the-next-big-hub-for-enterprise-ai-companies",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__why-sri-lanka-is-the-next-big-hub-for-enterprise-ai-companies.md",
+      "categories": [
+        "Competitive Landscape",
+        "Future Plans"
+      ],
+      "length": 10161
+    },
+    {
+      "url": "https://investor-relations.hsenidbiz.com/company-overview",
+      "filepath": "results/hsenid_mobile_solutions/crawled/investor-relations.hsenidbiz.com__company-overview.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company History",
+        "Company Size",
+        "Financial Performance",
+        "Contact Information"
+      ],
+      "length": 3513
+    },
+    {
+      "url": "https://hsenidmobile.com/the-hidden-ai-companies-in-sri-lanka-powering-global-businesses",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__the-hidden-ai-companies-in-sri-lanka-powering-global-businesses.md",
+      "categories": [
+        "Competitive Landscape",
+        "Market Position",
+        "Mission and Values",
+        "Technology Stack",
+        "Challenges and Opportunities",
+        "Company Culture"
+      ],
+      "length": 13715
+    },
+    {
+      "url": "https://www.glassdoor.com/Reviews/hSenid-Mobile-Solutions-Sri-Lanka-Reviews-EI_IE426981.0,23_IL.24,33_IN45.htm",
+      "filepath": "results/hsenid_mobile_solutions/crawled/www.glassdoor.com__Reviews__hSenid-Mobile-Solutions-Sri-Lanka-Reviews-EI_IE426981.0,23_IL.24,33_IN45.htm.md",
+      "categories": [
+        "Market Position",
+        "Customer Reviews"
+      ],
+      "length": 2793
+    },
+    {
+      "url": "https://www.glassdoor.com/Reviews/hSenid-Mobile-Solutions-Reviews-E426981.htm",
+      "filepath": "results/hsenid_mobile_solutions/crawled/www.glassdoor.com__Reviews__hSenid-Mobile-Solutions-Reviews-E426981.htm.md",
+      "categories": [
+        "Organizational Structure",
+        "Customer Reviews"
+      ],
+      "length": 2760
+    },
+    {
+      "url": "https://hsenidmobile.com/the-untold-story-of-how-sri-lankan-ai-companies-are-shaping-the-future",
+      "filepath": "results/hsenid_mobile_solutions/crawled/hsenidmobile.com__the-untold-story-of-how-sri-lankan-ai-companies-are-shaping-the-future.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 13310
+    },
+    {
+      "url": "https://stockanalysis.com/quote/cose/HBS.N0000/statistics",
+      "filepath": "results/hsenid_mobile_solutions/crawled/stockanalysis.com__quote__cose__HBS.N0000__statistics.md",
+      "categories": [
+        "Financial Performance"
+      ],
+      "length": 4848
+    },
+    {
+      "url": "https://www.cbinsights.com/company/hsenid",
+      "filepath": "results/hsenid_mobile_solutions/crawled/www.cbinsights.com__company__hsenid.md",
+      "categories": [
+        "Competitive Landscape"
+      ],
+      "length": 6327
+    },
+    {
+      "url": "https://investor-relations.hsenidbiz.com/governance",
+      "filepath": "results/hsenid_mobile_solutions/crawled/investor-relations.hsenidbiz.com__governance.md",
+      "categories": [
+        "Founders and Leadership"
+      ],
+      "length": 15355
+    },
+    {
+      "url": "https://www.hsenid.com/index.php/component/content/article/37-news/172-hsenid-mobile-wins-red-herring-global-award?itemid=101",
+      "filepath": "results/hsenid_mobile_solutions/crawled/www.hsenid.com__index.php__component__content__article__37-news__172-hsenid-mobile-wins-red-herring-global-award.md",
+      "categories": [
+        "Achievements and Recognition",
+        "Awards and Certifications"
+      ],
+      "length": 5152
+    },
+    {
+      "url": "https://www.hsenid.com/index.php/contact",
+      "filepath": "results/hsenid_mobile_solutions/crawled/www.hsenid.com__index.php__contact.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 1785
+    },
+    {
+      "url": "https://www.hsenid.com/index.php/pages/hsenid-ventures",
+      "filepath": "results/hsenid_mobile_solutions/crawled/www.hsenid.com__index.php__pages__hsenid-ventures.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 1312
+    },
+    {
+      "url": "https://www.hsenid.com/index.php/about-hsenid",
+      "filepath": "results/hsenid_mobile_solutions/crawled/www.hsenid.com__index.php__about-hsenid.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company History",
+        "Mission and Values",
+        "Company Culture"
+      ],
+      "length": 2581
+    },
+    {
+      "url": "https://www.zoominfo.com/c/hsenid-mobile-solutions-ltd/354372642",
+      "filepath": "results/hsenid_mobile_solutions/crawled/www.zoominfo.com__c__hsenid-mobile-solutions-ltd__354372642.md",
+      "categories": [
+        "Market Position"
+      ],
+      "length": 288
+    },
+    {
+      "url": "https://www.zoominfo.com/pic/hsenid-mobile-solutions-ltd/354372642",
+      "filepath": "results/hsenid_mobile_solutions/crawled/www.zoominfo.com__pic__hsenid-mobile-solutions-ltd__354372642.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 289
+    },
+    {
+      "url": "https://www.efuturesworld.com/blog/discover-the-top-software-companies-in-sri-lanka",
+      "filepath": "results/hsenid_mobile_solutions/crawled/www.efuturesworld.com__blog__discover-the-top-software-companies-in-sri-lanka.md",
+      "categories": [
+        "Market Position"
+      ],
+      "length": 19697
+    },
+    {
+      "url": "https://www.srilankabusiness.com/exporters-directory/company-profiles/hsenid-mobile-solutions-pvt-ltd",
+      "filepath": "results/hsenid_mobile_solutions/crawled/www.srilankabusiness.com__exporters-directory__company-profiles__hsenid-mobile-solutions-pvt-ltd.md",
+      "categories": [
+        "Company History",
+        "Market Position",
+        "Organizational Structure",
+        "Customer Base",
+        "Company Size",
+        "Contact Information"
+      ],
+      "length": 2298
+    },
+    {
+      "url": "https://lankabizz.net/2024/05/18/hsenid-business-solutions-plc-financial-performance-for-year-ended-31st-march-2024",
+      "filepath": "results/hsenid_mobile_solutions/crawled/lankabizz.net__2024__05__18__hsenid-business-solutions-plc-financial-performance-for-year-ended-31st-march-2024.md",
+      "categories": [
+        "Financial Performance"
+      ],
+      "length": 7821
+    },
+    {
+      "url": "https://www.softwaresuggest.com/hsenid",
+      "filepath": "results/hsenid_mobile_solutions/crawled/www.softwaresuggest.com__hsenid.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 5257
+    },
+    {
+      "url": "https://www.investing.com/equities/hsenid-business-solutions-private-company-profile",
+      "filepath": "results/hsenid_mobile_solutions/crawled/www.investing.com__equities__hsenid-business-solutions-private-company-profile.md",
+      "categories": [
+        "Market Position",
+        "Organizational Structure",
+        "Company Size",
+        "Pricing Information"
+      ],
+      "length": 8584
+    },
+    {
+      "url": "https://www.ft.lk/Business/hSenid-Business-Solutions-wins-Gold-at-31st-Annual-Export-Awards-2023-for-fourth-consecutive-year/34-756452",
+      "filepath": "results/hsenid_mobile_solutions/crawled/www.ft.lk__Business__hSenid-Business-Solutions-wins-Gold-at-31st-Annual-Export-Awards-2023-for-fourth-consecutive-year__34-756452.md",
+      "categories": [
+        "Achievements and Recognition",
+        "Awards and Certifications"
+      ],
+      "length": 94
+    }
+  ],
+  "url_to_categories": {
+    "https://hsenidmobile.com/about-us": [
+      "Founders and Leadership",
+      "Company History",
+      "Organizational Structure",
+      "Customer Base",
+      "Mission and Values",
+      "Partnerships",
+      "Company Size",
+      "Future Plans",
+      "Company Culture",
+      "Pricing Information"
+    ],
+    "https://www.hsenid.com/index.php/about-hsenid": [
+      "Founders and Leadership",
+      "Company History",
+      "Mission and Values",
+      "Company Culture"
+    ],
+    "https://investor-relations.hsenidbiz.com/governance": [
+      "Founders and Leadership"
+    ],
+    "https://investor-relations.hsenidbiz.com/company-overview": [
+      "Founders and Leadership",
+      "Company History",
+      "Company Size",
+      "Financial Performance",
+      "Contact Information"
+    ],
+    "https://hsenidmobile.com/hsenid-mobile-announces-the-new-mission-and-tagline": [
+      "Founders and Leadership",
+      "Company History",
+      "Mission and Values",
+      "Company Culture"
+    ],
+    "https://hsenidlanka.com/about": [
+      "Founders and Leadership",
+      "Company History",
+      "Mission and Values",
+      "Company Culture"
+    ],
+    "https://hsenidmobile.com/ai-powered-enterprise-agent-solutions-for-sri-lankan-companies": [
+      "Business Model and Revenue",
+      "Technology Stack"
+    ],
+    "https://hsenidmobile.com/how-to-use-ai-to-improve-business-operations-in-sri-lanka": [
+      "Business Model and Revenue",
+      "Customer Base",
+      "Challenges and Opportunities"
+    ],
+    "https://hsenidmobile.com/7-must-have-features-when-partnering-with-a-sri-lankan-ai-company": [
+      "Business Model and Revenue",
+      "Competitive Landscape",
+      "Recent News and Updates",
+      "Future Plans"
+    ],
+    "https://hsenidmobile.com/choosing-the-right-service-delivery-platform-for-your-business": [
+      "Business Model and Revenue"
+    ],
+    "https://hsenidmobile.com/the-future-of-service-delivery-platforms-in-2024-whats-new": [
+      "Business Model and Revenue",
+      "Recent News and Updates",
+      "Partnerships",
+      "Future Plans"
+    ],
+    "https://hsenidmobile.com/enterprise-ai-in-sri-lanka-the-best-kept-secret-in-tech": [
+      "Business Model and Revenue",
+      "Challenges and Opportunities"
+    ],
+    "https://hsenidmobile.com/best-enterprise-ai-solutions-for-telecom-operators-cx-vs-revenue-vs-operations": [
+      "Business Model and Revenue",
+      "Competitive Landscape"
+    ],
+    "https://hsenidmobile.com/business-ai-services-in-sri-lanka-that-deliver-measurable-roi-in-90-day": [
+      "Business Model and Revenue"
+    ],
+    "https://hsenidmobile.com/": [
+      "Products and Services"
+    ],
+    "https://hsenidmobile.com/hsenid-smart-chatbot": [
+      "Products and Services"
+    ],
+    "https://hsenidmobile.com/smsc": [
+      "Products and Services",
+      "Technology Stack",
+      "Pricing Information"
+    ],
+    "https://hsenidmobile.com/ussd-gateway": [
+      "Products and Services"
+    ],
+    "https://hsenidmobile.com/location-based-service": [
+      "Products and Services",
+      "Technology Stack"
+    ],
+    "https://hsenidmobile.com/hsenid-platform-engineering": [
+      "Products and Services"
+    ],
+    "https://hsenidmobile.com/hsenid-edevops-services": [
+      "Products and Services"
+    ],
+    "https://hsenidmobile.com/tailored-ai-and-data-solutions-for-your-business": [
+      "Products and Services",
+      "Future Plans"
+    ],
+    "https://hsenidmobile.com/ai-document-verification-system": [
+      "Products and Services",
+      "Technology Stack"
+    ],
+    "https://echelon.lk/what-is-next-for-hsenid-sri-lankas-pioneer-tech-company": [
+      "Company History",
+      "Future Plans"
+    ],
+    "https://www.srilankabusiness.com/exporters-directory/company-profiles/hsenid-mobile-solutions-pvt-ltd": [
+      "Company History",
+      "Market Position",
+      "Organizational Structure",
+      "Customer Base",
+      "Company Size",
+      "Contact Information"
+    ],
+    "https://hsenidmobile.com/ai-companies-in-sri-lanka-for-enterprise-solutions": [
+      "Competitive Landscape",
+      "Challenges and Opportunities"
+    ],
+    "https://hsenidmobile.com/the-hidden-ai-companies-in-sri-lanka-powering-global-businesses": [
+      "Competitive Landscape",
+      "Market Position",
+      "Mission and Values",
+      "Technology Stack",
+      "Challenges and Opportunities",
+      "Company Culture"
+    ],
+    "https://hsenidmobile.com/why-sri-lanka-is-the-next-big-hub-for-enterprise-ai-companies": [
+      "Competitive Landscape",
+      "Future Plans"
+    ],
+    "https://hsenidmobile.com/is-your-company-ready-for-ai-enterprise-checklist-for-sri-lanka-2": [
+      "Competitive Landscape",
+      "Challenges and Opportunities"
+    ],
+    "https://www.g2.com/products/hsenid-mobile-solutions/competitors/alternatives": [
+      "Competitive Landscape"
+    ],
+    "https://www.cbinsights.com/company/hsenid": [
+      "Competitive Landscape"
+    ],
+    "https://hsenidmobile.com/the-untold-story-of-how-sri-lankan-ai-companies-are-shaping-the-future": [
+      "Competitive Landscape"
+    ],
+    "https://www.efuturesworld.com/blog/discover-the-top-software-companies-in-sri-lanka": [
+      "Market Position"
+    ],
+    "https://www.glassdoor.com/Reviews/hSenid-Mobile-Solutions-Sri-Lanka-Reviews-EI_IE426981.0,23_IL.24,33_IN45.htm": [
+      "Market Position",
+      "Customer Reviews"
+    ],
+    "https://pitchbook.com/profiles/company/489453-22": [
+      "Market Position"
+    ],
+    "https://www.zoominfo.com/c/hsenid-mobile-solutions-ltd/354372642": [
+      "Market Position"
+    ],
+    "https://www.investing.com/equities/hsenid-business-solutions-private-company-profile": [
+      "Market Position",
+      "Organizational Structure",
+      "Company Size",
+      "Pricing Information"
+    ],
+    "https://hsenidmobile.com/how-ai-is-transforming-sri-lankan-enterprises-in-2025": [
+      "Recent News and Updates",
+      "Future Plans",
+      "Challenges and Opportunities"
+    ],
+    "https://hsenidmobile.com/hsenid-mobile-announces-the-11th-edition-of-tadhack-sri-lanka-2024": [
+      "Recent News and Updates",
+      "Achievements and Recognition",
+      "Partnerships",
+      "Future Plans",
+      "Awards and Certifications"
+    ],
+    "https://hsenidlanka.com/news-and-events": [
+      "Recent News and Updates"
+    ],
+    "https://hsenidmobile.com/hsenid-mobile-solution-2": [
+      "Organizational Structure",
+      "Customer Base",
+      "Partnerships"
+    ],
+    "https://iccsrilanka.com/mr-dinesh-saparamadu": [
+      "Organizational Structure",
+      "Mission and Values"
+    ],
+    "https://rocketreach.co/hsenid-mobile-solutions-pvt-ltd-management_b5c32aeff42e0f70": [
+      "Organizational Structure"
+    ],
+    "https://www.glassdoor.com/Reviews/hSenid-Mobile-Solutions-Reviews-E426981.htm": [
+      "Organizational Structure",
+      "Customer Reviews"
+    ],
+    "https://hsenidlanka.com/awards-and-recognitions": [
+      "Achievements and Recognition",
+      "Awards and Certifications"
+    ],
+    "https://www.hsenid.com/index.php/component/content/article/37-news/172-hsenid-mobile-wins-red-herring-global-award?itemid=101": [
+      "Achievements and Recognition",
+      "Awards and Certifications"
+    ],
+    "https://hsenidmobile.com/hsenid-mobile-hosts-tadhack-sri-lanka-for-7th-time": [
+      "Achievements and Recognition",
+      "Awards and Certifications"
+    ],
+    "https://bizreporter.lk/bureau-veritas-lanka-awards-hsenidbiz-with-iso-27017-certification-the-first-to-be-certified-in-sri-lanka/business-and-economy": [
+      "Achievements and Recognition",
+      "Awards and Certifications"
+    ],
+    "https://www.ft.lk/Business/hSenid-Business-Solutions-wins-Gold-at-31st-Annual-Export-Awards-2023-for-fourth-consecutive-year/34-756452": [
+      "Achievements and Recognition",
+      "Awards and Certifications"
+    ],
+    "https://hsenidlanka.com/our-process": [
+      "Customer Base",
+      "Partnerships"
+    ],
+    "https://abs2025.asia.berlin/participations/603638": [
+      "Mission and Values"
+    ],
+    "https://hsenidmobile.com/how-to-set-up-a-sigtran-gateway-for-ss7": [
+      "Technology Stack"
+    ],
+    "https://hsenidmobile.com/frontend-developer": [
+      "Technology Stack"
+    ],
+    "https://hsenidmobile.com/how-enterprise-ai-companies-in-sri-lanka-compete-with-silicon-valley": [
+      "Technology Stack",
+      "Challenges and Opportunities"
+    ],
+    "https://hsenidmobile.com/partner-with-us": [
+      "Partnerships"
+    ],
+    "https://hsenidmobile.com/tadhack-sri-lanka-2024-wraps-up-with-game-changing-innovations-at-dialog-auditorium": [
+      "Partnerships"
+    ],
+    "https://hsenidmobile.com/data-science-and-aiml-solution": [
+      "Partnerships"
+    ],
+    "https://hsenidmobile.com/case-studies-2-draft": [
+      "Partnerships",
+      "Case Studies"
+    ],
+    "https://www.hsenid.com/index.php/pages/hsenid-ventures": [
+      "Future Plans"
+    ],
+    "https://stockanalysis.com/quote/cose/HBS.N0000/statistics": [
+      "Financial Performance"
+    ],
+    "https://bizenglish.adaderana.lk/hsenidbiz-reports-robust-growth-with-significant-margin-expansion": [
+      "Financial Performance"
+    ],
+    "https://lankabizz.net/2024/05/18/hsenid-business-solutions-plc-financial-performance-for-year-ended-31st-march-2024": [
+      "Financial Performance"
+    ],
+    "https://hsenidmobile.com/blogs/2": [
+      "Challenges and Opportunities"
+    ],
+    "https://hsenidmobile.com/enterprise-ai-in-sri-lanka-the-next-decade-of-disruption-2": [
+      "Challenges and Opportunities"
+    ],
+    "https://bizreporter.lk/bureau-veritas-lanka-awards-hsenidbiz-with-iso-27017-certification-the-first-to-be-certified-in-sri-lanka/business-and-economy)": [
+      "Social Responsibility"
+    ],
+    "https://cdn.cse.lk/cmt/upload_report_file/2652_1721820978525.pdf": [
+      "Social Responsibility"
+    ],
+    "https://hsenidmobile.com/case-studies": [
+      "Case Studies"
+    ],
+    "https://www.softwaresuggest.com/hsenid": [
+      "Pricing Information"
+    ],
+    "https://hsenidmobile.com/contact": [
+      "Contact Information"
+    ],
+    "https://www.hsenid.com/index.php/contact": [
+      "Contact Information"
+    ],
+    "https://www.zoominfo.com/pic/hsenid-mobile-solutions-ltd/354372642": [
+      "Contact Information"
+    ]
+  }
+}

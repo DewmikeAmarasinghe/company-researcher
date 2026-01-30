@@ -1,0 +1,1058 @@
+{
+  "company_name": "Ceylon Cold Stores PLC (elephant house)",
+  "base_url": "https://www.elephanthouse.lk/",
+  "location": "Sri Lanka",
+  "stats": {
+    "total_scraped": 76,
+    "total_failed": 0,
+    "total_chars": 319721
+  },
+  "scraped_urls": [
+    {
+      "url": "https://firstcapital.lk/wp-content/uploads/2024/03/CCS-FLASH-NOTE-29-02-24.pdf",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/firstcapital.lk__wp-content__uploads__2024__03__CCS-FLASH-NOTE-29-02-24.pdf.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://www.elephanthouse.lk/",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk.md",
+      "categories": [
+        "Founders and Leadership",
+        "Business Model and Revenue",
+        "Products and Services",
+        "Company History",
+        "Competitive Landscape",
+        "Market Position",
+        "Organizational Structure",
+        "Achievements and Recognition",
+        "Technology Stack",
+        "Partnerships",
+        "Company Size",
+        "Company Size",
+        "Awards and Certifications",
+        "Financial Performance",
+        "Challenges and Opportunities",
+        "Innovation and R&D"
+      ],
+      "length": 336
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ceylon_Cold_Stores",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/en.wikipedia.org__wiki__Ceylon_Cold_Stores.md",
+      "categories": [
+        "Competitive Landscape",
+        "Market Position",
+        "Technology Stack",
+        "Company Size",
+        "Financial Performance",
+        "Customer Reviews"
+      ],
+      "length": 11418
+    },
+    {
+      "url": "https://www.elephanthouse.lk/annual-reports/annual_report_2017-2018.pdf",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__annual-reports__annual_report_2017-2018.pdf.md",
+      "categories": [
+        "Technology Stack"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://www.elephanthouse.lk/annual-reports/annual-report-2023-24.pdf",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__annual-reports__annual-report-2023-24.pdf.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://www.elephanthouse.lk/annual-reports/annual_report_2019-2020.pdf",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__annual-reports__annual_report_2019-2020.pdf.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://stockanalysis.com/quote/cose/CCS.N0000/market-cap",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/stockanalysis.com__quote__cose__CCS.N0000__market-cap.md",
+      "categories": [
+        "Competitive Landscape",
+        "Market Position",
+        "Financial Performance"
+      ],
+      "length": 2260
+    },
+    {
+      "url": "https://www.elephanthouse.lk/annual-reports/annual_report_2016-2017.pdf",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__annual-reports__annual_report_2016-2017.pdf.md",
+      "categories": [
+        "Technology Stack"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://lankatalks.com/post/ceylon-cold-stores-plc-wins-top-honor-at-sri-lanka-national-quality-awards-2023",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/lankatalks.com__post__ceylon-cold-stores-plc-wins-top-honor-at-sri-lanka-national-quality-awards-2023.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 5233
+    },
+    {
+      "url": "https://economynext.com/sri-lankas-elephant-house-drinks-distribution-begins-in-india-224527",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/economynext.com__sri-lankas-elephant-house-drinks-distribution-begins-in-india-224527.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 12299
+    },
+    {
+      "url": "https://martini.ai/pages/research/CEYLON%20COLD%20STORES%20PLC-a5d4f00e9e36c0aa49b7c964bc239776",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/martini.ai__pages__research__CEYLON%20COLD%20STORES%20PLC-a5d4f00e9e36c0aa49b7c964bc239776.md",
+      "categories": [
+        "Competitive Landscape",
+        "Financial Performance",
+        "Challenges and Opportunities"
+      ],
+      "length": 34293
+    },
+    {
+      "url": "https://lk.usembassy.gov/usaid-ceylon-cold-stores-plc-partnership-pioneers-women-led-recycling-initiatives-in-sri-lanka",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/lk.usembassy.gov__usaid-ceylon-cold-stores-plc-partnership-pioneers-women-led-recycling-initiatives-in-sri-lanka.md",
+      "categories": [
+        "Partnerships",
+        "Challenges and Opportunities",
+        "Social Responsibility",
+        "Case Studies"
+      ],
+      "length": 9413
+    },
+    {
+      "url": "https://bizenglish.adaderana.lk/elephant-house-beverages-partners-with-reliance-consumer-products-to-launch-campa-beverages-in-sri-lanka",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/bizenglish.adaderana.lk__elephant-house-beverages-partners-with-reliance-consumer-products-to-launch-campa-beverages-in-sri-lanka.md",
+      "categories": [
+        "Partnerships",
+        "Future Plans"
+      ],
+      "length": 26371
+    },
+    {
+      "url": "https://dailynews.lk/2025/05/12/sports/776008/elephant-house-carbonated-beverage-partner-of-slc",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/dailynews.lk__2025__05__12__sports__776008__elephant-house-carbonated-beverage-partner-of-slc.md",
+      "categories": [
+        "Future Plans"
+      ],
+      "length": 4368
+    },
+    {
+      "url": "https://wanderlog.com/place/details/9960324/ceylon-cold-stores-plc-head-office",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/wanderlog.com__place__details__9960324__ceylon-cold-stores-plc-head-office.md",
+      "categories": [
+        "Customer Reviews"
+      ],
+      "length": 14602
+    },
+    {
+      "url": "https://ditchcarbon.com/organizations/ceylon-cold-stores-plc",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/ditchcarbon.com__organizations__ceylon-cold-stores-plc.md",
+      "categories": [
+        "Social Responsibility"
+      ],
+      "length": 4587
+    },
+    {
+      "url": "https://www.elephanthouse.lk/beverages/elephant-house-soft-drinks",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__beverages__elephant-house-soft-drinks.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services"
+      ],
+      "length": 1694
+    },
+    {
+      "url": "https://www.elephanthouse.lk/beverages/elephant-house-cream-soda.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__beverages__elephant-house-cream-soda.html.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services"
+      ],
+      "length": 2113
+    },
+    {
+      "url": "https://www.elephanthouse.lk/beverages",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__beverages.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services"
+      ],
+      "length": 2056
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/careers",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__careers.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 1978
+    },
+    {
+      "url": "https://www.elephanthouse.lk/beverages/ginger-ale.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__beverages__ginger-ale.html.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services",
+        "Pricing Information"
+      ],
+      "length": 1669
+    },
+    {
+      "url": "https://island.lk/ceylon-cold-stores-honoured-at-national-supply-chain-excellence-awards-2025",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/island.lk__ceylon-cold-stores-honoured-at-national-supply-chain-excellence-awards-2025.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 12777
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/careers/equal-opportunity.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__careers__equal-opportunity.html.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 2216
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/careers/vacancies.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__careers__vacancies.html.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 2268
+    },
+    {
+      "url": "https://island.lk/usaid-ceylon-cold-stores-plc-partnership-pioneers-women-led-recycling-initiatives-in-sri-lanka",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/island.lk__usaid-ceylon-cold-stores-plc-partnership-pioneers-women-led-recycling-initiatives-in-sri-lanka.md",
+      "categories": [
+        "Partnerships"
+      ],
+      "length": 11983
+    },
+    {
+      "url": "https://www.elephanthouse.lk/contact-us.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__contact-us.html.md",
+      "categories": [
+        "Customer Base",
+        "Customer Reviews",
+        "Contact Information"
+      ],
+      "length": 2271
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/careers/training-career-development.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__careers__training-career-development.html.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 4145
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/ccs-sri-lanka/success-stories.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__ccs-sri-lanka__success-stories.html.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 7162
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/ccs-sri-lanka",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__ccs-sri-lanka.md",
+      "categories": [
+        "Company History",
+        "Organizational Structure"
+      ],
+      "length": 2115
+    },
+    {
+      "url": "https://www.dailymirror.lk/business-news/Ceylon-Cold-Stores-performance-signals-shift-to-frequent-frugal-spending-among-shoppers/273-315966",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.dailymirror.lk__business-news__Ceylon-Cold-Stores-performance-signals-shift-to-frequent-frugal-spending-among-shoppers__273-315966.md",
+      "categories": [
+        "Customer Reviews"
+      ],
+      "length": 9956
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/our-company",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__our-company.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company History",
+        "Market Position",
+        "Organizational Structure",
+        "Customer Base",
+        "Mission and Values",
+        "Technology Stack",
+        "Partnerships",
+        "Company Culture",
+        "Customer Reviews",
+        "Innovation and R&D",
+        "Contact Information"
+      ],
+      "length": 4746
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/our-company/manufacturing-facilities/ice-cream-factory-at-avissawella.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__our-company__manufacturing-facilities__ice-cream-factory-at-avissawella.html.md",
+      "categories": [
+        "Company History",
+        "Competitive Landscape"
+      ],
+      "length": 3288
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/our-company/manufacturing-facilities/ranala-beverage-and-ice-cream-factory.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__our-company__manufacturing-facilities__ranala-beverage-and-ice-cream-factory.html.md",
+      "categories": [
+        "Company History"
+      ],
+      "length": 3650
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/our-company/awards.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__our-company__awards.html.md",
+      "categories": [
+        "Achievements and Recognition",
+        "Awards and Certifications"
+      ],
+      "length": 7255
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/our-company/corporate-governance.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__our-company__corporate-governance.html.md",
+      "categories": [
+        "Founders and Leadership",
+        "Organizational Structure"
+      ],
+      "length": 3771
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/our-company/manufacturing-facilities",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__our-company__manufacturing-facilities.md",
+      "categories": [
+        "Company History",
+        "Organizational Structure",
+        "Mission and Values"
+      ],
+      "length": 2957
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/our-company/our-history.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__our-company__our-history.html.md",
+      "categories": [
+        "Founders and Leadership",
+        "Company History",
+        "Market Position",
+        "Organizational Structure",
+        "Mission and Values",
+        "Technology Stack",
+        "Future Plans",
+        "Case Studies",
+        "Contact Information"
+      ],
+      "length": 5050
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/our-company/quality-policy.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__our-company__quality-policy.html.md",
+      "categories": [
+        "Mission and Values"
+      ],
+      "length": 2156
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/our-company/our-team.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__our-company__our-team.html.md",
+      "categories": [
+        "Founders and Leadership",
+        "Organizational Structure",
+        "Company Size"
+      ],
+      "length": 25054
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/sustainability/community-development",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__sustainability__community-development.md",
+      "categories": [
+        "Social Responsibility"
+      ],
+      "length": 954
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/our-company/our-values.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__our-company__our-values.html.md",
+      "categories": [
+        "Founders and Leadership",
+        "Mission and Values"
+      ],
+      "length": 1680
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/our-company/quality-certifications.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__our-company__quality-certifications.html.md",
+      "categories": [
+        "Founders and Leadership",
+        "Achievements and Recognition",
+        "Awards and Certifications",
+        "Awards and Certifications"
+      ],
+      "length": 7015
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/sustainability",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__sustainability.md",
+      "categories": [
+        "Social Responsibility"
+      ],
+      "length": 2722
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/sustainability/sourcing",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__sustainability__sourcing.md",
+      "categories": [
+        "Social Responsibility"
+      ],
+      "length": 2461
+    },
+    {
+      "url": "https://www.elephanthouse.lk/corporate/our-company/research-development.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__corporate__our-company__research-development.html.md",
+      "categories": [
+        "Future Plans",
+        "Innovation and R&D"
+      ],
+      "length": 3980
+    },
+    {
+      "url": "https://www.elephanthouse.lk/exports/inquiries.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__exports__inquiries.html.md",
+      "categories": [
+        "Contact Information"
+      ],
+      "length": 730
+    },
+    {
+      "url": "https://www.elephanthouse.lk/exports",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__exports.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services",
+        "Customer Base",
+        "Contact Information"
+      ],
+      "length": 4685
+    },
+    {
+      "url": "https://www.elephanthouse.lk/ice-cream/everyday-flavors/chocolate.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__ice-cream__everyday-flavors__chocolate.html.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 1426
+    },
+    {
+      "url": "https://www.elephanthouse.lk/ice-cream/everyday-flavors/vanilla.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__ice-cream__everyday-flavors__vanilla.html.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 1582
+    },
+    {
+      "url": "https://www.elephanthouse.lk/ice-cream",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__ice-cream.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services"
+      ],
+      "length": 5134
+    },
+    {
+      "url": "https://www.elephanthouse.lk/exports/products",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__exports__products.md",
+      "categories": [
+        "Customer Base"
+      ],
+      "length": 2595
+    },
+    {
+      "url": "https://www.elephanthouse.lk/ice-cream/everyday-flavors/strawberry.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__ice-cream__everyday-flavors__strawberry.html.md",
+      "categories": [
+        "Pricing Information"
+      ],
+      "length": 1402
+    },
+    {
+      "url": "https://www.elephanthouse.lk/ice-cream/wonder-range",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__ice-cream__wonder-range.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services"
+      ],
+      "length": 758
+    },
+    {
+      "url": "https://www.elephanthouse.lk/ice-cream/feelgood-range",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__ice-cream__feelgood-range.md",
+      "categories": [
+        "Customer Reviews",
+        "Pricing Information"
+      ],
+      "length": 964
+    },
+    {
+      "url": "https://www.elephanthouse.lk/ice-cream/popsicles",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__ice-cream__popsicles.md",
+      "categories": [
+        "Business Model and Revenue",
+        "Products and Services"
+      ],
+      "length": 1773
+    },
+    {
+      "url": "https://www.elephanthouse.lk/news/ccs-elephant-house-cream-soda-voted-sri-lanka-favorite-beverage",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__news__ccs-elephant-house-cream-soda-voted-sri-lanka-favorite-beverage.md",
+      "categories": [
+        "Recent News and Updates",
+        "Achievements and Recognition",
+        "Awards and Certifications"
+      ],
+      "length": 422
+    },
+    {
+      "url": "https://www.elephanthouse.lk/news/ccs-inter-company-rugby",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__news__ccs-inter-company-rugby.md",
+      "categories": [
+        "Recent News and Updates",
+        "Achievements and Recognition",
+        "Case Studies"
+      ],
+      "length": 422
+    },
+    {
+      "url": "https://www.elephanthouse.lk/news/first-harvesting-programme-at-elephant-house.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__news__first-harvesting-programme-at-elephant-house.html.md",
+      "categories": [
+        "Recent News and Updates",
+        "Social Responsibility",
+        "Case Studies"
+      ],
+      "length": 995
+    },
+    {
+      "url": "https://www.elephanthouse.lk/news",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__news.md",
+      "categories": [
+        "Recent News and Updates",
+        "Customer Base"
+      ],
+      "length": 1941
+    },
+    {
+      "url": "https://www.elephanthouse.lk/news/ccs-wins-big-at-nasco-awards.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__news__ccs-wins-big-at-nasco-awards.html.md",
+      "categories": [
+        "Recent News and Updates",
+        "Achievements and Recognition",
+        "Awards and Certifications"
+      ],
+      "length": 1747
+    },
+    {
+      "url": "https://www.elephanthouse.lk/news/elephant-house-ice-cream-launch-australia",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__news__elephant-house-ice-cream-launch-australia.md",
+      "categories": [
+        "Partnerships",
+        "Future Plans"
+      ],
+      "length": 422
+    },
+    {
+      "url": "https://www.lolcsecurities.lk/company-reports/losec_ccs-initiation-report-22.09.25.pdf",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.lolcsecurities.lk__company-reports__losec_ccs-initiation-report-22.09.25.pdf.md",
+      "categories": [
+        "Challenges and Opportunities"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://www.elephanthouse.lk/news/sustainability",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__news__sustainability.md",
+      "categories": [
+        "Recent News and Updates",
+        "Mission and Values",
+        "Future Plans"
+      ],
+      "length": 610
+    },
+    {
+      "url": "https://www.glassdoor.com/Overview/Working-at-Elephant-House-EI_IE3023187.11,25.htm",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.glassdoor.com__Overview__Working-at-Elephant-House-EI_IE3023187.11,25.htm.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 2766
+    },
+    {
+      "url": "https://www.elephanthouse.lk/news/ceylon-cold-stores-honoured-at-national-supply-chain-excellence-awards-2025",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__news__ceylon-cold-stores-honoured-at-national-supply-chain-excellence-awards-2025.md",
+      "categories": [
+        "Recent News and Updates",
+        "Achievements and Recognition",
+        "Awards and Certifications"
+      ],
+      "length": 422
+    },
+    {
+      "url": "https://www.keells.com/resource/reports/group-annual-reports/Ceylon-Cold-Stores-PLC-Annual-Report-23-24.pdf",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.keells.com__resource__reports__group-annual-reports__Ceylon-Cold-Stores-PLC-Annual-Report-23-24.pdf.md",
+      "categories": [
+        "Innovation and R&D"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://www.elephanthouse.lk/sitemap.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.elephanthouse.lk__sitemap.html.md",
+      "categories": [
+        "Customer Base",
+        "Contact Information"
+      ],
+      "length": 3663
+    },
+    {
+      "url": "https://www.keells.com/resource/reports/group-annual-reports/Ceylon-Cold-Stores-PLC-Annual-Report-24-25.pdf",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.keells.com__resource__reports__group-annual-reports__Ceylon-Cold-Stores-PLC-Annual-Report-24-25.pdf.md",
+      "categories": [
+        "Company Culture"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://www.keells.com/",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.keells.com.md",
+      "categories": [
+        "Competitive Landscape",
+        "Market Position"
+      ],
+      "length": 2228
+    },
+    {
+      "url": "https://www.zoominfo.com/c/ceylon-cold-stores-plc/372144399",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.zoominfo.com__c__ceylon-cold-stores-plc__372144399.md",
+      "categories": [
+        "Competitive Landscape",
+        "Market Position",
+        "Technology Stack",
+        "Company Size",
+        "Financial Performance",
+        "Innovation and R&D"
+      ],
+      "length": 289
+    },
+    {
+      "url": "https://www.ft.lk/business/Elephant-House-Ice-Cream-marks-historic-launch-in-Australia/34-785998",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.ft.lk__business__Elephant-House-Ice-Cream-marks-historic-launch-in-Australia__34-785998.md",
+      "categories": [
+        "Partnerships",
+        "Future Plans"
+      ],
+      "length": 95
+    },
+    {
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g304135-d2643350-Reviews-Lingan_Ice_Cream-Jaffna_Northern_Province.html",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.tripadvisor.com__Restaurant_Review-g304135-d2643350-Reviews-Lingan_Ice_Cream-Jaffna_Northern_Province.html.md",
+      "categories": [
+        "Customer Reviews"
+      ],
+      "length": 1
+    },
+    {
+      "url": "https://ceylon.guide/2020/06/13/ceylon-cold-stores-ccs",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/ceylon.guide__2020__06__13__ceylon-cold-stores-ccs.md",
+      "categories": [
+        "Company Size"
+      ],
+      "length": 6314
+    },
+    {
+      "url": "https://www.srilankabusiness.com/exporters-directory/company-profiles/ceylon-cold-stores-plc",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.srilankabusiness.com__exporters-directory__company-profiles__ceylon-cold-stores-plc.md",
+      "categories": [
+        "Competitive Landscape",
+        "Market Position",
+        "Customer Base",
+        "Company Size",
+        "Financial Performance",
+        "Innovation and R&D"
+      ],
+      "length": 1765
+    },
+    {
+      "url": "https://www.ft.lk/csrevents/Elephant-House-and-Eco-Spindles-join-forces-to-clean-up-sacred-and-scenic-Adam-s-Peak/38-746180",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.ft.lk__csrevents__Elephant-House-and-Eco-Spindles-join-forces-to-clean-up-sacred-and-scenic-Adam-s-Peak__38-746180.md",
+      "categories": [
+        "Case Studies"
+      ],
+      "length": 93
+    },
+    {
+      "url": "https://www.marketscreener.com/quote/stock/CEYLON-COLD-STORES-PLC-27329583/company",
+      "filepath": "results/ceylon_cold_stores_plc_elephant_house/crawled/www.marketscreener.com__quote__stock__CEYLON-COLD-STORES-PLC-27329583__company.md",
+      "categories": [
+        "Competitive Landscape",
+        "Market Position",
+        "Technology Stack",
+        "Financial Performance"
+      ],
+      "length": 8147
+    }
+  ],
+  "url_to_categories": {
+    "https://www.elephanthouse.lk/corporate/our-company/our-history.html": [
+      "Founders and Leadership",
+      "Company History",
+      "Market Position",
+      "Organizational Structure",
+      "Mission and Values",
+      "Technology Stack",
+      "Future Plans",
+      "Case Studies",
+      "Contact Information"
+    ],
+    "https://www.elephanthouse.lk/corporate/our-company/our-team.html": [
+      "Founders and Leadership",
+      "Organizational Structure",
+      "Company Size"
+    ],
+    "https://www.elephanthouse.lk/corporate/our-company": [
+      "Founders and Leadership",
+      "Company History",
+      "Market Position",
+      "Organizational Structure",
+      "Customer Base",
+      "Mission and Values",
+      "Technology Stack",
+      "Partnerships",
+      "Company Culture",
+      "Customer Reviews",
+      "Innovation and R&D",
+      "Contact Information"
+    ],
+    "https://www.elephanthouse.lk/corporate/our-company/our-values.html": [
+      "Founders and Leadership",
+      "Mission and Values"
+    ],
+    "https://www.elephanthouse.lk/corporate/our-company/corporate-governance.html": [
+      "Founders and Leadership",
+      "Organizational Structure"
+    ],
+    "https://www.elephanthouse.lk/corporate/our-company/quality-certifications.html": [
+      "Founders and Leadership",
+      "Achievements and Recognition",
+      "Awards and Certifications",
+      "Awards and Certifications"
+    ],
+    "https://www.elephanthouse.lk/": [
+      "Founders and Leadership",
+      "Business Model and Revenue",
+      "Products and Services",
+      "Company History",
+      "Competitive Landscape",
+      "Market Position",
+      "Organizational Structure",
+      "Achievements and Recognition",
+      "Technology Stack",
+      "Partnerships",
+      "Company Size",
+      "Company Size",
+      "Awards and Certifications",
+      "Financial Performance",
+      "Challenges and Opportunities",
+      "Innovation and R&D"
+    ],
+    "https://www.elephanthouse.lk/beverages": [
+      "Business Model and Revenue",
+      "Products and Services"
+    ],
+    "https://www.elephanthouse.lk/beverages/elephant-house-soft-drinks": [
+      "Business Model and Revenue",
+      "Products and Services"
+    ],
+    "https://www.elephanthouse.lk/beverages/ginger-ale.html": [
+      "Business Model and Revenue",
+      "Products and Services",
+      "Pricing Information"
+    ],
+    "https://www.elephanthouse.lk/beverages/elephant-house-cream-soda.html": [
+      "Business Model and Revenue",
+      "Products and Services"
+    ],
+    "https://www.elephanthouse.lk/ice-cream": [
+      "Business Model and Revenue",
+      "Products and Services"
+    ],
+    "https://www.elephanthouse.lk/ice-cream/wonder-range": [
+      "Business Model and Revenue",
+      "Products and Services"
+    ],
+    "https://www.elephanthouse.lk/ice-cream/popsicles": [
+      "Business Model and Revenue",
+      "Products and Services"
+    ],
+    "https://www.elephanthouse.lk/exports": [
+      "Business Model and Revenue",
+      "Products and Services",
+      "Customer Base",
+      "Contact Information"
+    ],
+    "https://www.elephanthouse.lk/corporate/our-company/manufacturing-facilities": [
+      "Company History",
+      "Organizational Structure",
+      "Mission and Values"
+    ],
+    "https://www.elephanthouse.lk/corporate/our-company/manufacturing-facilities/ranala-beverage-and-ice-cream-factory.html": [
+      "Company History"
+    ],
+    "https://www.elephanthouse.lk/corporate/our-company/manufacturing-facilities/ice-cream-factory-at-avissawella.html": [
+      "Company History",
+      "Competitive Landscape"
+    ],
+    "https://www.elephanthouse.lk/corporate/ccs-sri-lanka": [
+      "Company History",
+      "Organizational Structure"
+    ],
+    "https://en.wikipedia.org/wiki/Ceylon_Cold_Stores": [
+      "Competitive Landscape",
+      "Market Position",
+      "Technology Stack",
+      "Company Size",
+      "Financial Performance",
+      "Customer Reviews"
+    ],
+    "https://www.keells.com/": [
+      "Competitive Landscape",
+      "Market Position"
+    ],
+    "https://www.marketscreener.com/quote/stock/CEYLON-COLD-STORES-PLC-27329583/company": [
+      "Competitive Landscape",
+      "Market Position",
+      "Technology Stack",
+      "Financial Performance"
+    ],
+    "https://stockanalysis.com/quote/cose/CCS.N0000/market-cap": [
+      "Competitive Landscape",
+      "Market Position",
+      "Financial Performance"
+    ],
+    "https://martini.ai/pages/research/CEYLON%20COLD%20STORES%20PLC-a5d4f00e9e36c0aa49b7c964bc239776": [
+      "Competitive Landscape",
+      "Financial Performance",
+      "Challenges and Opportunities"
+    ],
+    "https://www.srilankabusiness.com/exporters-directory/company-profiles/ceylon-cold-stores-plc": [
+      "Competitive Landscape",
+      "Market Position",
+      "Customer Base",
+      "Company Size",
+      "Financial Performance",
+      "Innovation and R&D"
+    ],
+    "https://www.zoominfo.com/c/ceylon-cold-stores-plc/372144399": [
+      "Competitive Landscape",
+      "Market Position",
+      "Technology Stack",
+      "Company Size",
+      "Financial Performance",
+      "Innovation and R&D"
+    ],
+    "https://www.elephanthouse.lk/news": [
+      "Recent News and Updates",
+      "Customer Base"
+    ],
+    "https://www.elephanthouse.lk/news/sustainability": [
+      "Recent News and Updates",
+      "Mission and Values",
+      "Future Plans"
+    ],
+    "https://www.elephanthouse.lk/news/ccs-elephant-house-cream-soda-voted-sri-lanka-favorite-beverage": [
+      "Recent News and Updates",
+      "Achievements and Recognition",
+      "Awards and Certifications"
+    ],
+    "https://www.elephanthouse.lk/news/ccs-wins-big-at-nasco-awards.html": [
+      "Recent News and Updates",
+      "Achievements and Recognition",
+      "Awards and Certifications"
+    ],
+    "https://www.elephanthouse.lk/news/ceylon-cold-stores-honoured-at-national-supply-chain-excellence-awards-2025": [
+      "Recent News and Updates",
+      "Achievements and Recognition",
+      "Awards and Certifications"
+    ],
+    "https://www.elephanthouse.lk/news/ccs-inter-company-rugby": [
+      "Recent News and Updates",
+      "Achievements and Recognition",
+      "Case Studies"
+    ],
+    "https://www.elephanthouse.lk/news/first-harvesting-programme-at-elephant-house.html": [
+      "Recent News and Updates",
+      "Social Responsibility",
+      "Case Studies"
+    ],
+    "https://www.elephanthouse.lk/corporate/our-company/awards.html": [
+      "Achievements and Recognition",
+      "Awards and Certifications"
+    ],
+    "https://www.elephanthouse.lk/exports/products": [
+      "Customer Base"
+    ],
+    "https://www.elephanthouse.lk/contact-us.html": [
+      "Customer Base",
+      "Customer Reviews",
+      "Contact Information"
+    ],
+    "https://www.elephanthouse.lk/sitemap.html": [
+      "Customer Base",
+      "Contact Information"
+    ],
+    "https://www.elephanthouse.lk/corporate/our-company/quality-policy.html": [
+      "Mission and Values"
+    ],
+    "https://www.elephanthouse.lk/annual-reports/annual_report_2017-2018.pdf": [
+      "Technology Stack"
+    ],
+    "https://www.elephanthouse.lk/annual-reports/annual_report_2016-2017.pdf": [
+      "Technology Stack"
+    ],
+    "https://firstcapital.lk/wp-content/uploads/2024/03/CCS-FLASH-NOTE-29-02-24.pdf": [
+      "Partnerships"
+    ],
+    "https://www.elephanthouse.lk/news/elephant-house-ice-cream-launch-australia": [
+      "Partnerships",
+      "Future Plans"
+    ],
+    "https://lk.usembassy.gov/usaid-ceylon-cold-stores-plc-partnership-pioneers-women-led-recycling-initiatives-in-sri-lanka": [
+      "Partnerships",
+      "Challenges and Opportunities",
+      "Social Responsibility",
+      "Case Studies"
+    ],
+    "https://island.lk/usaid-ceylon-cold-stores-plc-partnership-pioneers-women-led-recycling-initiatives-in-sri-lanka": [
+      "Partnerships"
+    ],
+    "https://www.ft.lk/business/Elephant-House-Ice-Cream-marks-historic-launch-in-Australia/34-785998": [
+      "Partnerships",
+      "Future Plans"
+    ],
+    "https://bizenglish.adaderana.lk/elephant-house-beverages-partners-with-reliance-consumer-products-to-launch-campa-beverages-in-sri-lanka": [
+      "Partnerships",
+      "Future Plans"
+    ],
+    "https://ceylon.guide/2020/06/13/ceylon-cold-stores-ccs": [
+      "Company Size"
+    ],
+    "https://www.elephanthouse.lk/corporate/our-company/research-development.html": [
+      "Future Plans",
+      "Innovation and R&D"
+    ],
+    "https://dailynews.lk/2025/05/12/sports/776008/elephant-house-carbonated-beverage-partner-of-slc": [
+      "Future Plans"
+    ],
+    "https://economynext.com/sri-lankas-elephant-house-drinks-distribution-begins-in-india-224527": [
+      "Future Plans"
+    ],
+    "https://lankatalks.com/post/ceylon-cold-stores-plc-wins-top-honor-at-sri-lanka-national-quality-awards-2023": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.lolcsecurities.lk/company-reports/losec_ccs-initiation-report-22.09.25.pdf": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.elephanthouse.lk/annual-reports/annual-report-2023-24.pdf": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.elephanthouse.lk/annual-reports/annual_report_2019-2020.pdf": [
+      "Challenges and Opportunities"
+    ],
+    "https://www.elephanthouse.lk/corporate/careers": [
+      "Company Culture"
+    ],
+    "https://www.elephanthouse.lk/corporate/careers/equal-opportunity.html": [
+      "Company Culture"
+    ],
+    "https://www.elephanthouse.lk/corporate/careers/training-career-development.html": [
+      "Company Culture"
+    ],
+    "https://www.elephanthouse.lk/corporate/careers/vacancies.html": [
+      "Company Culture"
+    ],
+    "https://www.glassdoor.com/Overview/Working-at-Elephant-House-EI_IE3023187.11,25.htm": [
+      "Company Culture"
+    ],
+    "https://www.keells.com/resource/reports/group-annual-reports/Ceylon-Cold-Stores-PLC-Annual-Report-24-25.pdf": [
+      "Company Culture"
+    ],
+    "https://wanderlog.com/place/details/9960324/ceylon-cold-stores-plc-head-office": [
+      "Customer Reviews"
+    ],
+    "https://www.elephanthouse.lk/ice-cream/feelgood-range": [
+      "Customer Reviews",
+      "Pricing Information"
+    ],
+    "https://www.dailymirror.lk/business-news/Ceylon-Cold-Stores-performance-signals-shift-to-frequent-frugal-spending-among-shoppers/273-315966": [
+      "Customer Reviews"
+    ],
+    "https://www.tripadvisor.com/Restaurant_Review-g304135-d2643350-Reviews-Lingan_Ice_Cream-Jaffna_Northern_Province.html": [
+      "Customer Reviews"
+    ],
+    "https://www.keells.com/resource/reports/group-annual-reports/Ceylon-Cold-Stores-PLC-Annual-Report-23-24.pdf": [
+      "Innovation and R&D"
+    ],
+    "https://www.elephanthouse.lk/corporate/sustainability": [
+      "Social Responsibility"
+    ],
+    "https://www.elephanthouse.lk/corporate/sustainability/community-development": [
+      "Social Responsibility"
+    ],
+    "https://ditchcarbon.com/organizations/ceylon-cold-stores-plc": [
+      "Social Responsibility"
+    ],
+    "https://www.elephanthouse.lk/corporate/sustainability/sourcing": [
+      "Social Responsibility"
+    ],
+    "https://www.elephanthouse.lk/corporate/ccs-sri-lanka/success-stories.html": [
+      "Case Studies"
+    ],
+    "https://island.lk/ceylon-cold-stores-honoured-at-national-supply-chain-excellence-awards-2025": [
+      "Case Studies"
+    ],
+    "https://www.ft.lk/csrevents/Elephant-House-and-Eco-Spindles-join-forces-to-clean-up-sacred-and-scenic-Adam-s-Peak/38-746180": [
+      "Case Studies"
+    ],
+    "https://www.elephanthouse.lk/ice-cream/everyday-flavors/vanilla.html": [
+      "Pricing Information"
+    ],
+    "https://www.elephanthouse.lk/ice-cream/everyday-flavors/chocolate.html": [
+      "Pricing Information"
+    ],
+    "https://www.elephanthouse.lk/ice-cream/everyday-flavors/strawberry.html": [
+      "Pricing Information"
+    ],
+    "https://www.elephanthouse.lk/exports/inquiries.html": [
+      "Contact Information"
+    ]
+  }
+}
